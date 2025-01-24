@@ -20,8 +20,15 @@ source "$VENV_DIR/bin/activate" || {
     exit 1
 }
 
-# Run the dashboard
-python3 dashboard.py
+# Check for background parameter
+if [[ "$1" == "--background" ]]; then
+    echo "Starting the dashboard in background..."
+    nohup python3 dashboard.py > dashboard.log 2>&1 &
+    echo "Dashboard running in background. Logs: dashboard.log"
+else
+    echo "Starting the dashboard in the terminal..."
+    python3 dashboard.py
+fi
 
 # Deactivate virtual environment
 deactivate
