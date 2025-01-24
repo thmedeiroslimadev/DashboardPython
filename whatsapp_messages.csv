@@ -1,0 +1,2957 @@
+Data e Hora,Remetente,Mensagem
+01/12/2024 09:10,+55 11 90000-0001:,"Chamados lojas - SP1
+
+Nome da loja: Eldorado
+Filial: 26
+Chamado: INC0092640
+Anomalia: Erro no Pix
+Data: 01/12/2024
+Horário: 21:19
+Telefone para contato: (11) 3232-2750
+Relato do problema: Pagamento via Pix não consta no sistema
+Cliente: CP2531
+CPF: 123.456.789-01
+Valor: R$ 2.354,90"
+01/12/2024 09:12,Paulo Ajlune:,Chamado INC0092640 sendo tratado pela VTEX #123456
+02/12/2024 09:25,+55 11 90000-0002:,"Chamados lojas - SP2
+
+Nome da loja: Morumbi
+Filial: 14
+Chamado: INC0092641
+Anomalia: App fechando sozinho
+Data: 02/12/2024
+Horário: 10:30
+Telefone para contato: (11) 3311-1122
+Relato do problema: Cliente relata travamento ao finalizar Pix
+Cliente: CP1592
+CPF: 987.654.321-00
+Valor: R$ 675,00"
+02/12/2024 09:27,João Silva:,Chamado INC0092641 sendo tratado pela Kobe #2268
+02/12/2024 09:35,João Silva:,Chamado INC0092641 Resolvido
+03/12/2024 09:40,+55 11 90000-0003:,"Chamados lojas - SP3
+
+Nome da loja: Center Norte
+Filial: 09
+Chamado: INC0092642
+Anomalia: Erro ao gerar nota após Pix
+Data: 03/12/2024
+Horário: 14:45
+Telefone para contato: (11) 2922-0011
+Relato do problema: NF não foi emitida, mas Pix consta como pago
+Cliente: CP7182
+CPF: 111.222.333-44
+Valor: R$ 1.299,00"
+03/12/2024 09:42,Maria Soares:,Chamado INC0092642 sendo tratado pela TEROS #987
+03/12/2024 09:45,Maria Soares:,Chamado INC0092642 Resolvido
+04/12/2024 09:50,+55 11 90000-0004:,"Chamados lojas - SP4
+
+Nome da loja: Pinheiros
+Filial: 12
+Chamado: INC0092643
+Anomalia: Lentidão no sistema
+Data: 04/12/2024
+Horário: 16:45
+Telefone para contato: (11) 3777-2211
+Relato do problema: PDV congelando ao finalizar vendas
+Cliente: CP8841
+CPF: 333.444.555-66
+Valor: R$ 570,00"
+04/12/2024 09:52,Thiago Ramos:,Chamado INC0092643 sendo tratado pela Tuna #202501170001767
+04/12/2024 10:00,Thiago Ramos:,Chamado INC0092643 Resolvido
+05/12/2024 10:05,+55 11 90000-0005:,"Chamados lojas - SP5
+
+Nome da loja: Ibirapuera
+Filial: 27
+Chamado: INC0092644
+Anomalia: Pedido duplicado
+Data: 05/12/2024
+Horário: 09:10
+Telefone para contato: (11) 3111-8899
+Relato do problema: Pix debitado 2 vezes
+Cliente: CP0077
+CPF: 444.555.666-77
+Valor: R$ 750,00"
+05/12/2024 10:07,Fernanda Silva:,Chamado INC0092644 sendo tratado pela VTEX #765432
+05/12/2024 10:13,Fernanda Silva:,Chamado INC0092644 Resolvido
+06/12/2024 10:20,+55 11 90000-0006:,"Chamados lojas - SP6
+
+Nome da loja: Augusta
+Filial: 11
+Chamado: INC0092645
+Anomalia: Sistema não atualiza estoque
+Data: 06/12/2024
+Horário: 12:00
+Telefone para contato: (11) 3222-7788
+Relato do problema: Mesmo após Pix, estoque continua reservado
+Cliente: CP3182
+CPF: 123.321.456-78
+Valor: R$ 1.990,00"
+06/12/2024 10:21,Roberto Lima:,Chamado INC0092645 sendo tratado pela Kobe #2268
+06/12/2024 10:26,Roberto Lima:,Chamado INC0092645 Resolvido
+07/12/2024 10:30,+55 11 90000-0007:,"Chamados lojas - SP7
+
+Nome da loja: Paulista
+Filial: 03
+Chamado: INC0092646
+Anomalia: Falha no login do PDV
+Data: 07/12/2024
+Horário: 19:00
+Telefone para contato: (11) 3000-7000
+Relato do problema: Caixa não autentica após inserir senha
+Cliente: CP0022
+CPF: 123.000.222-99
+Valor: R$ 999,99"
+07/12/2024 10:31,Cláudia Mendes:,Chamado INC0092646 sendo tratado pela Tuna #202501170001767
+07/12/2024 10:42,Cláudia Mendes:,Chamado INC0092646 Resolvido
+08/12/2024 10:50,+55 11 90000-0008:,"Chamados lojas - SP8
+
+Nome da loja: Vila Olímpia
+Filial: 20
+Chamado: INC0092647
+Anomalia: Ticket não encerra
+Data: 08/12/2024
+Horário: 08:30
+Telefone para contato: (11) 3999-4400
+Relato do problema: Pagamento constou, mas pedido continua “aberto”
+Cliente: CP8080
+CPF: 012.345.678-90
+Valor: R$ 2.330,50"
+08/12/2024 10:52,Denise Moura:,Chamado INC0092647 sendo tratado pela TEROS #987
+08/12/2024 10:58,Denise Moura:,Chamado INC0092647 Resolvido
+09/12/2024 11:10,+55 11 90000-0009:,"Chamados lojas - SP9
+
+Nome da loja: Tatuapé
+Filial: 17
+Chamado: INC0092648
+Anomalia: Falha ao imprimir NF
+Data: 09/12/2024
+Horário: 15:45
+Telefone para contato: (11) 3500-1234
+Relato do problema: NF some ao clicar em “gerar”
+Cliente: CP0028
+CPF: 000.111.222-33
+Valor: R$ 420,00"
+09/12/2024 11:12,Juliana Prado:,Chamado INC0092648 sendo tratado pela VTEX #123456
+09/12/2024 11:17,Juliana Prado:,Chamado INC0092648 Resolvido
+10/12/2024 11:25,+55 11 90000-0010:,"Chamados lojas - SP10
+
+Nome da loja: Brooklin
+Filial: 29
+Chamado: INC0092649
+Anomalia: App fecha no meio da venda
+Data: 10/12/2024
+Horário: 09:15
+Telefone para contato: (11) 3566-6677
+Relato do problema: Tela do app fica preta e fecha
+Cliente: CP7766
+CPF: 777.888.999-00
+Valor: R$ 1.230,00"
+10/12/2024 11:30,Gabriel Silva:,Chamado INC0092649 sendo tratado pela Tuna #202501170001767
+10/12/2024 11:33,Gabriel Silva:,Chamado INC0092649 Resolvido
+11/12/2024 11:40,+55 11 90000-0011:,"Chamados lojas - SP11
+
+Nome da loja: Barra Funda
+Filial: 05
+Chamado: INC0092650
+Anomalia: Pix não gera comprovante
+Data: 11/12/2024
+Horário: 10:10
+Telefone para contato: (11) 3030-1234
+Relato do problema: Cliente não recebeu comprovante
+Cliente: CP5588
+CPF: 258.369.147-00
+Valor: R$ 897,50"
+11/12/2024 11:42,Andréa Pires:,Chamado INC0092650 sendo tratado pela Kobe #2268
+11/12/2024 11:47,Andréa Pires:,Chamado INC0092650 Resolvido
+12/12/2024 11:50,+55 11 90000-0012:,"Chamados lojas - SP12
+
+Nome da loja: São Caetano
+Filial: 34
+Chamado: INC0092651
+Anomalia: Cancelamento de pedido não funciona
+Data: 12/12/2024
+Horário: 14:20
+Telefone para contato: (11) 4232-5566
+Relato do problema: Cliente desistiu, mas o Pix não foi estornado
+Cliente: CP7771
+CPF: 111.333.555-77
+Valor: R$ 3.100,00"
+12/12/2024 11:53,Matheus Delgado:,Chamado INC0092651 sendo tratado pela TEROS #4567
+12/12/2024 12:00,Matheus Delgado:,Chamado INC0092651 Resolvido
+13/12/2024 12:05,+55 11 90000-0013:,"Chamados lojas - SP13
+
+Nome da loja: Moema
+Filial: 22
+Chamado: INC0092652
+Anomalia: Reimpressão de NF não disponível
+Data: 13/12/2024
+Horário: 11:00
+Telefone para contato: (11) 3255-0022
+Relato do problema: Perdeu conexão no momento da impressão
+Cliente: CP1010
+CPF: 987.000.111-22
+Valor: R$ 1.110,00"
+13/12/2024 12:07,Pedro Morais:,Chamado INC0092652 sendo tratado pela VTEX #999999
+13/12/2024 12:10,Pedro Morais:,Chamado INC0092652 Resolvido
+14/12/2024 12:15,+55 11 90000-0014:,"Chamados lojas - SP14
+
+Nome da loja: Liberdade
+Filial: 07
+Chamado: INC0092653
+Anomalia: Falha ao aplicar cupom via Pix
+Data: 14/12/2024
+Horário: 13:05
+Telefone para contato: (11) 3112-2020
+Relato do problema: Cupom não é reconhecido
+Cliente: CP8282
+CPF: 100.200.300-40
+Valor: R$ 840,00"
+14/12/2024 12:18,Isabela Cunha:,Chamado INC0092653 sendo tratado pela Tuna #202501170001767
+14/12/2024 12:22,Isabela Cunha:,Chamado INC0092653 Resolvido
+15/12/2024 12:30,+55 11 90000-0015:,"Chamados lojas - SP15
+
+Nome da loja: Santana
+Filial: 19
+Chamado: INC0092654
+Anomalia: Cadastro de cliente não atualiza
+Data: 15/12/2024
+Horário: 15:10
+Telefone para contato: (11) 2999-8877
+Relato do problema: Não consegue vincular CPF no Pix
+Cliente: CP1111
+CPF: 321.654.987-00
+Valor: R$ 2.770,00"
+15/12/2024 12:32,Carlos Teixeira:,Chamado INC0092654 sendo tratado pela Kobe #2268
+15/12/2024 12:38,Carlos Teixeira:,Chamado INC0092654 Resolvido
+16/12/2024 12:45,+55 11 90000-0016:,"Chamados lojas - SP16
+
+Nome da loja: Guarulhos
+Filial: 31
+Chamado: INC0092655
+Anomalia: Integração com sistema externo falhou
+Data: 16/12/2024
+Horário: 10:50
+Telefone para contato: (11) 2400-1010
+Relato do problema: Pix não sincroniza com ERP
+Cliente: CP9090
+CPF: 999.888.777-66
+Valor: R$ 1.500,50"
+16/12/2024 12:47,Renata Souza:,Chamado INC0092655 sendo tratado pela VTEX #888888
+16/12/2024 12:50,Renata Souza:,Chamado INC0092655 Resolvido
+17/12/2024 13:00,+55 11 90000-0017:,"Chamados lojas - SP17
+
+Nome da loja: Aricanduva
+Filial: 16
+Chamado: INC0092656
+Anomalia: Falha ao carregar produtos
+Data: 17/12/2024
+Horário: 09:00
+Telefone para contato: (11) 3555-1122
+Relato do problema: Lista de SKUs fica em branco
+Cliente: CP1155
+CPF: 123.789.456-10
+Valor: R$ 300,00"
+17/12/2024 13:02,Patrícia Almeida:,Chamado INC0092656 sendo tratado pela TEROS #987
+17/12/2024 13:07,Patrícia Almeida:,Chamado INC0092656 Resolvido
+18/12/2024 13:15,+55 11 90000-0018:,"Chamados lojas - SP18
+
+Nome da loja: Vila Mariana
+Filial: 13
+Chamado: INC0092657
+Anomalia: Pedido aparece com valor diferente no Pix
+Data: 18/12/2024
+Horário: 11:10
+Telefone para contato: (11) 3390-2200
+Relato do problema: O valor total está incorreto na tela de pagamento
+Cliente: CP6677
+CPF: 445.556.667-88
+Valor: R$ 1.888,80"
+18/12/2024 13:17,Luiz Fernando:,Chamado INC0092657 sendo tratado pela Tuna #202501170001767
+18/12/2024 13:20,Luiz Fernando:,Chamado INC0092657 Resolvido
+19/12/2024 13:30,+55 11 90000-0019:,"Chamados lojas - SP19
+
+Nome da loja: Anália Franco
+Filial: 24
+Chamado: INC0092658
+Anomalia: Pix não finaliza a compra
+Data: 19/12/2024
+Horário: 14:00
+Telefone para contato: (11) 3444-2200
+Relato do problema: Mensagem de erro “Processamento falhou”
+Cliente: CP9092
+CPF: 456.123.789-55
+Valor: R$ 320,00"
+19/12/2024 13:32,Vanessa Reis:,Chamado INC0092658 sendo tratado pela VTEX #123456
+19/12/2024 13:37,Vanessa Reis:,Chamado INC0092658 Resolvido
+20/12/2024 13:45,+55 11 90000-0020:,"Chamados lojas - SP20
+
+Nome da loja: Interlagos
+Filial: 25
+Chamado: INC0092659
+Anomalia: Falha ao exportar relatório
+Data: 20/12/2024
+Horário: 10:05
+Telefone para contato: (11) 3500-9999
+Relato do problema: Botão “Exportar” não funciona
+Cliente: CP1277
+CPF: 876.543.210-01
+Valor: R$ 150,00"
+20/12/2024 13:47,Gustavo Nunes:,Chamado INC0092659 sendo tratado pela Tuna #202501170001767
+20/12/2024 13:55,Gustavo Nunes:,Chamado INC0092659 Resolvido
+21/12/2024 14:00,+55 11 90000-0101:,"Chamado Regional SP1
+
+Filial: 48
+Tabela: C7
+(   ) Gan
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092700
+Relato do problema/resumo: Pedido sumiu do app e não consta no Gan
+Cliente: M469835
+CPF: 672.556.120-91
+Pedido Vtx: 1503851316461-01
+SKU: AEMN893BZAPTO
+Valor: R$ 1.564,79
+Contato: (11) 95239-2152
+Nome: Renato Oliveira"
+21/12/2024 14:05,Paulo Ajlune:,Chamado INC0092700 sendo tratado pela VTEX #123456
+21/12/2024 14:10,Paulo Ajlune:,Chamado INC0092700 Resolvido
+22/12/2024 14:15,+55 11 90000-0102:,"Chamado Regional SP2
+
+Filial: 75
+Tabela: F6
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092701
+Relato do problema: Pagamento via Pix, porém pedido não consta em nenhum sistema
+CPF: 247.013.298-35
+Valor: R$ 5.936,26
+Contato: (19) 99893-4640
+Nome: Liliane"
+22/12/2024 14:17,Paulo Ajlune:,Chamado INC0092701 sendo tratado pela Tuna #202501170001767
+22/12/2024 14:22,Paulo Ajlune:,Chamado INC0092701 Resolvido
+23/12/2024 14:25,+55 11 90000-0103:,"Chamado Regional SP3
+
+Filial: 33
+Tabela: I3
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092738
+Relato do problema/resumo: Erro ao tentar gerar Pix
+Cliente: Rafael Domingos B Mota
+CPF: 312.443.168-57
+Pedido Vtx: 914323
+SKU: 4000024187
+Valor: R$ 4.248,30
+Contato: (15) 99732-2206
+Nome: Tatiane"
+23/12/2024 14:27,Joana Pereira:,Chamado INC0092738 sendo tratado pela Kobe #2268
+23/12/2024 14:30,Joana Pereira:,Chamado INC0092738 Resolvido
+24/12/2024 14:35,+55 11 90000-0104:,"Chamado Regional SP4
+
+Filial: 23
+Tabela: A3
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092739
+Relato do problema: Caixa com pendência, NF não pode ser relançada
+Caixa: 19
+Cliente: AN81892
+NF: 174264-U1
+Valor: R$ 2.603,46
+Contato: (21) 99876-5432
+Nome: Regina Lopes"
+24/12/2024 14:37,Regina Lopes:,Chamado INC0092739 sendo tratado pela TEROS #987
+24/12/2024 14:42,Regina Lopes:,Chamado INC0092739 Resolvido
+25/12/2024 14:50,+55 11 90000-0105:,"Chamado Regional SP5
+
+Filial: 08
+Tabela: C3
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092740
+Relato do problema/resumo: Lentidão na emissão de pedidos
+Cliente: Vera Lúcia Martins
+CPF: 313.009.455-20
+Valor: R$ 750,00
+Contato: (31) 99876-1234
+Nome: Henrique"
+25/12/2024 14:52,Henrique:,Chamado INC0092740 sendo tratado pela VTEX #121212
+25/12/2024 14:57,Henrique:,Chamado INC0092740 Resolvido
+26/12/2024 15:00,+55 11 90000-0106:,"Chamado Regional SP6
+
+Filial: 18
+Tabela: H4
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092741
+Relato do problema/resumo: Erro intermitente ao aplicar desconto Pix
+Cliente: Julio César R. Vale
+CPF: 471.223.891-02
+Valor: R$ 1.589,90
+Contato: (41) 99000-4455
+Nome: Simone"
+26/12/2024 15:03,Simone:,Chamado INC0092741 sendo tratado pela Tuna #202501170001767
+26/12/2024 15:06,Simone:,Chamado INC0092741 Resolvido
+27/12/2024 15:10,+55 11 90000-0107:,"Chamado Regional SP7
+
+Filial: 04
+Tabela: Z1
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092742
+Relato do problema: Falha de rede entre filiais
+CPF: 333.222.111-09
+Valor: R$ 0,00
+Contato: (11) 99123-4455
+Nome: Jorge Matos"
+27/12/2024 15:12,Jorge Matos:,Chamado INC0092742 sendo tratado pela Kobe #2268
+27/12/2024 15:16,Jorge Matos:,Chamado INC0092742 Resolvido
+28/12/2024 15:20,+55 11 90000-0108:,"Chamado Regional SP8
+
+Filial: 60
+Tabela: D5
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092743
+Relato do problema/resumo: Pedido fica em status “processando” infinito
+Cliente: Maria P. da Silva
+CPF: 123.444.777-55
+Valor: R$ 4.500,00
+Contato: (12) 97777-8899
+Nome: Maria Sueli"
+28/12/2024 15:22,Maria Sueli:,Chamado INC0092743 sendo tratado pela TEROS #987
+28/12/2024 15:25,Maria Sueli:,Chamado INC0092743 Resolvido
+29/12/2024 15:30,+55 11 90000-0109:,"Chamado Regional SP9
+
+Filial: 15
+Tabela: B4
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092744
+Relato do problema: Conexão perdida ao autorizar pagamento
+Cliente: Guilherme R. Tavares
+CPF: 321.654.987-11
+Valor: R$ 2.200,00
+Contato: (19) 98877-5566
+Nome: Guilherme"
+29/12/2024 15:32,Guilherme:,Chamado INC0092744 sendo tratado pela VTEX #123456
+29/12/2024 15:37,Guilherme:,Chamado INC0092744 Resolvido
+30/12/2024 15:40,+55 11 90000-0110:,"Chamado Regional SP10
+
+Filial: 06
+Tabela: A1
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092745
+Relato do problema: Falha de autenticação no servidor regional
+CPF: 456.987.123-55
+Valor: R$ 0,00
+Contato: (11) 91234-5566
+Nome: Ricardo Gomes"
+30/12/2024 15:42,Ricardo Gomes:,Chamado INC0092745 sendo tratado pela Tuna #202501170001767
+30/12/2024 15:47,Ricardo Gomes:,Chamado INC0092745 Resolvido
+31/12/2024 15:50,+55 11 90000-0111:,"Chamado Regional SP11
+
+Filial: 77
+Tabela: E9
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092746
+Relato do problema: Pagamento consta, mas pedido não migrou para o ERP
+Cliente: Fábio Alexandre
+CPF: 741.852.963-02
+Valor: R$ 834,00
+Contato: (18) 99771-5566
+Nome: Fábio"
+31/12/2024 15:52,Fábio:,Chamado INC0092746 sendo tratado pela Kobe #2268
+31/12/2024 15:55,Fábio:,Chamado INC0092746 Resolvido
+01/12/2024 16:00,+55 11 90000-0112:,"Chamado Regional SP12
+
+Filial: 19
+Tabela: B1
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092747
+Relato do problema: Vários erros ao imprimir DANFE
+Cliente: Soraia Lima
+CPF: 333.222.111-00
+Valor: R$ 1.999,90
+Contato: (21) 99088-7744
+Nome: Soraia"
+01/12/2024 16:02,Soraia:,Chamado INC0092747 sendo tratado pela TEROS #987
+01/12/2024 16:07,Soraia:,Chamado INC0092747 Resolvido
+02/12/2024 16:10,+55 11 90000-0113:,"Chamado Regional SP13
+
+Filial: 10
+Tabela: M2
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092748
+Relato do problema: Valor final difere entre Gan e App
+Cliente: Bruno Santos
+CPF: 258.147.369-00
+Valor: R$ 3.450,00
+Contato: (11) 99999-0000
+Nome: Bruno"
+02/12/2024 16:15,Bruno:,Chamado INC0092748 sendo tratado pelo time Quality.
+02/12/2024 16:17,Bruno:,Chamado INC0092748 Resolvido
+03/12/2024 16:20,+55 11 90000-0114:,"Chamado Regional SP14
+
+Filial: 44
+Tabela: T5
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092749
+Relato do problema: Perda de conexão com gateway de pagamento
+Cliente: Wesley Moura
+CPF: 654.321.789-10
+Valor: R$ 2.100,00
+Contato: (11) 99876-2234
+Nome: Wesley"
+03/12/2024 16:25,Wesley:,Chamado INC0092749 sendo tratado pelo time Quality.
+03/12/2024 16:27,Wesley:,Chamado INC0092749 Resolvido
+04/12/2024 16:30,+55 11 90000-0115:,"Chamado Regional SP15
+
+Filial: 50
+Tabela: G1
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092750
+Relato do problema: Falha ao atualizar status de pagamento
+Cliente: Felipe Horácio
+CPF: 987.123.654-01
+Valor: R$ 980,00
+Contato: (13) 99988-7766
+Nome: Felipe"
+04/12/2024 16:35,Felipe:,Chamado INC0092750 sendo tratado pelo time Quality.
+04/12/2024 16:37,Felipe:,Chamado INC0092750 Resolvido
+05/12/2024 16:40,+55 11 90000-0116:,"Chamado Regional SP16
+
+Filial: 02
+Tabela: J6
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092751
+Relato do problema: Não gera link de pagamento Pix
+Cliente: Gustavo Felipe
+CPF: 222.111.000-33
+Valor: R$ 450,00
+Contato: (31) 98888-9999
+Nome: Gustavo"
+05/12/2024 16:42,Gustavo:,Chamado INC0092751 sendo tratado pela Kobe #2268
+05/12/2024 16:47,Gustavo:,Chamado INC0092751 Resolvido
+06/12/2024 16:50,+55 11 90000-0117:,"Chamado Regional SP17
+
+Filial: 40
+Tabela: H8
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092752
+Relato do problema: Sistema externo não confirma pagamento
+Cliente: Adriana Lemos
+CPF: 111.444.777-99
+Valor: R$ 3.670,99
+Contato: (27) 99765-4433
+Nome: Adriana"
+06/12/2024 16:52,Adriana:,Chamado INC0092752 sendo tratado pela VTEX #333999
+06/12/2024 16:57,Adriana:,Chamado INC0092752 Resolvido
+07/12/2024 17:00,+55 11 90000-0118:,"Chamado Regional SP18
+
+Filial: 66
+Tabela: L4
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092753
+Relato do problema: Pedido não atualiza status de entrega
+Cliente: Roberto Farias
+CPF: 456.123.000-98
+Valor: R$ 2.999,99
+Contato: (14) 99234-8877
+Nome: Roberto"
+07/12/2024 17:02,Roberto:,Chamado INC0092753 sendo tratado pela Tuna #202501170001767
+07/12/2024 17:07,Roberto:,Chamado INC0092753 Resolvido
+08/12/2024 17:10,+55 11 90000-0119:,"Chamado Regional SP19
+
+Filial: 26
+Tabela: Q9
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092754
+Relato do problema: Pedido apareceu duplicado no Gan
+Cliente: Renato Barsotti
+CPF: 789.789.789-79
+Valor: R$ 4.659,00
+Contato: (17) 98882-5566
+Nome: Renato"
+08/12/2024 17:12,Renato:,Chamado INC0092754 sendo tratado pela TEROS #987
+08/12/2024 17:17,Renato:,Chamado INC0092754 Resolvido
+09/12/2024 17:20,+55 11 90000-0120:,"Chamado Regional SP20
+
+Filial: 99
+Tabela: X1
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092755
+Relato do problema: Falha de comunicação com impressora fiscal
+Cliente: Tânia Gomes
+CPF: 159.357.456-01
+Valor: R$ 540,00
+Contato: (11) 97777-5555
+Nome: Tânia"
+09/12/2024 17:22,Tânia:,Chamado INC0092755 sendo tratado pela Kobe #2268
+09/12/2024 17:28,Tânia:,Chamado INC0092755 Resolvido
+07/01/2025 11:17,+55 19 99100-1661:,"Bom dia! prezados, favor priorizar - INC0091640. erro ao oficializar pre romaneio. Conferencia com divergencia. Erro já conhecido e existe problema aberto. tks"
+07/01/2025 11:26,+55 11 96795-8984:,"Andre bom dia, chamado em atendimento"
+07/01/2025 13:46,+55 11 96795-8984:,Chamado concluído
+07/01/2025 16:38,+55 11 95738-9391:,"@5511967958984 chamado algumas horas em andamento, temos alguma atualização? INC0091681"
+07/01/2025 16:39,+55 11 96795-8984:,Vou confirmar Miller
+07/01/2025 17:43,+55 19 99100-1661:,"prezados, boa tarde. Favor priorizar. RITM0076173. erro ao cancealr ORM. tks"
+07/01/2025 17:49,+55 11 95738-9391:,<Mídia oculta>
+07/01/2025 18:05,+55 11 95738-9391:,Algum retorno? pls
+07/01/2025 18:06,+55 11 96795-8984:,Este pedido ja possui NF Miller
+07/01/2025 18:11,+55 11 95738-9391:,obg!
+07/01/2025 18:24,+55 11 95738-9391:,"Nome completo: Guilherme Nunes 
+Chamado INC0091659
+Tem : 11 977660755
+Filial: 48
+Tabela: C6
+K do cliente: K928921
+Valor: 967,35 ( aproximadamente)
+Forma de pagamento: 6x 
+SKU: 4000004060
+Data: 06/01/2025
+CNPJ: 073.482.051/0001-70
+Descrição detalhada: feita venda do produto via O2, carta já aprovado, porém não subiu nota e nem o pedido no gan"
+07/01/2025 18:24,+55 11 95738-9391:,"@5511967958984 chamado a horas também em andamento, consegue priorizar?"
+07/01/2025 18:24,+55 11 95738-9391:,chamado das 12 hrs
+07/01/2025 18:28,+55 11 96795-8984:,"Miller, este chamado foi direcionado, não recebemos pedido deste CNPJ, ao consultar no portal da VTEX, só existem pedidos com status de ""incompleto"""
+07/01/2025 18:31,+55 11 95738-9391:,"Ok, obrigado!"
+07/01/2025 18:32,+55 11 95738-9391:,"@5511971394110 pode auxiliar por gentileza, confirmar"
+07/01/2025 18:51,+55 11 95738-9391:,"Chamados lojas - SP1
+
+Nome da loja: Paulista II
+Filial: 46
+Chamado: INC0091717
+Anomalia:  Cliente fez o pagamento do PRIME mas não consta no app novo e nem no gan.
+CPF: 057.647.877-69
+Data: 07/01/25
+Horário: 18:39
+Telefone para contato:* 11 93931 4849"
+07/01/2025 18:51,+55 11 95738-9391:,"por favor verificar, cliente aguardando em loja"
+07/01/2025 18:55,Paulo Ajlune:,Chamado INC0091717 sendo tratado pela VTEX #123456
+07/01/2025 19:02,Davi Paiva ViVARA:,Chamado respondido
+07/01/2025 19:03,+55 11 95738-9391:,Obrigado
+07/01/2025 20:11,+55 11 95738-9391:,<Mídia oculta>
+07/01/2025 20:11,+55 11 95738-9391:,Podem verificar por favor
+07/01/2025 20:16,+55 11 97468-8260:,"Miller, pedido está sem o pagamento no gan, precisa pedir ajuda do time quality pra verificar o pagamento <Mensagem editada>"
+07/01/2025 20:17,+55 11 95738-9391:,"Ok, obg"
+07/01/2025 20:17,+55 11 95738-9391:,@5511971394110 Por favor
+07/01/2025 21:22,+55 11 95738-9391:,"Chamados Enviar no Padrão
+
+Chamado Regional Nordeste
+
+Filial: 39
+Tabela: b7
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091721
+
+Relato do problema/resumo do que houve: Cliente efetuou a compra em loja na modalidade debito via VTEX e não gerou nota.
+
+
+Cliente: B555184
+CPF: 242.53499520
+Pedido Vtx: 1501641235666-01
+Filial: 39
+SKU: OSOLIQ610pto1
+Valor R$ 224,88
+
+Contato: (71) 983958883
+Nome: Dyego Morais
+Teams:* Dyego Morais"
+07/01/2025 21:22,+55 11 95738-9391:,por favor verificar
+07/01/2025 21:33,+55 11 95738-9391:,"Filial: 2A - SBC PLAZA
+Tabela: H5
+
+( ) Gan
+(   ) App antigo 
+( X ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091733
+Relato do problema/resumo do que houve: 
+
+ NF  679161- U8 esta aguardando retorno (Não aprovada SEFAZ) , Cadastro do Cliente foi Atualizado
+
+dados do cliente:
+
+AN37638 - RITA ELEVADA DE SOUZA  CARLOS
+
+124.174.008-98"
+07/01/2025 21:33,+55 11 95738-9391:,gerou a NF porém não foi aprovada na sefaz
+07/01/2025 21:33,+55 11 95738-9391:,por favor pedido do dia 03/01
+07/01/2025 22:44,+55 11 95738-9391:,"INC0091741 favor dar continuidade, precisa ser resolvido hoje para não perder o subsidio."
+07/01/2025 22:49,+55 11 95738-9391:,@5511974688260 por favor
+07/01/2025 23:15,+55 11 97468-8260:,<Mídia oculta>
+07/01/2025 23:15,+55 11 97468-8260:,Valor do pedido está menor que o NSU
+07/01/2025 23:15,+55 11 97468-8260:,☝🏻
+07/01/2025 23:16,+55 11 97468-8260:,Precisa ajustar o valor do pedido e lançar no caixa gan
+07/01/2025 23:18,+55 11 95738-9391:,Mensagem apagada
+07/01/2025 23:19,+55 11 95738-9391:,Mensagem apagada
+07/01/2025 23:19,+55 11 95738-9391:,Mensagem apagada
+08/01/2025 08:54,+55 19 99100-1661:,"bom dia, Prezados, favor priorizar. não conseguindo gerar o preromaneio.  INC0091752. erro conferencia com diferença. Grato"
+08/01/2025 09:13,+55 11 96795-8984:,"Bom dia André, será verificado"
+08/01/2025 09:40,+55 19 99100-1661:,"Prezados, precisamos de prioridade com este  INC0091535. Pedidos saindo pro transcd, mesmo com o shipping legado desativado. Não ha regra no minishiping para este. Precisamos entender de onde esta puxando essa informação e saindo pelo transcd. Temos casos de pedido de venda ontem as 20:00hs...muito depois da desativação do Shipping. tks"
+08/01/2025 10:18,+55 11 97173-0261:,<Mídia oculta>
+08/01/2025 10:18,+55 11 97173-0261:,<Mídia oculta>
+08/01/2025 10:23,+55 19 99100-1661:,"boa tarde, A Amanda do shipping informou que não subiram este e estava em branco. Tem algum log do sistema onde mostrar qual login que subiu estes?"
+08/01/2025 10:31,+55 19 99100-1661:,"Presados, favor priorizar -  INC0091758. Pre nao subiu no GAN. Motorista agaurdando. tks"
+08/01/2025 10:33,+55 11 96795-8984:,Vamos avaliar Andre
+08/01/2025 10:38,+55 11 96795-8984:,Pode validar por favor <Mensagem editada>
+08/01/2025 10:42,+55 19 99100-1661:,resolvido. obrigado Rafael
+08/01/2025 11:42,+55 11 95738-6619:,"Chamados lojas - Regional NE
+Nome da loja: SALVADOR SHOPPING 
+Filial: 39
+Chamado:  INC0091770
+Anomalia:  Cliente fez assinatura prime, mas não subiu para a plataforma vtex.
+Data: 08/01/25
+Contato:( 71) 98297-3167"
+08/01/2025 11:42,+55 11 95738-6619:,"Pfv se puderem validar se esta aba clear ou se não subiu mesmo assinatura.
+Cliente em loja.
+@5519998499458"
+08/01/2025 12:02,Daniel Pilan:,<Mídia oculta>
+08/01/2025 12:02,Daniel Pilan:,ele está aguardando aprovação do anti fraude
+08/01/2025 13:14,+55 19 99100-1661:,"Prezados, favor priorizar. INC0091775 - duplicidade de produto em preromaneio. tks"
+08/01/2025 13:15,+55 11 96795-8984:,Vamos verificar André
+08/01/2025 13:21,+55 11 95738-6619:,569.861.496-20
+08/01/2025 13:21,+55 11 95738-6619:,"Chamado/Ticket: INC0091780
+Loja:  28 - Diamond
+Área: Fast Prime
+Relato: Cliente adquiriu prime e não subiu para o sistema 
+Pessoa de Contato:  Adenias 
+Telefone: 31 984538235"
+08/01/2025 13:21,+55 11 95738-6619:,Pfv validar se está no antifraude
+08/01/2025 13:36,+55 11 94453-0353:,Mensagem apagada
+08/01/2025 14:56,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 14:56,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 14:56,+55 11 95738-6619:,"Chamado Regional 
+
+Filial: 10 FS-Plaza Sul 
+Tabela: 88
+
+(   ) Gan
+(   ) App antigo 
+( X ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091804
+Relato do problema/resumo do que houve: 
+
+K do cliente: M345716
+Pedido GAN: 5489180
+Valor: R$ 4.647,95
+Forma de pagamento: 
+ZZ (múltipla)
+SKU: AEMPUF3BRAPTOB
+
+Descrição detalhada:
+Pedido de operadora realizado no novo APP, nas condições de pagamento (98=dinheiro, SB=habilitação, e 77=12x), ao lançar pedido no caixa, valor do pedido não condiz com as formas de pagamento, aumentando R$0,04 do valor do pedido, e caixa informa para revisarmos valores e lançarmos novamente"
+08/01/2025 14:56,+55 11 96795-8984:,"Paulo boa tarde, vamos verificar o chamado"
+08/01/2025 14:58,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 14:59,+55 11 94453-0353:,"Boa tarde, consegue solicitar o pedido vtex?"
+08/01/2025 15:00,+55 11 95738-6619:,1501861243894-01
+08/01/2025 15:29,+55 11 95738-9391:,<Mídia oculta>
+08/01/2025 15:29,+55 11 95738-9391:,Por favor auxiliar
+08/01/2025 15:54,+55 11 96795-8984:,"Miller, atuamos no chamado, pode pedir pra loja seguir com o lançamento no caixa, por favor?"
+08/01/2025 15:55,+55 11 95738-9391:,"Ok, vou pedir"
+08/01/2025 16:29,+55 11 95738-6619:,"Chamado Regional NORDESTE
+
+Filial: 54 
+Tabela: L4 
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091824
+
+Relato do problema/resumo do que houve: Pagamento PIX não subiu para o Gan. Cliente em loja. 
+
+Contato: 85994263213 
+Nome: Rafael Inácio 
+Teams: Rafael Inácio Ferreira"
+08/01/2025 16:29,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 16:29,+55 11 95738-6619:,Pfv Nf não foi gerada
+08/01/2025 16:29,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 16:32,+55 11 96795-8984:,"Paulo, verificando"
+08/01/2025 16:51,+55 11 95738-9391:,"Chamado Regional MG
+Filial: 33
+Tabela: E9
+( X ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091680
+Relato do problema/resumo do que houve: Cliente fez uma compra no sábado (03/01/2025) no Fast Pay em 10x sem juros descriminando os seguintes SKUS: AEMPUF3BRAPTOB, H5AEMPUF3BRAPT, AEMUVU3BZABCOB com vendedor Mauricio (Filial 77) (V273293) Saida CD Cajamar No total de R$ 5.322,25 com pedido vtex: 150071119202601. Porém a venda não aparece no Gan e prazo de entrega é 5 dias úteis. Precisamos que seja resolvido essa anomalia, cliente em atrito com a loja cobrando um posição.
+Evidencias
+
+Cliente: W042369
+CPF: 844.558.106-68
+Pedido Vtx: 150071119202601
+Filial: 33
+TABELA: E9 
+SKU: AEMUVU3BZABCOB AEMPUF3BRAPTOB H5AEMPUF3BRAPT
+Valor R$ 5.322,25"
+08/01/2025 16:51,+55 11 95738-9391:,"Pessoal, precisamos de priorizar esse caso, por favor"
+08/01/2025 17:06,+55 11 96795-8984:,resolvido Paulo
+08/01/2025 17:07,+55 11 96795-8984:,Em andamento Miller
+08/01/2025 17:17,+55 11 95738-9391:,"Cliente em atrito na loja, assim que tiver um retorno por favor"
+08/01/2025 17:17,+55 11 95738-9391:,"Nome da loja: Eldorado 
+Filial: 26
+Chamado: INC0091836
+Anomalia: Cliente Cnpj efetuou pagamento via Link, porém NF não foi gerada. 
+Data: 08/01/2024
+Horário: 17:13
+*Telefone para contato: 11 949484103"
+08/01/2025 17:18,+55 11 95738-9391:,POr favor
+08/01/2025 17:20,+55 11 96795-8984:,Vamos verificar
+08/01/2025 17:25,+55 11 95738-6619:,"Chamado Regional MG
+Filial: 33
+Tabela: E9
+( X ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091680
+Relato do problema/resumo do que houve: Cliente fez uma compra no sábado (03/01/2025) no Fast Pay em 10x sem juros descriminando os seguintes SKUS: AEMPUF3BRAPTOB, H5AEMPUF3BRAPT, AEMUVU3BZABCOB com vendedor Mauricio (Filial 77) (V273293) Saida CD Cajamar No total de R$ 5.322,25 com pedido vtex: 150071119202601. Porém a venda não aparece no Gan e prazo de entrega é 5 dias úteis. Precisamos que seja resolvido essa anomalia, cliente em atrito com a loja cobrando um posição.
+Evidencias
+
+Cliente: W042369
+CPF: 844.558.106-68
+Pedido Vtx: 150071119202601
+Filial: 33
+TABELA: E9 
+SKU: AEMUVU3BZABCOB AEMPUF3BRAPTOB H5AEMPUF3BRAPT
+Valor R$ 5.322,25"
+08/01/2025 17:25,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 17:25,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 17:25,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 17:25,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 17:32,+55 11 96795-8984:,"Paulo, é o mesmo chamado escalado pelo Miller, estamos verificando"
+08/01/2025 17:38,+55 11 95738-9391:,"Chamados lojas 
+
+Nome da loja: IBIRAPUERA 
+Filial: 02
+
+Chamado: INC0091823
+
+Anomalia: Imei e série do aparelho não está sendo vinculado na nota (aparelho com Apple Care)
+
+Data: 08/01/2025
+
+Horário: 16:26
+Tempo previsto para resolução:
+Telefone contato:
+
+
+Peço prioridade pois cliente está em loja, muito nervoso alegando que só irá se retirar assim que o pix for estornado"
+08/01/2025 17:38,+55 11 95738-9391:,"caros, cliente em loja aguardando"
+08/01/2025 17:48,+55 11 96795-8984:,"Paulo, @5511957389391, este caso esta parado na inconsistência, é uma venda AppleCare feita via entrega CD(transportadora) e pela regra atual não poderia, somente retira em loja.
+
+@5511991801977 te marquei pois sei que ja tivemos um caso similar no passado, se tiver algo a agregar fique a vontade"
+08/01/2025 17:48,+55 11 95738-6619:,Neste caso como podemos ajustar ?
+08/01/2025 17:51,+55 11 96795-8984:,"Não posso afirmar Paulo, pois o sistema está respeitando a regra, entendo que este tipo de venda não deveria ocorrer.
+ @5511991801977 sabe como podem proceder neste caso ?"
+08/01/2025 17:58,+55 11 99180-1977:,"Boa tarde, @5511967958984 e @5511957386619.
+
+O Rafa está correto na posição que trouxe.
+A loja não poderia executar a venda com serviço, na verdade, não está habilitado para que seja feita a venda de Apple Care com o produto sendo expedido no CD. O time de Serviços tem recebido inúmeros casos como este e eles têm avisado as lojas sobre o risco de vendermos algo neste formato ao cliente. 
+
+Já existe um projeto em caráter de aprovação para habilitarmos a venda via X4, ainda no primeiro trimestre devemos ter novidades.
+
+Acerca deste caso, a solução seria refazer o pedido sem o Apple Care. O IMEI só estará disponível para resolução após a chegada do aparelho ao cliente, somente assim conseguimos habilitar este processo."
+08/01/2025 17:58,+55 11 99180-1977:,Eu estou avaliando aqui com o time técnico alguma outra possibilidade.
+08/01/2025 18:03,+55 11 99180-1977:,Estamos atuando aqui e avaliando o caso
+08/01/2025 18:07,+55 11 96795-8984:,Atendido Miller
+08/01/2025 18:07,+55 11 95738-9391:,obg
+08/01/2025 18:15,+55 19 99100-1661:,"Prezados, favor verificar. INC0091840
+Loja Iguatemi não esta conseguindo fazer venda pelo GAN por dias pack utilizando o CD de CAJAMAR."
+08/01/2025 18:16,+55 11 94453-0353:,vamoschecar
+08/01/2025 18:19,+55 11 99180-1977:,"@5511957386619 @5511967958984 @5511957389391 
+
+Após análise do caso com Claudio Murozaki, identificamos que o GAN não gerou o pedido pois não aceitou que o Apple Care esteja vinculado a um produto com modalidade de Entrega, a única opção possível seria o RETIRA.
+
+Orientamos também que este pedido seja cancelado e que o vendedor emita outro pedido apenas com os produtos. O vendedor pode orientar o cliente a voltar na loja assim que o aparelho chegar para adquirir o Apple Care, num segundo pedido e com a ativação sendo feita em loja. <Mensagem editada>"
+08/01/2025 18:38,+55 11 95738-9391:,Mensagem apagada
+08/01/2025 18:38,+55 11 95738-9391:,Mensagem apagada
+08/01/2025 18:40,+55 11 95738-9391:,<Mídia oculta>
+08/01/2025 18:40,+55 11 95738-9391:,Por favor verificar
+08/01/2025 18:42,+55 11 95738-6619:,Temos que travar esse tipo de venda
+08/01/2025 18:42,+55 11 96795-8984:,Priorizado Miller
+08/01/2025 18:42,+55 11 95738-6619:,Entendendo com a loja se conseguem seguir conforme orientação.
+08/01/2025 18:47,+55 11 99180-1977:,Pode me acionar se necessário
+08/01/2025 18:49,+55 11 95738-6619:,"E pagamento via link. 
+Não tem como usar a POS."
+08/01/2025 18:50,+55 11 95738-6619:,"Pagamento aprovado 
+Confirmado com financeiro"
+08/01/2025 18:52,+55 11 96795-8984:,"Miller, este caso não tivemos ação, basta que sigam com o lançamento no caixa GAN"
+08/01/2025 18:53,+55 11 95738-9391:,"Ok, obrigado!"
+08/01/2025 18:54,+55 11 96795-8984:,"Miller, este pedido deste chamado foi feito pelo GAN, certo?"
+08/01/2025 18:59,+55 11 95738-6619:,"Não temos como forçar NF ?
+@5511991801977 
+Não temos como estornar"
+08/01/2025 19:00,+55 11 99180-1977:,"Nesse caso não conseguimos forçar, o pedido não foi gerado."
+08/01/2025 19:01,+55 11 99180-1977:,Consegue verificar esse caso @5511957389391 @5511967958984
+08/01/2025 19:01,+55 11 95738-6619:,"Podemos gerar pedido com valor total e forçam NF ?
+Após devolvemos e refaturamos"
+08/01/2025 19:02,+55 11 99180-1977:,"Nesse caso não seria comigo, a parte da devolução e pagamento"
+08/01/2025 19:14,+55 11 95738-9391:,Eu não consigo mas vou investigar com o pessoal
+08/01/2025 19:34,+55 11 95738-9391:,"Chamado Regional NE
+
+Filial: 5A
+Tabela: H9
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: RITM0076350
+
+Relato do problema/resumo do que houve: Pedido no app novo, quando enviado para central está chegando com valor menor do enviado, central não consegue aprovar o pedido por chegar com valor muito menor.
+
+
+Cliente: AM38023 THACIANA FIGUEREDO LIMA PEIXOT
+CPF: 627.696.853-68 - Prime Plus
+Filial: 5A
+
+SKU: EXOE9XB2
+VALOR: 5.962,20
+SERVIÇO: GI00P50FORNO
+R$ 252,32
+
+SKU: EXMV43TP2
+VALOR: R$ 6.277,68
+SERVIÇO: GI00P50MICROON
+R$ 142,38
+
+VALOR TOTAL: R$ 12.634,58
+
+Contato: (81) 99495-0838
+Nome: EWERTON CONEGUNDES
+Teams: EWERTON PEREIRA CONEGUNDES"
+08/01/2025 19:34,+55 11 95738-9391:,por favor auxiliar
+08/01/2025 20:26,+55 11 95738-9391:,"Filial: 2A - SBC PLAZA
+Tabela: H5
+
+( ) Gan
+(   ) App antigo 
+( X ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091733
+Relato do problema/resumo do que houve: 
+
+ NF  679161- U8 esta aguardando retorno (Não aprovada SEFAZ) , Cadastro do Cliente foi Atualizado
+
+dados do cliente:
+
+AN37638 - RITA ELEVADA DE SOUZA  CARLOS
+
+124.174.008-98"
+08/01/2025 20:26,+55 11 95738-9391:,por favor
+08/01/2025 20:36,+55 11 96795-8984:,"MiMiller, este caso a NF foi autorizada"
+08/01/2025 20:36,+55 11 95738-9391:,Obrigado!
+08/01/2025 20:59,+55 11 95738-6619:,"Time!
+Quem pode me ajudar ?
+As loja estão reclamando que não conseguem abrir chamado com facilidade.
+Estou com caso real e aguardando 31 minutos para obter número de chamado e então pedir ajuda para loja vender."
+08/01/2025 20:59,+55 11 95738-6619:,<Mídia oculta>
+08/01/2025 21:01,+55 11 95738-9391:,Mensagem apagada
+08/01/2025 21:02,+55 11 96922-5111:,Boa noite! Pedi o registo do chamado e retorno para a loja
+08/01/2025 21:03,+55 11 95738-6619:,"Eu que estou abrindo chamado!
+Lojas reclamando o dia todo e eu resolvi realizar teste para um caso real que informei no IT urgente."
+08/01/2025 21:04,+55 11 96922-5111:,"Certo Paulo, vou analisar e entender o que houve com o time"
+08/01/2025 21:29,+55 11 95738-9391:,"Chamados Lojas - SP2 
+
+Nome da loja: M1 Litoral 
+Filial: 1D
+Chamado: RITM0076375
+Descrição: Pendencia Caixa 3 divergência de valores 
+Horário: 21:25
+Tempo previsto para resolução: 24h
+Telefone contato: (13)98131-2377"
+08/01/2025 21:29,+55 11 95738-9391:,por favor
+08/01/2025 21:35,+55 11 95738-6619:,"_Chamados lojas - Sp1
+
+Nome da loja: ABC
+Filial: 08
+Data 08/01/2025
+Chamado: INC0091851
+Descrição: vendido 2 aparelhos com 2 Apple Care  não hora de capturar número de série do 2 aparelho aparece certificado enviado já existe e não conseguimos soltar 
+Horário: 21:00
+Telefone contato:* (11) 99489-0076"
+08/01/2025 21:35,+55 11 95738-6619:,"Segundo chamado aberto e fechado sem solução.
+Pfv verificar 
+Produto para retira"
+08/01/2025 21:37,+55 11 95738-9391:,Pedi o número de série aqui para dar continuidade @5511957386619
+08/01/2025 21:38,+55 11 95738-6619:,"Boa
+Rodynei irá te enviar"
+08/01/2025 21:38,+55 11 95738-9391:,Em andamento
+08/01/2025 21:39,+55 11 95738-9391:,na realidade @5511967958984 peça para dar continuidade
+08/01/2025 21:39,+55 11 95738-9391:,Mensagem apagada
+08/01/2025 21:40,+55 11 96795-8984:,Esta em atendimento Miller
+08/01/2025 21:53,+55 11 95738-9391:,"Chamados lojas - SP2 
+
+Nome da loja: Center Norte
+Filial: 12
+Data 08/01/2024
+Chamado: INC0091854
+Descrição: Venda feita na maquininha bluetooth, não subiu a NF. Venda de plano com troca Fast. 
+Telefone: 11 98940-9421"
+08/01/2025 21:53,+55 11 95738-9391:,<Mídia oculta>
+08/01/2025 21:54,+55 11 95738-9391:,por favor auxiliar
+08/01/2025 22:37,+55 11 95738-9391:,"Chamado Regional SP3
+Filial: 8A
+Tabela: I3
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado:  INC0091858
+
+Relato do problema/resumo do que houve:
+Dois clientes tentaram fazer o Prime hoje sem sucesso, um deles comprou sem o desconto porque precisava muito do produto para hoje, outra cliente resolveu esperar até amanhã para que o Prime efetivasse em sistema, segue tela com o comprovante de pagamento e a tela com seus dados, de início demorou muito até ela conseguir finalizar e quando finalizou não atualizou no APP novo e não atualizou o GAN, solicito por gentileza a verificação, cliente está aguardando um retorno para efetivar a compra. Obrigada."
+08/01/2025 22:37,+55 11 95738-9391:,<Mídia oculta>
+08/01/2025 22:37,+55 11 95738-9391:,podem auxiliar?
+08/01/2025 22:45,+55 11 96795-8984:,Será verificado
+09/01/2025 06:58,+55 19 99100-1661:,INC0091865
+09/01/2025 06:58,+55 19 99100-1661:,<Mídia oculta>
+09/01/2025 06:58,+55 19 99100-1661:,"Bom dia
+@5519991001661  poderia ajudar com esse chamado de notas rejeitada"
+09/01/2025 06:58,+55 19 99100-1661:,"Prezados, bom dia! Estamos com alto volume notas rejeitadas..."
+09/01/2025 08:31,+55 11 96795-8984:,"André bom dia
+Vi que já registrou na neogrid o chamado, teve algum retorno?
+Pela mensagem é alguma questão de licença"
+09/01/2025 08:33,+55 19 99100-1661:,"Oi Rafae, bom dia. Isso mesmo. Estamos aguardando o retorno da neogrid."
+09/01/2025 08:33,+55 19 99100-1661:,tks
+09/01/2025 10:09,+55 19 99100-1661:,"Prezados, precisamos verificar este INC0091880 - 
+O CD 2G , SAC Não estão conseguindo efetuar refaturamento. Estão verificando com gestão de prazos pois pela msg é regra de negócio. Entretanto o GAN não esta dando opção de nova data para entrega, e deveria. Poderia verificar se é algo de sistema não dar a opção de nova data de entrega?"
+09/01/2025 10:24,+55 11 96795-8984:,"Andre bom dia
+Ambos os pedidos já emitiram Remessa, se tiver algum outro em aberto para que possamos simular, por favor"
+09/01/2025 10:29,+55 19 99100-1661:,"Rafael, Já tem a remessa pq  alteram a data acordada, aí os pedidos liberaram. Não temos nenhum em aberto até o momento. Mas até o final do dia com certeza aparecerão novos e envio para vcs. tks"
+09/01/2025 10:30,+55 19 99100-1661:,e peço outro chamado
+09/01/2025 10:30,+55 11 96795-8984:,"Entendi, ok assim surgir um me avisa por favor
+Obrigado!"
+09/01/2025 10:46,+55 11 95738-6619:,"Bom dia!
+Qual status deste chamado ?"
+09/01/2025 10:49,+55 11 96795-8984:,"Paulo, bom dia.
+Os certificados já constam na base da Zurich, para loja há alguma pendência ?"
+09/01/2025 10:50,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 10:51,+55 11 95738-6619:,"Estou na loja @5511967958984 
+Loja travada para vender celular 
+Tema acima são as pendências por conta destes dois casos."
+09/01/2025 10:52,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 10:52,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 10:53,+55 11 95738-6619:,"@5511967958984 será que conseguimos tentar com a loja.
+Eu tive que vir para loja para tentar resolver 2° dia que a loja não vende celular por conta desta pendência."
+09/01/2025 10:54,+55 11 96795-8984:,"Claro Paulo, vamos verificar, mas este problema trava a venda de celular por qual motivo? Entendo que somente esta venda deveria estar impactada"
+09/01/2025 10:55,+55 11 95738-6619:,"Pq existem Nfs pendentes com captura de Imei.
+Não só venda de celular 
+Ultra e click que precisamos dar baixa"
+09/01/2025 10:55,+55 11 95738-6619:,"Diretoria mudou minha escala de visita para eu entender.
+Dois dias sem solução 
+Itens para retira com Apple Care dando esse erro.
+
+@5519998499458 
+Se pudermos avaliar em conjunto"
+09/01/2025 11:19,+55 11 95738-6619:,"Chamado Regional 
+
+Filial: 12FS-Plaza Sul 
+Tabela: 87
+
+(   ) Gan
+(   ) App antigo 
+( X ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091854
+Relato do problema/resumo do que houve: 
+
+K do cliente: M653318
+Pedido GAN:1269333
+Pedido Vtex: 1501931248952-01
+Valor: R$ 8.654,44
+Forma de pagamento: 
+ZZ (múltipla)
+SKU: AEMYNF3BEABNZB
+
+Descrição detalhada:
+Pedido de operadora com Troca Fast realizado no novo APP, nas condições de pagamento (98=dinheiro, SB=habilitação, BS= Troca Fast e 77=12x), pagamento feito via maquininha bluetooth não gerou nota fiscal pedido  em trânsito de Faturamento."
+09/01/2025 11:19,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 11:42,+55 11 95738-6619:,"Pendência de venda de Plano + Troca Fast realizada ontem, preciso gerar nota fiscal para soltar o Apple Care vinculando na nota fiscal."
+09/01/2025 11:57,+55 11 96795-8984:,Verificando
+09/01/2025 11:58,+55 19 99100-1661:,"prezados, favor priorizar - INC0091848. Cancelamento de nota a pagar no GAN nao contabilizou no SAP. tks"
+09/01/2025 12:04,+55 11 96795-8984:,Está em andamento Andre
+09/01/2025 12:37,+55 11 96795-8984:,"Resolvido Paulo, validado com o Marco da loja"
+09/01/2025 12:44,+55 11 95738-6619:,Obg
+09/01/2025 12:57,+55 11 95738-9391:,"Boa tarde a todos! 
+Chamado Regional NE
+
+Filial: 54
+Tabela: L4
+
+(X) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091904
+
+Relato do problema/resumo do que houve: Desvincular crédito de devolução do VTEX, pois não consigo utilizar o modo refaturamento no GAN e APP VTEX não reconhece Crédito de devolução. Cliente em atrito.
+
+
+Cliente: N701624
+CPF: 013.444.633-04 - Prime 
+Filial: 54
+
+SKU: PANAF170B7W2
+VALOR: 2.374,91
+SERVIÇO: X
+
+Contato: (85) 99112-1330
+Nome: Joab
+Teams: ANTONIO JOAB SOUSA MAGALHÃES"
+09/01/2025 12:57,+55 11 95738-9391:,Por favor auxiliar
+09/01/2025 13:03,+55 11 96795-8984:,Resolvido
+09/01/2025 13:05,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 13:05,+55 11 95738-6619:,"Pendência de venda de Plano + Troca Fast realizada ontem, preciso gerar nota fiscal para soltar o Apple Care vinculando na nota fiscal."
+09/01/2025 13:05,+55 11 95738-6619:,"Chamado Regional 
+
+Filial: 12FS-Center Norte
+Tabela: 87
+
+(   ) Gan
+(   ) App antigo 
+( X ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091854
+Relato do problema/resumo do que houve: 
+
+K do cliente: M653318
+Pedido GAN:1269333
+Pedido Vtex: 1501931248952-01
+Valor: R$ 8.654,44
+Forma de pagamento: 
+ZZ (múltipla)
+SKU: AEMYNF3BEABNZB
+
+Descrição detalhada:
+Pedido de operadora com Troca Fast realizado no novo APP, nas condições de pagamento (98=dinheiro, SB=habilitação, BS= Troca Fast e 77=12x), pagamento feito via maquininha bluetooth não gerou nota fiscal pedido  em trânsito de Faturamento."
+09/01/2025 13:08,+55 11 96795-8984:,"Paulo, este caso já emitiu a NF."
+09/01/2025 13:11,+55 11 96795-8984:,"Miller, esta devolução foi liberada para uso na VTEX, não podemos mudar o status da mesma, este caso não seria nem um incidente"
+09/01/2025 13:16,+55 11 95738-9391:,"Entendi, vou validar com a loja e qualquer coisa abrimos uma requisição para solicição a liberação"
+09/01/2025 13:24,+55 11 96795-8984:,"Miller, tem uma rotina no gan-9 por onde podem cancelar o GIFTCARD na VTEX(liberar a DV pro GAN)
+gan-9 -> CANCELAMENTO DE GIFTCARD VTEX"
+09/01/2025 13:26,+55 11 96795-8984:,o SAC tem acesso a esta rotina.
+09/01/2025 13:27,+55 11 95738-9391:,Obrigado
+09/01/2025 13:46,+55 11 95738-9391:,"Filial: 78 PRAIAMAR
+Tabela: F1
+
+( x ) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091912
+Relato do problema/resumo do que houve: 
+
+Solicito liberação de credito, na filial ao invés do VTEX,credito esta liberado na VTEX,não sendo possível passar no caixa
+
+
+Dados do cliente:
+
+N921547 GUSTAVO MANOEL DA PAIXAO JR
+
+169.556.918-05
+
+P0449536
+
+sku: EXPE12AAZLB"
+09/01/2025 13:46,+55 11 95738-9391:,por favor
+09/01/2025 13:48,+55 11 96795-8984:,"Miller, mesmo cenário do crédito que comentamos do outro chamado"
+09/01/2025 13:49,+55 11 95738-9391:,"Ok, obrigado!"
+09/01/2025 13:52,+55 11 95738-9391:,<Mídia oculta>
+09/01/2025 13:52,+55 11 95738-9391:,por favor confirmar
+09/01/2025 14:11,+55 11 96795-8984:,"Miller, já tem uma compra deste valor faturada no cliente na data de hoje, 459458AAA, confirma se não é este caso, por favor."
+09/01/2025 14:12,+55 11 95738-9391:,Ok
+09/01/2025 15:38,+55 11 97598-1053:,<Mídia oculta>
+09/01/2025 15:38,+55 11 97598-1053:,<Mídia oculta>
+09/01/2025 15:38,+55 11 97598-1053:,"por gentileza , orientar time lojas pois parte time estava acionando SAC"
+09/01/2025 15:39,+55 11 95738-9391:,"Entendi, vamos validar"
+09/01/2025 15:39,+55 11 95738-9391:,Obrigado
+09/01/2025 15:59,+55 19 99100-1661:,"Prezados, boa tarde. favor priorizar. usuario alocado - RITM0076446"
+09/01/2025 16:07,+55 11 96795-8984:,Vamos verificar Andre
+09/01/2025 16:19,+55 11 96795-8984:,Concluído
+09/01/2025 16:21,+55 11 94556-1939:,"@5511944530353 @5511967958984 Boa Tarde, tudo bem? Preciso de apoio na priorização do chamado RITM0076449"
+09/01/2025 16:23,+55 11 94453-0353:,"Ana, o encerramento da regra é feito pela área, não é conosco"
+09/01/2025 16:24,+55 11 94453-0353:,Nesse mesmo caminho <Mensagem editada>
+09/01/2025 16:25,+55 11 94453-0353:,"No passado esse cadastro ela feito pelo time de pricing, não sei qual o time responsável hoje"
+09/01/2025 16:46,+55 11 99144-8652:,"@5511971394110  por favor, peço que veja o chamado INC0091944 aberto pelo time do 3P, onde constatamos q desde 01/01 temos pedidos sendo cancelados na plataforma Vtex e sem comunicação com a Tuna. Reunimos alguns status que podem ajuda-los nessa análise ou na abertura de ticket junto à Vtex.  Não parece ter relação com os eventos dessa semana, enfim.  Precisamos olhar isso com certa urgência. <Mensagem editada>"
+09/01/2025 16:49,Davi Paiva ViVARA:,"Boa tardr @5511991448652 para acionamentos relacionado a chamados pode a partir de agora acionar o @5511976559760 pf.
+
+De qualquer forma vou pedir pra quem abriu o chamado VTEX aproveitar os seus dados."
+09/01/2025 16:49,+55 11 99180-1977:,Mensagem apagada
+09/01/2025 16:52,+55 11 99144-8652:,Mensagem apagada
+09/01/2025 16:59,Paulo Ajlune:,"@5511991448652, boa tarde, iremos verifica com urgência"
+09/01/2025 16:59,+55 11 99144-8652:,"é isso, obrigado Paulo"
+09/01/2025 17:26,+55 67 9963-4206:,"Boa tarde.
+
+@5511971394110 
+
+Favor priorizar o chamado INC0091948 do B2B relacionado a não exibição dos meios de pagamentos após a personificação do cliente.
+
+Att"
+09/01/2025 18:19,+55 11 94453-0353:,"André, subiram as regras de crossdocking:"
+09/01/2025 18:19,+55 11 94453-0353:,<Mídia oculta>
+09/01/2025 18:19,+55 11 94453-0353:,Podem testar?
+09/01/2025 18:19,+55 11 94453-0353:,@5511957386619 ?
+09/01/2025 18:20,+55 11 95738-6619:,Testando
+09/01/2025 18:26,+55 11 97173-0261:,"Wlad, apoiei a amanda nesta tarefa... se precisarem de mais algum fluxo ela ja sabe como fazer e validar."
+09/01/2025 18:27,+55 11 94453-0353:,"Obrigado, Vitor, testamos aqui e deu certo"
+09/01/2025 18:27,+55 11 95738-6619:,Tabela a2 filial 22 Barigui
+09/01/2025 18:27,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 18:27,+55 11 95738-6619:,"Ainda não aparece 
+Testes 
+RJ
+PR
+MG"
+09/01/2025 18:27,+55 11 94453-0353:,Tem que fechar e abrir o GAN
+09/01/2025 18:29,+55 11 95738-6619:,Fizemos isso
+09/01/2025 18:34,+55 11 95738-6619:,"RS - ok
+RJ - OK
+MG ainda não aparece 
+PR ainda não aparece 
+
+Saímos e acessamos 
+Testes em lojas e logins diferentes"
+09/01/2025 18:35,+55 11 94453-0353:,<Mídia oculta>
+09/01/2025 18:35,+55 11 94453-0353:,"Fiz com os mesmos dados, pede para refazerem"
+09/01/2025 18:45,+55 11 95738-6619:,MG Ok
+09/01/2025 18:54,+55 11 94453-0353:,"Blz, acho que era cache"
+09/01/2025 18:57,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 18:57,+55 11 95738-6619:,Não tem inconsistência
+09/01/2025 18:57,+55 11 95738-6619:,"Pfv
+DF
+GO
+Ainda sem aparecer"
+09/01/2025 18:59,+55 11 95738-6619:,"RJ - Ok
+MG - Ok
+PR - OK
+DF - Não
+GO - Não"
+09/01/2025 19:00,+55 11 94453-0353:,"Ótimo, obrigado, Paulo"
+09/01/2025 19:00,+55 11 94453-0353:,Vamos aguardar essas duas
+09/01/2025 19:00,+55 11 94453-0353:,Teria a tabela e o o v do vendedor para eu testar?
+09/01/2025 19:07,+55 11 95738-9391:,Ok
+09/01/2025 19:20,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 19:21,+55 11 95738-6619:,Qual Status ?
+09/01/2025 19:21,+55 11 95738-6619:,"Chamado Regional SP2
+
+Filial: 82
+Tabela: F8
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0091972
+
+Relato do problema/resumo do que houve: 
+VENDA FEITA NO APP NOVO CONDIÇÃO DE PAGAMENTO 00 CREDITO DE DEVOLUÇÃO. 
+PEDIDO APARACE NO GAN PORÉM NÃO GERA NF PARA ENTREGA. 
+
+
+Contato: (51) 985251986
+Nome: Bruno Albino"
+09/01/2025 19:30,+55 11 94453-0353:,"Não aparece para esse, talvez não tenham criado a regra"
+09/01/2025 19:31,+55 11 95738-6619:,"DF sinalizou com Ok
+Pendente só GO agora"
+09/01/2025 19:40,Paulo Ajlune:,"@5511991448652, para este incidente precisamos abrir 2 chamados um na VETX e um na TUNA, pois precisamos que esses dois fornecedores avaliem em conjunto este caso: 
+Chamado na TUNA:  202501090000674 e 
+Chamado na VTEX: #1160902"
+09/01/2025 19:45,+55 15 98143-3153:,<Mídia oculta>
+09/01/2025 19:47,Paulo Ajlune:,"@556799634206 boa tarde,
+Os Devs verificaram ao tentar reproduzir o erro que esse cenário ocorre quando existe uma inconsistências no cadastro do cliente ou no endereço informado. 
+Por favor, revise os dados cadastrais para garantir que estejam corretos e nos retorno no chamado que o Dev direcionou à solicitante."
+09/01/2025 20:35,+55 11 95738-6619:,"Chamados lojas - Regional MG/CO
+
+Nome da loja:  DIAMOND MALL
+Filial: 28
+Chamado: INC0091991
+Anomalia: Pedido para refaturamento montado no GAN está apresentando falha ao finalizar, aparece o erro ""nao existem opçoes de entrega para atendimento ao CEP informado"" poderia verificar por gentileza? abaixo dados.
+
+Cod cliente: B658508
+CPF: 018.264.306-95
+Cod produto: 0S2534008BBCOB
+cond pagamento: 00
+Filial: 05 CD CAJAMAR III
+Valor: 3.239,00
+Endereço para entrega: RUA SUZANA FURTADO DE OLIVEIRA 75 301
+Cep: 31140-430
+cidade: BELO HORIZONTE
+
+Em anexo comprovação
+
+Data: 09/01/24
+Contato: (31) 99443-3540"
+09/01/2025 20:35,+55 11 95738-6619:,<Mídia oculta>
+09/01/2025 20:35,+55 11 95738-6619:,"@5511944530353 
+Neste caso mostrou Cd e não deixa fechar pedido."
+09/01/2025 20:37,+55 11 94453-0353:,Precisa ser cadastrado o shipping para esse CEP
+09/01/2025 20:37,+55 11 95738-6619:,"Sabe quem faz esse cadastro ?
+É um cep comum para BH"
+09/01/2025 20:37,+55 11 94453-0353:,"@5519991001661, pode apoiar com esse?"
+09/01/2025 22:25,+55 11 95738-9391:,<Mídia oculta>
+09/01/2025 22:25,+55 11 95738-9391:,"pode cnfirmar, por favor"
+10/01/2025 12:49,+55 11 95738-9391:,Boa tarde a todos!
+10/01/2025 12:50,+55 11 95738-9391:,"Chamado Regional SP3
+Filial: 58
+Tabela: D4
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado:  INC0092046
+
+Relato do problema/resumo do que houve:
+Todas as instalações feitas via App novo do vendedor o sistema está travando na parte do endereço, não deixa finalizar o agendamento por gentileza ajustar erro para seguir com agendamento.
+Cliente: Eduardo
+CPF: 820.120.087-04"
+10/01/2025 12:50,+55 11 95738-9391:,<Mídia oculta>
+10/01/2025 12:54,+55 11 95738-9391:,<Mídia oculta>
+10/01/2025 12:55,+55 11 96795-8984:,"Miller, boa tarde
+Vamos verificar os chamados"
+10/01/2025 12:56,+55 11 95738-9391:,obrigado
+10/01/2025 13:25,+55 11 95738-9391:,<Mídia oculta>
+10/01/2025 13:25,+55 11 95738-9391:,Por favor
+10/01/2025 13:27,+55 11 95738-9391:,"Caros, favor priorizar esse último, cliente aguardando em loja um tempo"
+10/01/2025 13:33,+55 11 95738-9391:,"Time, cliente em atrito na loja com o gerente, por favor!!"
+10/01/2025 13:34,+55 11 96795-8984:,"Miller, vou confirmar"
+10/01/2025 13:40,+55 11 96795-8984:,"@5511957389391 , o TEF foi passado no caixa GAN? <Mensagem editada>"
+10/01/2025 13:49,+55 11 95738-9391:,Sim
+10/01/2025 13:56,+55 11 96795-8984:,Resolvido
+10/01/2025 13:59,+55 11 95738-9391:,Obg!
+10/01/2025 14:34,+55 19 99100-1661:,"Prezados, boa tarde. favor priroizar - INC0092050
+Erro ao fazer romaneio. Caminhao aguardando tks"
+10/01/2025 14:42,+55 11 95738-9391:,<Mídia oculta>
+10/01/2025 14:43,+55 11 95738-9391:,Por favor verificar
+10/01/2025 14:45,+55 11 96795-8984:,Chamados priorizados
+10/01/2025 15:10,+55 11 96795-8984:,Atendido André
+10/01/2025 15:22,+55 19 99100-1661:,"Prezados, favor verificar INC0092054
+Time logística erro ao tentar incluir um novo prazo no Prazo Cross Dockings do mini shipping. Validation error on the server."
+10/01/2025 15:23,+55 11 95738-9391:,O que acorreu com esse @5511967958984 está um tempo em andamento? por favor
+10/01/2025 15:27,+55 11 96795-8984:,"Miller, este caso é um pedido SPLIT, um dos pedidos foi aprovado e o outro está em cancelamento, para o sistema faturar, por ser split, ambos precisam ser aprovados"
+10/01/2025 15:28,+55 11 95738-9391:,"E como procedemos, cancela e refaz ou tem um outro modo?"
+10/01/2025 15:53,+55 11 95738-9391:,"Chamado Regional (SP3)
+
+N°. Do Chamado: RITM0075912
+Nome e n° da loja: Piracicaba - 3B
+
+(X) Gan
+(  ) App antigo
+(  ) Novo App
+(  ) Infra (internet)
+ 
+
+Relato do problema/resumo do que houve: CEP com erro impossibilitando montar o pedido.
+
+
+ID do cliente: X693246
+CPF: 05648403860
+Pedido Vtx: 
+Código DV (p/ credito): 
+Sku: EXLL14X1
+CEP: 17379-899
+
+Nome para contato: Pedro 
+Telefone para contato: 19 99725-2798 
+Teams: phds@fastshop.com.br"
+10/01/2025 15:53,+55 11 95738-9391:,por favor
+10/01/2025 15:56,+55 11 96795-8984:,"Miller, não sei afirmar, talvez vai precisar cancelar este pagamento, estou vendo"
+10/01/2025 16:01,+55 11 95738-9391:,Beleza!
+10/01/2025 16:25,+55 19 99100-1661:,"@5511967958984 , favor cancelar o chamado. Erro de procedimento da area. tks"
+10/01/2025 16:25,+55 11 96795-8984:,"Ok Andre, vamos cancelar, obrigado <Mensagem editada>"
+10/01/2025 16:34,+55 11 95738-9391:,"Chamados Lojas - Regional NE
+Nome da loja: Shop Recife
+Filial: 98
+Contato: 81984493870
+Chamado: INC0092064
+Anomalia: Alterar status da garantia de ""Anul.N.Pg"" para ""Vigente Pago"". Serviço foi adquirido e cancelado no mesmo dia."
+10/01/2025 16:34,+55 11 95738-9391:,por favor verificar
+10/01/2025 16:35,+55 11 96795-8984:,"Miller, isso não podemos fazer, é processo, quando cancela no mesmo dia da compra o sistema anula."
+10/01/2025 16:35,+55 11 95738-9391:,"Entendi, beleza !"
+10/01/2025 17:23,+55 11 96795-8984:,"Miller, este caso não conseguimos faturar, é pedido Split mas chegou o pagamento em um único Billing, o GAN espera 2, além disto, um dos pedidos na VTEX tem uma mensagens de cancelamento."
+10/01/2025 17:35,+55 11 95738-9391:,"Tá ok, obrigado"
+10/01/2025 17:54,+55 19 99100-1661:,"prezados, favor priorizar. Usuario alocado -RITM0076592. tks"
+10/01/2025 18:25,Pedro FAST:,INC0092083
+10/01/2025 18:25,Pedro FAST:,Favor priorizar
+10/01/2025 18:27,Paulo Ajlune:,@5511957379943 boa tarde o time já está verificando
+10/01/2025 18:32,+55 11 95738-9391:,"Chamados 
+M1 A2You 
+A2You Iguatemi 
+Filial 49 
+Anomalia: 
+Fizemos a DV da NF 174794-S4 
+Gan caiu no final da DV e não gerou o crédito. 
+Cliente: K517490 
+
+Chamado: INC0092037 
+48hrs"
+10/01/2025 18:32,+55 11 95738-9391:,"caros, chamado reaberto, favor priorizar caso critico"
+10/01/2025 18:34,+55 11 96795-8984:,Em análise Miller
+10/01/2025 18:36,+55 19 99100-1661:,Boa tarde poderia ajudar com esse  chamado RITM0076592
+10/01/2025 18:36,+55 19 99100-1661:,"chamado aberto, devido a um usuário alocado no PRÉ da transportadora somerlog
+A tranportadora esta aquandando o romaneio des das 17:00"
+10/01/2025 18:36,+55 19 99100-1661:,"Prezados , usuário alocado. Favor priorizar"
+10/01/2025 18:39,Paulo Ajlune:,"@5511957379943 boa tarde
+A6B0C7XPTWBCOB: Última atualização que recebemos desse sku do MPC foi dia 03/12, nessa requisição não nos foi enviado a imagem do produto 
+JBLPLBEAMBPTOB - Última atualização foi 20/12, também não recebemos imagem do produto
+conforme evidências abaixo"
+10/01/2025 18:40,Paulo Ajlune:,<Mídia oculta>
+10/01/2025 18:40,Paulo Ajlune:,<Mídia oculta>
+10/01/2025 18:40,Paulo Ajlune:,Direcionamos este chamado INC0092083 para a Fila IBM- MPC
+10/01/2025 18:45,Pedro FAST:,"Favor atuar em conjunto para termos a resolução do caso ainda hoje. Tks,"
+10/01/2025 19:22,+55 11 94453-0353:,"Pedro, houve um envio de 2500 itens hoje. Pelo que fui informado, estão em fila os demais envios <Mensagem editada>"
+10/01/2025 20:04,+55 11 95738-9391:,"Chamados Lojas - Regional NE
+Nome da loja: Shop Recife
+Filial: 98
+Contato: 81984493870
+Chamado: INC0092092
+Anomalia: Gerar crédito no K do cliente, pois o serviço foi cancelado no mesmo dia e o crédito sumiu no sistema.
+cliente: AN76336 OZANIL CURSINO 
+Valor: R$234,37
+Serviço: GXUXE1504GANJB
+Status serviço: Anul N Pg"
+10/01/2025 20:04,+55 11 95738-9391:,"Chamado Regional Sp2
+
+Filial: 03
+Tabela: 97
+
+(  )Gan
+(   ) App antigo 
+(X) Novo App
+( ) Infra (internet)
+
+Chamado: INC0092093
+
+Relato do problema/resumo do que houve: 
+Não subiu nf após pagamento pix k:AN76855
+USUARIO: VITHVD/V274917
+FL 03
+tab 97
+
+Contato: (11) 953891939
+Nome: Vitor"
+10/01/2025 20:04,+55 11 95738-9391:,<Mídia oculta>
+10/01/2025 21:00,+55 11 94453-0353:,Atendidos
+10/01/2025 21:00,+55 11 95738-9391:,Obrigado
+11/01/2025 12:19,+55 11 95738-6619:,"Chamados SP3
+
+Chamado: INC0092122
+Data: 11/01/2025
+Loja: Piracicaba 
+Filial :3B
+Tabela: I7
+Motivo: Assinatura Prime não localizada no GAN, Assinatura foi debitada duas vezes do cartão do cliente, é necessario que seja ajustado as duas assinaturas para solicitar o estorno de uma delas.
+Cliente: O492806 CARLOS EDUARDO SANTICIOLI
+CPF: 252.458.708-86
+
+Contato: (11) 954643147
+Nome: Maysa
+Teams: maysaas"
+11/01/2025 13:00,+55 11 94453-0353:,Mensagem apagada
+11/01/2025 13:07,+55 11 95738-9391:,Chamado já respondido no regionais.
+11/01/2025 13:51,+55 11 95738-6619:,"Nome da loja: SP Market
+Filial: 8C
+Chamado: INC0092132
+Anomalia: Caixa geral sem funcionar
+Data: 11/01/2025
+Horário: 13:20
+Telefone para contato:11 960921449
+
+Loja sem vender para retira quando cliente vai pagar presencialmente"
+11/01/2025 13:53,+55 11 95738-6619:,"Chamados lojas - A2You/M1
+Nome da loja: M1 SP Market 
+Filial: 2G
+Chamado: INC0091262
+Anomalia: Não deixa gerar link de pagamento pois informa que colaborador não tem caixa mesmo ele tendo.
+Login: Kayquecv@fastshop.com.br
+Data: 03/01/25
+Horário: 16:27
+Telefone para contato: 11 969396444"
+11/01/2025 13:53,+55 11 95738-6619:,"8c 
+Caixa 3"
+11/01/2025 13:54,+55 11 95738-9391:,"@5511969225111 grande impacto, pode ajudar por favor"
+11/01/2025 13:55,+55 11 95738-9391:,"Atualizado novamente a informação de cashier como apontado pela Kobe, favor testar e retornar."
+11/01/2025 13:59,Daniel Pilan:,"@5511944530353 
+Por favor
+Prioriza esse casp"
+11/01/2025 13:59,Daniel Pilan:,@5511967958984
+11/01/2025 14:00,Daniel Pilan:,Loja sem vender pq o caixa fica preso
+11/01/2025 14:05,+55 11 96922-5111:,vamos priorizar
+11/01/2025 14:27,+55 11 94453-0353:,"Esse chamado é com field, o pinpad nao está funcionando"
+11/01/2025 14:27,+55 11 95738-6619:,"Chamados lojas - SP1
+
+Nome da loja: Iguatemi SP
+Filial: 06
+Chamado: INC0092126
+Anomalia:  Erro ao tentar altera a data de entrega de pedido ja faturado.
+Data: 11/01/25
+Horário: 112:30
+Telefone para contato:* 11 98132-6473"
+11/01/2025 14:27,+55 11 95738-6619:,<Mídia oculta>
+11/01/2025 14:27,+55 11 95738-6619:,<Mídia oculta>
+11/01/2025 14:27,+55 11 95738-6619:,<Mídia oculta>
+11/01/2025 14:27,+55 11 95738-6619:,"Chamados lojas - SP1
+
+Nome da loja: Iguatemi SP
+Filial: 06
+Chamado: INC0092136
+Anomalia:  Erro ao tentar altera a data de entrega de pedido ja faturado.
+Data: 11/01/25
+Horário: 112:30
+Telefone para contato:* 11 98132-6473"
+11/01/2025 14:27,+55 11 95738-6619:,<Mídia oculta>
+11/01/2025 14:28,+55 11 95738-6619:,"Lojas não estão conseguindo alterar data de entrega dos pedidos.
+
+Item do comitê 
+Refaturamento zero"
+11/01/2025 14:35,+55 11 95738-6619:,"Boa Tarde
+Chamados lojas - Regional MG/CO
+Nome da loja: BH Shopping
+Filial: 77
+Tab: E9
+Chamado: INC0092137
+Assunto :  Sem acesso internet 
+Anomalia: Boa tarde filial 77 bh shopping rede ta caindo e voltando
+Data:11/01/2025
+Telefone contato: (31) 3888-5656"
+11/01/2025 14:38,Daniel Pilan:,"@5511944530353 
+Por favor
+Precisamos entender esse caso
+Está escalado para a diretoria"
+11/01/2025 14:41,Daniel Pilan:,"Por favor
+Pede para debugar e ver o que está dando esse retorno"
+11/01/2025 14:40,Paulo Ajlune:,Chamado INC0092137 sendo tratado pela Kobe #2268
+11/01/2025 14:41,Daniel Pilan:,Precisamos dar um retorno para diretoria
+11/01/2025 14:50,+55 11 95738-9391:,"@5511969225111 por favor, causando grande impacto"
+11/01/2025 14:52,+55 11 94453-0353:,"Vamos tentar simular, eu debuguei um durante a semana e não era uma regra nova"
+11/01/2025 14:52,Daniel Pilan:,Sim mas precisa entender pq não deixa alterar
+11/01/2025 14:59,+55 11 95738-9391:,<Mídia oculta>
+11/01/2025 14:59,+55 11 95738-9391:,Mensagem apagada
+11/01/2025 15:00,+55 11 95738-9391:,<Mídia oculta>
+11/01/2025 15:00,+55 11 95738-9391:,Por favor auxiliar
+11/01/2025 15:02,+55 11 95738-6619:,Mensagem apagada
+11/01/2025 15:02,+55 11 95738-6619:,Mensagem apagada
+11/01/2025 15:25,+55 11 94453-0353:,"Nos debugamos, não tem opção de entrega no shipping"
+11/01/2025 15:25,+55 11 94453-0353:,Precisa cadastrar
+11/01/2025 16:16,Daniel Pilan:,"Quem realiza o cadastro?
+@5511957386619 
+Precisa ver com a logística pq não está abrindo opção de entrega"
+11/01/2025 16:18,+55 11 95738-6619:,Tem alguém aqui no grupo ?
+11/01/2025 16:20,Daniel Pilan:,"@5511962783416 
+@5511954370772 
+Conseguem ajudar?"
+11/01/2025 16:22,+55 11 95437-0772:,"Boa tarde pessoal, vou passar para a Logística."
+11/01/2025 16:30,+55 11 95437-0772:,Time de transportes verificando.
+11/01/2025 16:31,+55 11 95738-6619:,"Obg!
+São muitos pedidos
+Os exemplos acima são da Loja Iguatemi e o Gerente tem conhecimento caso precisem de testes."
+11/01/2025 16:31,+55 11 95437-0772:,Combinado Paulão. 👊🏻
+11/01/2025 16:32,+55 11 95437-0772:,O Welber está atuando. 👊🏻
+11/01/2025 17:26,+55 11 95738-6619:,"Chamado: INC0092084
+Loja: BH SHOPPING II
+Filial: 61
+Tabela: E9
+SKU: SGQN85QN85DB
+Cliente: N369563
+Pedido VETEX:
+Motivo: cliente fez cartão Fast Pay hoje, na hora que vai pra pagamento coloca os dados do cartão virtual temporário e não sai da tela em anexo, já fizemos 3 pedidos sempre fica na mesma tela, check das informações já feita
+compra no valor de: R$31.997,98"
+11/01/2025 17:26,+55 11 95738-6619:,<Mídia oculta>
+11/01/2025 17:26,+55 11 95738-6619:,Trava nessa tela
+11/01/2025 17:26,+55 11 95738-6619:,"Alguns relatos de clientes que ao tentar pagar com cartão FSP não avançava, se mantém na tela acima."
+11/01/2025 17:27,+55 11 95738-6619:,"Já baixou App 2x 
+Mudou de rede 
+Cliente não tem PC disponível no momento para pagar e prefere via App Fast."
+11/01/2025 17:31,+55 11 95738-9391:,"Chamados Lojas - Regional NE
+Nome da loja: Shop Recife
+Filial: 98
+Contato: 81984493870
+Chamado: INC0092153
+Anomalia: Feito hoje o cancelamento de um serviço adquirido ontem (10/01), porém os créditos não estão aparecendo no gan 9.
+Cliente: AN76336 OZANIL CURSINO
+Valor: 234,37
+Serviço: GXUXE1504GANJB
+Cond: PX
+Status: Canc.Pago
+Certificado: 1104487960"
+11/01/2025 17:31,+55 11 95738-9391:,por favor
+11/01/2025 17:39,+55 11 94453-0353:,Vamos priorizar
+11/01/2025 17:56,+55 11 95738-9391:,"Chamados lojas - Regional MG/CO
+Nome da loja: Del Rey
+Filial: 70
+Tab: E5
+Chamado: RITM0076656
+Anomalia: Rfs: 24600(AN78301) e 24600(Chamados lojas - Regional MG/CO"
+11/01/2025 17:56,+55 11 95738-9391:,por favor
+11/01/2025 18:07,+55 11 95738-6619:,"Nome da loja: Ibirapuera
+Filial: 02
+Chamado: RITM0076654
+Anomalia: Terminais sem funcionamento, 1 sem funcionar, 1 anomalia intermitente com falhas pindpad e impresso, 1 com problema constante ajuste TI e bloqueio no mesmo dia do tef e impressora , necessário reparo ou substituição. Hds que trouxeram estão com defeito e não concluído os ajustes 
+Data: 11/01/2025
+Horário: 16:55
+Telefone para contato:"
+11/01/2025 18:07,+55 11 95738-6619:,<Mídia oculta>
+11/01/2025 18:07,+55 11 95738-6619:,<Mídia oculta>
+11/01/2025 18:08,+55 11 95738-6619:,"@5511990015391 
+Pfv se puder ajudar 
+Loja conceito Ibirapuera 
+Levaram peças de reposição com defeito
+Sábado está complicado e a loja precisando de ajuda"
+11/01/2025 18:19,+55 11 95738-9391:,Mensagem apagada
+11/01/2025 18:24,+55 11 99001-5391:,"Ontem, já solicitamos o envio de outro HD, ficou apenas este PDV ainda com problema"
+11/01/2025 21:21,+55 11 95738-9391:,"Chamados lojas - SP1
+
+Nome da loja: Paulista II
+Filial: 46
+Chamado: INC0092168
+Anomalia:  POS do dia 09/01 pendente no caixa 16. NF foi refaturada anteriormente e pagamento está ok.
+Cliente: AN48837
+POS: C3569332
+CAIXA: 16
+Data: 11/01/25
+Horário: 22:20
+Telefone para contato: 11 978880511"
+11/01/2025 21:21,+55 11 95738-9391:,por favor
+11/01/2025 21:25,Paulo Ajlune:,Chamado INC0092168 sendo tratado pela TEROS #987
+12/01/2025 17:42,+55 11 95738-9391:,Boa tarde a todos
+12/01/2025 17:42,+55 11 95738-9391:,"Chamado Regional SP2
+
+Filial: 82
+Tabela: F8
+
+( x) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092185
+
+Relato do problema/resumo do que houve: 
+Pagamento no HIPERCAR, no Sitef diz efetuado local. Nao saiu saiu comprovante. E não está passando no pos pela NSU. 
+Pagamento no Caixa 35
+Login:Luasm
+Evidencias
+
+
+Contato: (51) 982496694
+Nome*: Rafael Santos"
+12/01/2025 17:43,+55 11 95738-9391:,por favor priorizar cliente em loja
+12/01/2025 17:58,+55 11 94453-0353:,Vamos checar
+12/01/2025 18:08,+55 11 95738-9391:,"Filial: 87
+Tabela: J2
+Gan(   ) 
+Novo App(  x ) 
+Chamado: INC0092204
+Relato do problema/resumo do que houve: Pedido feito através de APP VENDEDOR via PIX, não mostra a reserva técnica. O pedido sumiu e prendeu o produto.
+Cliente: J440614
+CPF:742.589.901-91
+Filial: 87
+SKU: SGQN75Q60DTOB
+Valor R$ 6119,00
+Contato: (71) 981486508
+Nome: Lucas
+Teams: Lucas Araujo"
+12/01/2025 18:08,+55 11 95738-9391:,por favor
+12/01/2025 18:13,+55 11 94453-0353:,Esse está com o time de service desk
+12/01/2025 18:14,+55 11 95738-9391:,@5511969225111 pode priorizar
+13/01/2025 11:37,+55 19 99100-1661:,bom dia! prezados favor priorizar. GAN apresentado erro ORA  ao enviar pre para o WMS - INC0092258.
+13/01/2025 11:37,+55 19 99100-1661:,<Mídia oculta>
+13/01/2025 11:54,+55 11 96795-8984:,"Andre, bom dia!
+É somente esta carga?"
+13/01/2025 11:58,+55 11 95738-6619:,"Chamado Regional (MG/CO)
+
+N°. Do Chamado:INC0092210
+Nome e n° da loja: Flamboyant 9G 
+Área: Suporte a sistemas 
+
+(  )Gan
+(  ) App antigo
+(X)Novo App
+(  ) Infra (internet)
+
+Relato do problema/resumo do que houve:
+Nota fiscal não foi gerado, pagamento no PinPad 
+ID do cliente: H798440
+CPF: 961.647.941-53
+Pedido Vtx: 1502861281186-01
+
+Nome para Contato:Pedro Calisto  
+Telefone para contato: 62 99298-8121
+Teams:
+pedrogcds@fastshop.com.br"
+13/01/2025 11:58,+55 11 95738-6619:,<Mídia oculta>
+13/01/2025 12:00,+55 19 99100-1661:,@5511967958984 . somente esta
+13/01/2025 12:03,+55 11 96795-8984:,"Andre, foi resolvido, havia um carácter especial no nome do cliente, pelo histórico que tenho, a Quality subirá um ajuste na Jitter para remover estes caracteres especiais na próxima quinta-feira."
+13/01/2025 12:06,+55 11 95738-9391:,"Boa tarde a todos! 
+
+Chamado Regional RJ/ES
+
+Filial: 33
+Tabela: B8
+
+() Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado:INC0092241
+
+Relato do problema/resumo do que houve:
+
+Pedido não consta no sistema , efetuado o pagamento na data 12/01/25 às 21h pelo link através do cartão Fast Pay e até o momento o pedido não consta no sistema . Cliente já recebeu a confirmação do pagamento. 
+Cliente: AN80032
+CPF: 117.937.787-70
+Pedido Vtx:
+NF: 
+Filial: 33
+SKU: SGWD11AI
+CEP: 20745-125
+R$ 4.249. 8x"
+13/01/2025 12:09,+55 11 95738-9391:,"Chamado/Ticket: INC0092266
+
+Loja: 9G Flamboyant
+Area: GAN 
+Relato: Caixa 16 com pendencia, nota já foi gerada mais ainda continua a pendencia 
+
+CAIXA 16 
+Pessoa: Pedro Calisto 
+Telefone: (61) 9 9298-8121
+Status: Crítico"
+13/01/2025 12:09,+55 11 95738-9391:,Por favor
+13/01/2025 12:16,+55 19 99100-1661:,"Obrigado, Rafael."
+13/01/2025 12:20,+55 11 96795-8984:,"Miller, serão priorizados"
+13/01/2025 12:37,+55 11 95738-9391:,"Chamados lojas - SP3
+
+Nome da loja: Dom Pedro 2
+Tabela: F6
+Filial: 75
+Chamado: INC0092269 
+Anomalia: NF com a seguinte Rejeicao: Valor total do ICMS Interestadual da UF de destino difere, mesmo cliente fez compra no mes passado e nota fiscal autorizou normalmente
+Data: 213-01-2025
+Telefone para contato: 19 99386-5586 Victor"
+13/01/2025 12:37,+55 11 95738-9391:,@5511976559760 por favor auxiliar
+13/01/2025 12:40,+55 11 96795-8984:,"Miller, este caso deve ser verificado com o departamento Fiscal, está rejeitando em função dos impostos."
+13/01/2025 12:40,+55 11 95738-9391:,"Blz, obrigado!"
+13/01/2025 13:00,+55 11 95738-9391:,"Chamado: INC0092196
+tabela: a2
+Loja: Barigui 22
+Contato: 99618-9044
+Motivo: nao subiu a assinatura do prime."
+13/01/2025 13:00,+55 11 95738-9391:,"@5511967958984 pode confirmar esse caso, valor não foi estornado para o cliente"
+13/01/2025 13:00,+55 11 95738-6619:,"Chamado Regional CO
+
+N°. Do Chamado: INC0091989
+Nome e n° da loja: Park Shop FL 64
+Área:. Impressora
+
+Relato do problema/resumo do que houve: Impressora Lexmark MS610dn, não está ligando, já foi verificado os cabos mas não dá nenhum sinal de vida, vídeo anexado pelo suporte da t.i no chamado
+
+Nome para Contato: João Renato 
+Número para contato: 61996841708
+
+Status: Crítico"
+13/01/2025 13:07,+55 11 96795-8984:,<Mídia oculta>
+13/01/2025 13:08,+55 11 95738-9391:,Sério? Então pediram pra verificar sem validar... Mesmo assim obrigado!!
+13/01/2025 13:08,+55 11 95738-9391:,Mensagem apagada
+13/01/2025 13:08,+55 11 96795-8984:,vou te encaminhar a evidencia
+13/01/2025 13:09,+55 11 95738-9391:,"Beleza, valeu!!"
+13/01/2025 13:11,+55 11 95738-9391:,Mensagem apagada
+13/01/2025 13:11,+55 11 95738-9391:,@5511969225111 @553188438955 por favor
+13/01/2025 14:15,+55 11 95738-9391:,"Chamado Regional RJ/ES
+
+Filial: 18 Barra Shopping 
+Tabela: 82
+
+(X)Gan
+() App antigo 
+( ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092280
+
+Relato do problema/resumo do que houve: Erro ao vincular instalação na 00 no gan. Consta que a base de instalação não pode ser atendida no cep.
+Cliente: M005771
+CPF: 014.664.687-85
+Pedido:
+Filial: 18
+SKU:
+CEP: 22793-000
+Valor do pedido:
+Contato: (21)96512-6570 
+Daiana
+Teams: daianamsdj@fastshop.com.br"
+13/01/2025 14:15,+55 11 95738-9391:,<Mídia oculta>
+13/01/2025 14:15,+55 11 95738-9391:,Por favor auxiliar
+13/01/2025 14:17,Pedro FAST:,"INC0092277  - favor priorizar (também problema relacionado a instalação, não consegue se logar no serviço)"
+13/01/2025 14:22,+55 11 95738-9391:,"Filial: 42 Boulevard Tatuapé 
+Tabela: C1
+
+( x  ) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092192
+
+Foi feita uma venda com 2 aparelhos iguais (IPHONE 16 PRO NATURAL 256GB - AEMYNL3BEAPTAB), Os dois com vinculo de apple care, no momento de capturar o hexadecimal dos aparelhos, o GAN capturou normalmente hexa e serial number, mas no momento de capturar o segundo ele indica que o mesmo já esta ativo em um contrato. Impedindo a emissão da Nota Fiscal e o contrato Apple care do segundo Iphone
+
+Pedido VTEX: 1502821279193-01
+
+Celular capturado com sucesso:
+IMEI- 358564740152262
+S/N-MK7GPJ427F
+
+Celular com captura sem sucesso:
+IMEI-358564740116184
+S/N-M7YWR6YW62"
+13/01/2025 14:22,+55 11 95738-9391:,Por favor verificar
+13/01/2025 14:24,+55 11 95738-6619:,<Mídia oculta>
+13/01/2025 14:24,+55 11 95738-6619:,"Chamado Regional RJ/ES
+
+Filial: 18 Barra Shopping 
+Tabela: 82
+
+(X)Gan
+() App antigo 
+( ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092280
+
+Relato do problema/resumo do que houve: Após mudança de CD não é possível abrir grande instalação da regional RJ. ( Todas as condições de pagamento )
+
+Cliente: M005771
+CPF: 014.664.687-85
+Pedido:
+Filial: 18
+SKU:
+CEP: 22793-000
+Valor do pedido:
+Contato: (21)96512-6570 
+Daiana
+Teams: daianamsdj@fastshop.com.br"
+13/01/2025 14:25,+55 11 95738-6619:,"@5519998499458 pfv se puder direcionar quem pode ajudar.
+Obg"
+13/01/2025 14:25,+55 11 99180-1977:,@5511967958984
+13/01/2025 14:30,+55 11 96795-8984:,"Luiz, estamos em um call, reportamos este cenário, times avaliando"
+13/01/2025 14:30,+55 11 95738-9391:,RITM0076778 - Por favor verificar
+13/01/2025 14:37,+55 11 95738-9391:,"Filial: 2A SBC PLAZA
+Tabela: H5
+
+(  ) Gan
+(   ) App antigo 
+( X ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092282
+Cliente adquiriu o Prime, porém não aparece no sistema do Gan nem App novo
+
+
+Dados do cliente:
+
+L905284 - Fabio de Jesus Pereira
+Valor: 178,80
+310.942.028-78"
+13/01/2025 14:38,+55 11 95738-9391:,"Por favor, evidências em anexo"
+13/01/2025 14:39,+55 11 99180-1977:,"@5511967958984 , me mantenha informado. Muitas lojas nos acionado aqui"
+13/01/2025 14:39,+55 11 99180-1977:,Por favor
+13/01/2025 14:41,+55 11 96795-8984:,"Luiz, podem validar o acesso ao portal por favor?"
+13/01/2025 14:44,+55 11 99180-1977:,Validando
+13/01/2025 14:46,+55 11 95738-6619:,"Chamado: INC0092291
+Loja: BH SHOPPING II
+Filial: 61
+Tabela: E9
+SKU: BRBRO85AK1
+Cliente: B639938
+Pedido VETEX:
+Motivo: Boa tarde!! 
+Cliente fez uma compra no dia 11/01 pagamento via Link, depois de tudo aprovado os dados de compra do cliente sumiram do sistema."
+13/01/2025 14:46,+55 11 95738-6619:,<Mídia oculta>
+13/01/2025 14:46,+55 11 95738-6619:,<Mídia oculta>
+13/01/2025 14:46,+55 11 95738-6619:,<Mídia oculta>
+13/01/2025 14:46,+55 11 95738-6619:,<Mídia oculta>
+13/01/2025 14:49,+55 11 96795-8984:,"Paulo, normalizado"
+13/01/2025 15:17,+55 11 95738-6619:,"Qual Status deste chamado! sábado
+Cliente em loja para retirar"
+13/01/2025 15:20,+55 11 95738-6619:,@5519998499458
+13/01/2025 15:26,Daniel Pilan:,"@5511967958984  pode ajudar? acho que é Split de pedidos
+amanha estamos subindo a correção para esses casos em produção, mas temos que tratar esse caso especifico.
+pode ajudar? por favor"
+13/01/2025 15:29,+55 11 96795-8984:,"Pilan, vou verificar com o o Glauco/Mauro e te retorno"
+13/01/2025 15:41,+55 11 95738-6619:,"Nome da loja: Ibirapuera 
+Filial: 02
+Chamado: INC0091701
+Anomalia: Vincular Imei na nota fiscal 
+CPF:  934.538.099-04
+Data: 07/01/2025
+Horário: 17:02
+Telefone para contato: 11910058174"
+13/01/2025 15:41,+55 11 95738-6619:,<Mídia oculta>
+13/01/2025 16:21,+55 11 96795-8984:,"@5519998499458 @5511957386619 pedidos foram faturados, vamos monitorar a correção a partir de amanhã"
+13/01/2025 16:23,Daniel Pilan:,obrigado Rafa
+13/01/2025 17:32,+55 11 99841-6020:,<Mídia oculta>
+13/01/2025 17:32,+55 11 99841-6020:,<Mídia oculta>
+13/01/2025 17:43,+55 11 96795-8984:,"Nati, vou verificar o chamado"
+13/01/2025 17:46,+55 11 99841-6020:,obrigada
+13/01/2025 17:52,+55 11 96795-8984:,"Nati, pode pedir para tentarem novamente, por favor?"
+13/01/2025 17:55,+55 31 8843-8955:,@5511957386619 foi realizada troca da peça no período da tarde e finalizado (16:40) Deixado funcional.
+13/01/2025 17:59,+55 11 99841-6020:,"Deu certo, obrigada, Rafa"
+13/01/2025 18:02,+55 19 99100-1661:,"Prezados, favor priorizar. usuario local - RITM0076826. tks"
+13/01/2025 18:02,+55 19 99100-1661:,*locado
+13/01/2025 18:04,+55 11 96795-8984:,"Andre, vamos verificar"
+13/01/2025 18:07,+55 11 96795-8984:,Chamado atendido Andre
+13/01/2025 18:36,+55 11 95738-6619:,"Chamados lojas - SP1
+
+Nome da loja: Paulista II
+Filial: 46
+Chamado: INC0092323
+Anomalia: Erro ao gerar link de pedido via boleto 
+Data: 13/01/25
+Horário: 16:48
+Telefone para contato: 11 978880511"
+13/01/2025 18:48,+55 11 96795-8984:,"Paulo, direcionamos"
+13/01/2025 19:47,+55 11 95738-9391:,"Chamado: INC0092348
+Local: Regional Sul
+Relato: nota rejeitada 
+transação: 6x 
+Contato: Silvia 
+Fl 94
+Tb G6
+Telefone: 41 991724103"
+13/01/2025 19:48,+55 11 95738-9391:,Por favor
+13/01/2025 19:54,+55 11 96795-8984:,"Miller, vamos verificar se temos ação"
+13/01/2025 20:01,+55 11 96795-8984:,"Miller, é rejeição cadastral, precisa ser ajustado o cadastro ou verificar com fiscal"
+13/01/2025 20:02,+55 11 95738-9391:,Obrigado
+13/01/2025 20:05,+55 11 95738-6619:,"Nome da loja: IGUATEMI SP
+Filial: 06
+Chamado: INC0092345
+Anomalia: Erro APP VTEX ao utilizar Crédito Le Jour, app alega que já foram adicionados formas de pagamento.
+Cliente: Karolyne Abdul El Hage
+CPF: 393.671.078-38
+Data: 13/01/2025
+Horário: 
+Telefone para contato: 19 997466766"
+13/01/2025 20:05,+55 11 95738-6619:,Cliente em loja
+14/01/2025 10:55,+55 11 95738-6619:,"Time !
+Qual status lojas continuam sem conseguir gerar boleto"
+14/01/2025 10:55,+55 11 96795-8984:,"Paulo, bom dia
+Fizeram um teste agora com um novo pedido?"
+14/01/2025 10:56,+55 11 95738-6619:,Buscando evidência com a loja
+14/01/2025 10:57,+55 11 95738-6619:,<Mídia oculta>
+14/01/2025 10:57,+55 11 95738-6619:,"@5511967958984 
+Tentativa de hoje 
+Novo pedido"
+14/01/2025 10:58,+55 11 96795-8984:,"Ok obrigado Paulo, vou reportar este caso agora e pedir ajuda ao time responsável para que avaliem, te mantenho informado dos status"
+14/01/2025 12:00,+55 11 95738-9391:,Boa tarde a todos!
+14/01/2025 12:00,+55 11 95738-9391:,"Nome da loja: Eldorado 
+Filial: 26
+Chamado: INC0092377
+Anomalia: pendência cx 40 ativar PÓS para lançar e tirar a pendência.
+Data: 14/01/2024
+Horário: 09:30
+*Telefone para contato: 11 949484103"
+14/01/2025 12:00,+55 11 95738-6619:,"Bom dia 
+Filial 15
+Tabela 84
+Pedido Vtex 1503041285299-01 
+
+Pedido havia o produto + instalação , porém no gan subiu apenas o produto
+
+Chamado aberto com
+O TI INC0092395"
+14/01/2025 12:00,+55 11 95738-6619:,<Mídia oculta>
+14/01/2025 12:02,+55 11 96795-8984:,"Miller bom dia!
+Chamado em andamento"
+14/01/2025 12:26,+55 67 9963-4206:,"@5511944530353  ví que encerrou o chamado INC0092321, mas quem do GAN pode nos ajudar com isso?"
+14/01/2025 12:28,+55 11 96795-8984:,Mensagem apagada
+14/01/2025 12:28,+55 11 96795-8984:,Mensagem apagada
+14/01/2025 12:28,+55 11 94453-0353:,isso
+14/01/2025 12:28,+55 11 94453-0353:,Nosso atendimento é para o ambiente de produção
+14/01/2025 12:29,+55 67 9963-4206:,"entao, mas quem pode nos ajudar?"
+14/01/2025 12:29,+55 11 94453-0353:,"O time de projeto pode pode te ajudar, inclusa o time de fábrica de melhoria da IBM, mas não é via sustain"
+14/01/2025 12:30,+55 11 94453-0353:,Mensagem apagada
+14/01/2025 12:30,+55 11 94453-0353:,Acredito que o time de TI da Fast possa te orientar
+14/01/2025 12:37,+55 11 95738-9391:,"@556799634206 vou entender o caso, e te informo"
+14/01/2025 12:39,+55 11 96795-8984:,"Miller, atendido, consta no caixa 40 pendente para uso da filial 26"
+14/01/2025 12:41,+55 11 95738-9391:,"Ok, obrigado!"
+14/01/2025 12:42,+55 11 95738-9391:,Mensagem apagada
+14/01/2025 12:43,+55 11 95738-9391:,Mensagem apagada
+14/01/2025 14:05,+55 19 99100-1661:,"prezados, boa tarde. favor priorizar - INC0092413 - GAN exibindo erro ORA  ao subir carta para o WIS."
+14/01/2025 14:06,+55 19 99100-1661:,igual o INC0092258 ocorrido ontem
+14/01/2025 14:10,+55 11 96795-8984:,Verificando Andre
+14/01/2025 14:30,+55 11 95738-9391:,"Chamado/Ticket: INC0092418
+Loja: 9G Flamboyant
+Area: GAN 
+Relato: Vincula NSU no K de cliente 
+K do cliente :H798440
+FL 9G 
+NSU :509097192
+Valor : R$ 576,24
+Pessoa: Pedro Calisto 
+Telefone: (61) 9 9298-8121
+Status: Crítico"
+14/01/2025 14:30,+55 11 95738-9391:,"Chamados Enviar no Padrão
+
+Chamado Regional Nordeste
+
+Filial: 43
+Tabela: C2 
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092417
+
+Relato do problema/Resumo do que houve : vendedora não consegue gerar link de pagamento ou pedido no caixa através do app novo, pois, no mesmo consta que está sem caixa . 
+
+Contato: (71) 987022768
+Nome: Gabriel Cerqueira Soares 
+Teams:* Gabrielcs"
+14/01/2025 14:30,+55 11 95738-9391:,Por favor
+14/01/2025 14:32,+55 11 94453-0353:,Vamos checar
+14/01/2025 15:21,+55 19 99100-1661:,"boa tarde, favor priorizar -  INC0092427
+Notas fiscais travada no processo
+As guias foram pagas, liberadas no Gan 9
+Porém as mesmas não entra em carga e quando tentamos fazer pré romaneio consta que  está sem a confirmação de pagamento."
+14/01/2025 15:43,+55 11 96795-8984:,Chamado priorizado Andre
+14/01/2025 16:03,+55 19 99100-1661:,"Prezados, favor priroizar - RITM0076919 - usuario locado. tks"
+14/01/2025 16:04,+55 11 96795-8984:,Verificando
+14/01/2025 16:04,+55 11 96795-8984:,Atendido Andre
+14/01/2025 16:46,+55 11 95738-9391:,"Chamado Regional RJ/ES
+
+Filial: 23
+Tabela: A3
+
+( X ) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado:INC0092433
+
+Relato do problema/resumo do que houve:
+
+Impossibilidade de matar pedido na 00, pois aparece ""Nao sera possivel utilizar devolucao com Voucher criado na VTEX"" , sendo que o mesmo está liberado para nossa filial  
+Cliente: N759868
+CPF: 501.258.181-49
+Pedido: 852471
+Filial: 25
+Tab: A3
+SKU: EXPA21GBIVBCOB
+Valor:R$1.061,35"
+14/01/2025 16:46,+55 11 95738-9391:,Por favor
+14/01/2025 16:47,+55 11 94453-0353:,"É uma regra, o sistema não permite utilizar uma devolução se foi gerada pela VTEX. 
+Casa não seja utilizado o voucher de devolução na VTEX, o giftcard precisa ser cancelado no gan-9."
+14/01/2025 16:48,+55 11 95738-9391:,"Entendi, blz obrigado"
+14/01/2025 16:51,+55 11 95738-9391:,<Mídia oculta>
+14/01/2025 16:51,+55 11 95738-9391:,Por favor
+14/01/2025 17:09,+55 11 99144-8652:,"boa tarde pessoal,  o time de B2B abriu um chamado INC0092396 sinalizando que a função de gerar link de boleto no GAN parou de funcionar ontem às 17h.  A área está com 8 vendas esperam esse link para o cliente poder pagar.
+
+preciso que alguém da IBM possa estabilizar essa função."
+14/01/2025 17:45,+55 11 95738-9391:,"Filial: Tatuapé 
+Tabela: 42
+Chamado:  INC0092317
+Anomalia: POS liberada com divergência no valor.
+
+Dados do cliente:
+AK21262
+094.269.686-79"
+14/01/2025 17:45,+55 11 95738-9391:,<Mídia oculta>
+14/01/2025 17:48,+55 11 95738-9391:,<Mídia oculta>
+14/01/2025 17:54,+55 11 95738-6619:,"Chamados lojas - SP1
+
+Nome da loja: Ibirapuera
+Filial: 02
+Chamado: INC0092438
+Anomalia: Reativar pedido
+Data: 14/01/25
+Horário: 14:30
+Telefone para contato: 11 973701809"
+14/01/2025 17:54,+55 11 95738-6619:,"Cancelaram esse pedido já pago na vtex 
+Ninguém sabe o pq"
+14/01/2025 18:02,+55 11 95738-6619:,"Nome da loja: Iguatemi SP
+Filial: 06
+Chamado: INC0092448
+Anomalia: recuperar pedido- cliente fez o pagamento no pix e ele não aparece no gan. 
+CPF: 147.621.024-15
+Data: 14/01/2025
+Horário: 16:46"
+14/01/2025 18:04,+55 11 96795-8984:,Vamos verificar Miller/Paulo
+14/01/2025 18:24,+55 11 95738-6619:,<Mídia oculta>
+14/01/2025 18:25,+55 11 95738-6619:,<Mídia oculta>
+14/01/2025 18:25,+55 11 95738-6619:,<Mídia oculta>
+14/01/2025 18:29,+55 11 95738-9391:,"Chamado Regional MG
+
+Filial: 70
+Tabela: E5
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092470
+
+ERRO AO REALIZAR PAGAMENTO VIA LINK , PAGAMENTO NÃO CONCLUI APOS COLOCAR OS DADOS DO CARTAO 
+Cliente: O033501
+CPF: 074.307.716-45
+SKU: SGUN55DU8000B
+Valor R$ 2.868,78"
+14/01/2025 18:30,+55 11 95738-9391:,Mensagem apagada
+14/01/2025 18:31,+55 11 95738-9391:,@5511976559760 favor priorizar com o time
+14/01/2025 18:35,Paulo Ajlune:,"@5511957389391 , verificando agora"
+14/01/2025 18:40,+55 11 95738-9391:,"Chamado Regional  SP1
+Chamado: INC0092473
+Filial: 80 FS-Metropole 
+Tabela: F3
+
+(   ) Gan
+(   ) App antigo 
+( X ) Novo App
+(   ) Infra (internet)
+
+Relato do problema/resumo do que houve: 
+Não deixa montar somente instalação, pagamento via Pix
+
+GI00TV51A65
+Vinicius  (11) 95879-4409"
+14/01/2025 18:40,+55 11 95738-9391:,@5511976559760 por favor
+14/01/2025 18:44,+55 11 95738-9391:,"Chamado Regional CO
+
+N°. Do Chamado: INC0092475
+Nome e n° da loja: Iguatemi FL 71
+Área:. Suporte e Sistemas 
+
+( ) Gan
+(  ) App antigo
+( x) Novo App
+(  ) Infra (internet)
+
+Relato do problema/resumo do que houve: 
+Assinatura prime vendida pelo novo app, e está caindo como assinatura feita pelo site.
+Número da Filial: 71
+Tabela: E6
+Nome para Contato: Kayan
+Telefone para contato: ( 61 ) 992349788
+Teams: kayanro"
+14/01/2025 18:44,+55 11 95738-9391:,@5511944530353 por favor
+14/01/2025 18:45,+55 11 94453-0353:,Está em atendimento
+14/01/2025 18:51,+55 11 94453-0353:,"O chamado foi transferido para a Quality, pelo que entendi no chamado, as vendas feitas pelo app são enviadas com o “V” do site e não do vendedor, é isso?"
+14/01/2025 18:56,Paulo Ajlune:,"@5511957389391, INC0092470: Abrimos um chamado no Fornecedor para verificar o motivo do tipo de entrega estar sendo configurado como ""programada"", pois não deveria."
+14/01/2025 19:00,+55 11 95738-9391:,isso mesmo
+14/01/2025 19:08,Paulo Ajlune:,"@5511957389391 , este caso é um problema que direcionamos para a Fila da Kobe pois nem chega na VTEX, se vc for pelo Site verá que o produto pode ser incluído separadamente em um carrinho, conforme link abaixo
+https://site.fastshop.com.br/instalacao-de-ar-condicionado-split-parede--11-000-a-14-000-btus-72242-75849/p"
+14/01/2025 19:11,+55 11 95738-9391:,"Entendi, obrigado!"
+14/01/2025 19:43,+55 19 99100-1661:,"prezados, boa noite. favor priorizar - RITM0076955 - usuario locado .tks"
+14/01/2025 20:31,+55 11 95738-9391:,"Chamados lojas - SP1
+
+Nome da loja: Paulista II
+Filial: 46
+Chamado: INC0092486
+Anomalia:  pendência no caixa 03
+Data: 14/01/25
+Horário: 20:29
+Telefone para contato: 11 93931 4849"
+14/01/2025 20:31,+55 11 95738-9391:,Por favor
+14/01/2025 20:31,+55 11 94453-0353:,atendido
+14/01/2025 20:32,+55 11 94453-0353:,Vamos checar
+14/01/2025 21:14,+55 11 95738-9391:,"Caros, algum problema com o GAN?"
+14/01/2025 21:15,+55 11 95738-9391:,Não conseguimos abrir algumas opções
+14/01/2025 21:15,+55 11 95738-9391:,<Mídia oculta>
+14/01/2025 21:15,+55 11 95738-9391:,"demorando para carregar, lojas também reclamam"
+14/01/2025 21:16,+55 11 95738-9391:,"N°  do Chamado: INC0092493
+Loja: Del Rey 
+Local: Intranet
+Relato : GAN com instabilidade nas funções 
+Telefone: (31) 3057-7450
+Status: Crítico"
+14/01/2025 21:21,+55 11 96795-8984:,"Miller, vamos checar"
+14/01/2025 21:29,+55 11 96795-8984:,"Miller, pode validar?"
+14/01/2025 21:29,+55 11 95738-9391:,"pra mim sim, loja validando"
+14/01/2025 21:30,+55 19 99100-1661:,INC0092491
+14/01/2025 21:30,+55 19 99100-1661:,GAN CAIU
+14/01/2025 21:30,+55 11 96795-8984:,"Andre, está normal"
+14/01/2025 21:30,+55 11 96795-8984:,pede pra validarem por favor
+14/01/2025 21:30,+55 19 99100-1661:,Vou pedir aqui
+14/01/2025 21:30,+55 11 95738-9391:,Normalizado!
+14/01/2025 21:32,+55 19 99100-1661:,Validado 👍🏻
+15/01/2025 08:30,+55 19 99100-1661:,"Bom dia 
+Mercado Envios 446 notas fiscais com erro de etiqueta
+Chamado INC0092512"
+15/01/2025 08:30,+55 19 99100-1661:,"Prezados, bom dia. Favor priorizar. Tivemos esse problema ontem a tarde também, mas normalizou sem qualquer ação. Precisamos entender se é alguma instabilidade."
+15/01/2025 08:31,+55 11 94453-0353:,"Bom dia, vamos checar"
+15/01/2025 10:13,+55 19 99100-1661:,"Prezados, temos algum status deste?"
+15/01/2025 10:15,+55 11 99180-1977:,"Bom dia, @5511967958984 
+Favor priorizar chamado INC0092472
+
+Tema de grande impacto com fornecedor chave para empresa, qualquer dúvida me ligue."
+15/01/2025 10:18,+55 11 96795-8984:,"Felipe, bom dia, vamos avaliar o chamado"
+15/01/2025 10:55,+55 19 99100-1661:,"Prezados, precisamos prioridade  INC0091787.  Sistema está baixando automaticamente as entregas das notas no mesmo momento que o motorista finaliza as entregas nos clientes,  sem passar pelo processo padrão que é realizado pela Logistica. Essa baixa não pode ser automática porque existe particularidades na operação (transbordo de cargas durante o dia, insucessos de entrega com baixa indevida do motorista, devolução parcial, etc). Não são todas as entregas ocorrendo.  tks"
+15/01/2025 11:20,+55 11 94059-1551:,"Pessoal, bom dia. Podem ajudar com esse chamado: RITM0076086. É o reprocessamento retroativo do BI para ajuste das margens impactadas pela retirada do benefício do PPB em SP. Estamos sem a visão correta do resultado nos primeiros dias do ano."
+15/01/2025 11:25,Glauco FAST COMERCIAL:,"Marcio, vou te chamar ai."
+15/01/2025 12:23,+55 19 99100-1661:,"boa tarde, @5511971394110 , poderia avaliar este?  INC0092522. Caso REC que precisa ser retornado hoje. Não teve recalculo no GAN, data entrega shipping esta correta, mas o vtex enviou email para cliente com data de entrega incorreta, gerando na visão do cliente que teve atraso de 1 dia. tks"
+15/01/2025 12:43,+55 11 95738-9391:,"Boa tarde a todos! 
+
+Chamado Regional RJ/ES
+
+Filial: 38
+Tabela: B6
+
+( X ) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado:INC0092550
+
+Relato do problema/resumo: Cliente adquiriu o aparelho e o serviço Apple Care, porém quando vamos vincular o número de série para gerar o serviço aparece uma mensagem de erro e não conseguimos dar baixa no sistema.
+Esse é o erro que aparece "" Já existe um contrato Apple Care ativo para o dispositivo. Um novo contrato não pode ser vendido e/ou adicionado.""
+Devido esse erro não estamos conseguindo dar baixa nos produtos de hoje.
+
+Cliente: AN83545
+CPF: 153.674.027-63
+Pedido: 837407
+Filial: 38
+Tab: B6
+SKU: AEMLPF3BRAPTOB
+Valor:R$3.959,60"
+15/01/2025 12:44,+55 11 96795-8984:,"Miller, chamado priorizado"
+15/01/2025 12:46,+55 11 95738-9391:,<Mídia oculta>
+15/01/2025 12:48,+55 11 96795-8984:,"Miller, este chamado consta um LOG de aguardando change em 14-01, subiu alguma correção para este erro?"
+15/01/2025 12:52,+55 11 95738-9391:,"Vou confirmar, mas me informaram que teria que subir"
+15/01/2025 13:52,+55 11 95738-9391:,INC00092407 @5511944530353 por favor caixa e filial no chamado
+15/01/2025 13:53,+55 11 96795-8984:,"Miller, vamos verificar o chamado"
+15/01/2025 14:01,+55 19 99100-1661:,"Prezados, favor verificar - INC0092563
+ - GAN pedindo para devolver a nota, mas não teve qualquer anomalia na carga. tks"
+15/01/2025 14:02,+55 11 96795-8984:,"Andre, vamos verificar o retorno desta carga"
+15/01/2025 14:19,+55 11 96795-8984:,"Andre, chamado resolvido"
+15/01/2025 14:44,+55 11 95738-6619:,<Mídia oculta>
+15/01/2025 14:44,+55 11 95738-6619:,"Nome da loja: IGUATEMI SP
+Filial: 06
+Chamado: INC0092574 
+Anomalia: Erro App VTEX, ao clicar em "" Gerar Pedido"", gera um erro. PEDIDO NÃO GERADO!
+Cliente: W441612 Marcella Coselli Marcondes (CLIENTE PRIME)
+CPF: 405.744.398-38
+produto SKU: SGQN65Q70DB
+valor: R$ 5144,85
+forma de pagamento:  Credito Lista Lejour
+Data: 15/01/2025
+Horário: 
+Telefone para contato: 19 997466766"
+15/01/2025 14:44,+55 11 95738-6619:,Esse cliente quer entrega amanhã
+15/01/2025 15:24,+55 11 99180-1977:,@5511967958984 temos atualizações? por favor
+15/01/2025 15:25,+55 11 96795-8984:,"Luiz, o caso segue em análise, te retorno das atualizações"
+15/01/2025 16:04,+55 19 99100-1661:,"Prezados, favor priorizar -  INC0092599
+ Erro ORA no GAN. Não cosnegue indicara doca. Caminhao aguardando. tks"
+15/01/2025 16:04,+55 19 99100-1661:,<Mídia oculta>
+15/01/2025 16:06,+55 11 96795-8984:,Vamos verificar Andre
+15/01/2025 16:37,+55 11 95738-9391:,"Chamado Regional RJ/ES
+
+Filial: 18 Barra Shopping 
+Tabela: 82
+
+(X)Gan
+() App antigo 
+( ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092602
+
+Relato do problema/resumo do que houve: Não estamos conseguindo finalizar um pedido via gan, segue erro ( não existem opções de entrega para atendimento ao cep informado ) .
+Cep: 28982-792
+
+Cliente: N613170
+CPF: 084.625.667-38
+Pedido: 2202671
+Filial: 25
+SKU: EXCE9IF2 - EXIE80PB - EXMX43T2 - EXOE9XT2
+Valor do pedido:
+Contato: (21)96512-6570 
+Daiana
+Teams: daianamsdj@fastshop.com.br"
+15/01/2025 16:37,+55 11 95738-9391:,por favor
+15/01/2025 16:40,+55 11 95738-9391:,"Filial 15
+Tabela 84
+Pedido Vtex 1503041285299-01 
+
+Pedido havia o produto + instalação , porém no gan subiu apenas o produto
+
+Chamado aberto com
+O TI INC0092395
+
+o pedido consta produto + serviço. A instalação foi agendada para 14/01 a tarde, conforme evidencia.
+
+{""date"":""14/01/2025"",""service"":""GIPURIFICAD"",""specialty"":""5"",""weekDay"":""TER""},""instalationPeriod"":""T"",
+
+Essta tela só mostra o código do primeiro SKU do pedido, para consultar o pedido completo precisa olhar no GAN."
+15/01/2025 16:40,+55 11 95738-9391:,Por favor reavaliar
+15/01/2025 16:47,+55 11 96795-8984:,"Miller, esta mensagem indica que não houve retorno de entrega, de qualquer forma, vamos confirmar se é este cenário"
+15/01/2025 16:48,+55 11 95738-9391:,"Entendi, ok fico no aguardo"
+15/01/2025 16:48,+55 11 96795-8984:,Vamos checar
+15/01/2025 17:07,+55 11 95738-9391:,<Mídia oculta>
+15/01/2025 17:11,+55 11 96795-8984:,Qual o número do chamado?
+15/01/2025 17:13,+55 11 95738-9391:,vou pegar
+15/01/2025 17:35,+55 11 95738-9391:,<Mídia oculta>
+15/01/2025 17:35,+55 11 95738-9391:,@5511976559760 @5511967958984 podem confirmar o retorno por favor
+15/01/2025 19:15,+55 11 95738-9391:,"Chamado Regional SP1
+
+
+Grand Plaza
+Filial: 3A 
+Tabela: H6
+
+(  ) Gan
+(  ) App antigo 
+( x ) Novo App
+(  ) Infra (internet)
+
+Chamado: INC0092632
+
+Relato do problema/resumo do que houve: 
+Cliente Adquiriu um PACOTE de produtos, o pedido foi faturado e aprovado Fast Pay)
+Porem não subiu no GAN Pedido : 0265196
+
+
+
+Contato: (11) 947920549
+Nome: Pablo ASS II
+Teams: pablohs@fastshop.com.br"
+15/01/2025 19:15,+55 11 95738-9391:,por favor
+15/01/2025 19:20,+55 11 96795-8984:,Em andamento Miller
+15/01/2025 19:21,+55 11 95738-9391:,Ok
+15/01/2025 19:22,+55 11 96795-8984:,<Mídia oculta>
+15/01/2025 19:23,+55 11 95738-9391:,"Ok,´obg"
+15/01/2025 19:44,+55 11 95738-9391:,"Chamado Regional RJ/ES
+
+Filial: 6A
+Tabela: i1
+
+( X ) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092636
+
+Relato do problema/resumo:
+
+Caixa 19 com pendencia de NF não lançadas, porém não é possível lançar em transações complementares, pois a compra foi efetuada com dois cartões e consta apenas um TEF em aberto no valor de 900,00. Sendo o total da NF no valor de 1.315.
+
+Caixa: 19
+Filial: 6A
+Tabela: i1
+
+CLIENTE: AK16365 ALEXSANDER SANTANA
+CPF: 183.553.107-56
+NF: 48886  serie: Y1
+Filial: 6A
+Valor: 1.315,00
+Data: 13/01/25
+
+Contato: 21 98901-4541
+Fabio Ribeiro
+Teams: fabiosr@fastshop.com.br"
+15/01/2025 19:44,+55 11 95738-9391:,por favor
+15/01/2025 19:46,+55 11 96795-8984:,"Será verificado na sequência Miller, estamos vendo o anterior"
+15/01/2025 19:46,+55 11 95738-9391:,obg
+15/01/2025 19:56,+55 11 96795-8984:,"Miller, este caso emitiu a NF, porém tem algum erro do lado do APP, este vendedor não identifiquei um caixa atribuido a ele"
+15/01/2025 19:58,+55 11 95738-9391:,"ah sim, ok"
+15/01/2025 20:31,+55 11 95738-6619:,"Nome da loja: IGUATEMI SP
+Filial: 06
+Chamado: INC0092638 
+Anomalia: Erro App VTEX, ao clicar em "" Gerar Pedido"", gera um erro. PEDIDO NÃO GERADO!
+Cliente: Z333468 Beatriz Piovesana 
+CPF: 350.696.128-40
+produto SKU: ELL10X1
+valor: R$ 4.364,48
+forma de pagamento:  Credito Lista Lejour
+Data: 15/01/2025
+Horário: 20:20
+Telefone para contato: 19 997466766"
+15/01/2025 20:31,+55 11 95738-6619:,<Mídia oculta>
+15/01/2025 20:31,+55 11 95738-6619:,<Mídia oculta>
+15/01/2025 20:31,+55 11 95738-6619:,<Mídia oculta>
+15/01/2025 22:47,+55 11 95437-0772:,INC0092642
+15/01/2025 22:47,+55 11 95437-0772:,A impressora das notas fiscais está com extrema lentidão para impressão
+15/01/2025 22:47,+55 11 95437-0772:,"Notas fiscais não estão saindo na impressora DANFE, estava saindo com extrema lentidão, porém agora parou de sair"
+15/01/2025 22:48,+55 11 95437-0772:,Boa noite poderiam nos ajudar com o chamado acima?
+16/01/2025 12:28,+55 11 96795-8984:,"Miller, me ajuda a entender este caso por favor
+Fizeram no APP a venda e pagaram no caixa GAN, certo?"
+16/01/2025 12:31,+55 11 95738-9391:,Peraí
+16/01/2025 12:44,+55 11 95738-9391:,"isso, Feito no app é cobrado no gan"
+16/01/2025 12:45,+55 11 96795-8984:,"Ok, só um ponto.. o cartão passado está no valor somente do produto, não contempla o valor do serviço <Mensagem editada>"
+16/01/2025 12:47,+55 11 95738-9391:,"Entendi, e como é feito o pagamento do serviço?"
+16/01/2025 12:48,+55 11 95738-9391:,"Chamados lojas - SP1
+
+Nome da loja: Paulista II
+Filial: 46
+Chamado: INC0092705
+Anomalia: serviço agendado, mas não deixa passar no caixa
+Data: 16/01/25
+Horário: 12:21
+Telefone para contato: 11 969631827"
+16/01/2025 12:49,+55 11 96795-8984:,Neste caso entendo que o cliente teria de passar o cartão novamente para pagar o serviço.
+16/01/2025 12:49,+55 11 96795-8984:,Vamos validar este caso
+16/01/2025 12:51,+55 11 95738-9391:,Obrigado
+16/01/2025 13:50,+55 19 99100-1661:,"Prezados, boa tarde. Favor prioriza. RITM0077096. Cadastrar parceiro em regua do GAN e painel do EDI para iniciar operação. grato"
+16/01/2025 13:52,+55 11 95738-6619:,"*Chamado Regional Sp1
+
+Filial: 08
+Tabela: 94
+
+(  ) Gan
+(   ) App antigo 
+(   ) Novo App
+(X) Infra (internet)
+
+Chamado:INC0092716
+
+Relato do problema/resumo do que houve: Internet lenta e em alguns pontos da loja não pega todas as redes Mkt / fs loja / service 
+
+Contato: (11) 99489-0076
+Nome: Marco Antônio 
+Teams: marcoas@fastshop.com.br"
+16/01/2025 13:58,+55 11 95738-9391:,Time já está verificando
+16/01/2025 14:12,+55 11 95738-6619:,"Chamados lojas - HIGIENOPOLIS
+
+Nome da loja: HIGIENOPOLIS
+Filial: 15
+Chamado: INC0092579
+Anomalia: 
+
+NF devolvida não gerou credito para o cliente
+
+CLIENTE: N032533 THAYNA MATTOS AVILA DA ROCHA
+598878-U8 01/12/24 LC 33 5.199,00 1 EXOE9XT2 CL
+708792-M1
+Ambas já devolvidas
+
+Data: 15/01/2025
+Horário: 14:55H
+Tempo previsto para resolução:
+Telefone contato: 11 968294391"
+16/01/2025 14:12,+55 11 95738-6619:,"Chamados lojas - HIGIENOPOLIS
+
+Nome da loja: HIGIENOPOLIS
+Filial: 15
+Chamado: INC0092581
+Anomalia: 
+
+NF devolvida não gerou credito para o cliente
+CLIENTE:CLIENTE: M355567 ANTONIO MACHADO NETO
+598880-U8 01/12/24 LC 33 4.059,90 1 EXLL10X1 CL
+Vf devolvida tbm
+Devolução não gerou credito
+Data: 15/01/2025
+Horário: 14:55H
+Tempo previsto para resolução:
+Telefone contato: 11 968294391"
+16/01/2025 14:12,+55 11 95738-6619:,"Pfv precisamos avaliar !
+Não tem atuação do financeiro"
+16/01/2025 14:22,+55 11 96795-8984:,"Paulo, vamos verificar estes casos"
+16/01/2025 14:25,Paulo Ajlune:,Chamado INC0092579 Resolvido
+16/01/2025 14:28,+55 11 95738-9391:,"Chamado Regional RJ/ES
+
+Filial: 7D Rio Sul 
+Tabela: L1 
+
+( x ) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: RITM0076951
+
+Relato do problema/resumo do que houve:Não está deixando efetuar o cancelamento do cliente 
+NSU Host:
+Pedido:
+
+Cliente:L549818
+CPF:08019977716
+Pedido Vtx:
+NF: 
+Filial: 7D
+TB: L1
+SKU:
+CEP: 
+R$: 459,00
+
+Contato: (21) 990395251 Lucas"
+16/01/2025 14:29,+55 11 96795-8984:,"Miller, este parece ser processo de loja, vou confirmar"
+16/01/2025 14:29,+55 11 95738-9391:,Blz
+16/01/2025 15:11,+55 11 96795-8984:,Resolvido Paulo
+16/01/2025 15:34,+55 11 96795-8984:,Resolvido
+16/01/2025 15:43,+55 11 98149-3823:,"@5511957386619 quando puder, por favor, atualize as lojas que estamos investigando as ocorrências de 'caixa' para solução definitiva, enquanto isso vamos correndo com ajustes e tal como estamos fazendo... ok? vlw"
+16/01/2025 16:31,+55 11 95738-6619:,<Mídia oculta>
+16/01/2025 16:31,+55 11 95738-6619:,Caso acima não estamos conseguindo soltar no caixa @5511967958984
+16/01/2025 16:35,+55 11 96795-8984:,"Paulo, vou revalidar"
+16/01/2025 16:53,+55 11 96795-8984:,"Paulo, podem tentar novamente, por favor"
+16/01/2025 16:54,+55 11 95738-6619:,Testando
+16/01/2025 17:05,+55 11 95738-9391:,por favor
+16/01/2025 17:12,+55 11 95738-9391:,"Chamado Regional SP3
+
+Filial: 75
+Tabela: F6
+
+(   ) Gan
+(   ) App antigo 
+(x) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092240
+
+Relato do problema/resumo do que houve:
+
+Chamado: INC0092240
+Data:10/01/25
+
+Pedido realizado no App Novo ,  foi efetuado o pagamento via Pix descontou da conta do cliente ,porém pedido não consta no app e nem no Gan . 
+
+
+CPF: 247.013.298-35
+Valor R$ 5.936,26
+
+Contato: (19)99893.4640
+Nome:  Liliane"
+16/01/2025 17:12,+55 11 95738-9391:,@5511967958984 por favor cliente está em atrito com o gerente na loja
+16/01/2025 17:16,+55 11 94453-0353:,Vamos checar
+16/01/2025 17:16,+55 11 94453-0353:,Está com o time da quality
+16/01/2025 17:32,Glauco FAST COMERCIAL:,@5511976559760
+16/01/2025 17:37,+55 11 95738-6619:,"Chamado Regional SP3
+
+Filial: 75
+Tabela: F6
+
+(   ) Gan
+(   ) App antigo 
+(x) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092240
+
+Relato do problema/resumo do que houve:
+
+Chamado: INC0092240
+Data:10/01/25
+
+Pedido realizado no App Novo ,  foi efetuado o pagamento via Pix descontou da conta do cliente ,porém pedido não consta no app e nem no Gan . 
+
+
+CPF: 247.013.298-35
+Valor R$ 5.936,26
+
+Contato: (19)99893.4640
+Nome:  Liliane"
+16/01/2025 17:37,+55 11 95738-6619:,"Não consta nas inconsistências 
+Financeiro não tem atuação"
+16/01/2025 18:21,+55 11 95738-6619:,"Chamado Regional SP3
+
+Filial: 75
+Tabela: F6
+
+(   ) Gan
+(   ) App antigo 
+(x) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092240
+
+Relato do problema/resumo do que houve:
+
+Chamado: INC0092240
+Data:10/01/25
+
+Pedido realizado no App Novo ,  foi efetuado o pagamento via Pix descontou da conta do cliente ,porém pedido não consta no app e nem no Gan . 
+
+
+CPF: 247.013.298-35
+Valor R$ 5.936,26
+
+Contato: (19)99893.4640
+Nome:  Liliane"
+16/01/2025 18:40,Paulo Ajlune:,"@5511957386619 , o time já está tratando este chamado"
+16/01/2025 19:07,Paulo Ajlune:,chamado na VTEX de número #1164906
+16/01/2025 19:16,+55 11 95738-9391:,"Chamado Regional NE
+
+Filial: 5A
+Tabela: H9
+
+(x) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: RITM0077266
+
+Relato do problema/resumo do que houve: GAN não permite realizar pedido do cliente, todos os pedidos aparecendo mensagem de erro ""Pedido devera ser Revisado, pois o cliente possui Servicos pendentes"".
+
+
+Cliente: O086136 WILLAMS JOSE BATISTA 
+CPF: 594.653.284-72
+Filial: 5A
+Nota DV: 1.5A.192123.U1
+
+Contato: (81) 99495-0838
+Nome: EWERTON CONEGUNDES
+Teams: EWERTON PEREIRA CONEGUNDES"
+16/01/2025 19:16,+55 11 95738-9391:,por favor
+16/01/2025 20:02,+55 15 98143-3153:,Atendido
+16/01/2025 20:11,+55 11 95738-9391:,Obg!
+16/01/2025 20:17,+55 11 95738-9391:,"*Chamados lojas - SP1
+
+Nome da loja: Cidade São Paulo 
+Filial: 3C
+Chamado: INC0092764
+Anomalia: Falha na geração do pedido no App Novo
+
+ao incluir o sku PANNGT68L1, o pedido da erro e diz que não entrega no CEP escolhido
+
+Após isso, ao tentar incluir no pedido, SKU consta com indisponível, com 108 peças no Cajamar II
+
+Problema com CEP e disponibilidade não acontece pelo GAN
+
+evidencias em anexo
+Data: 16/01/24
+Horário: 18:30
+Telefone para contato: (11) 9 4665-1622"
+16/01/2025 20:17,+55 11 95738-9391:,por favor
+16/01/2025 20:57,+55 15 98143-3153:,"Miller aparentemente não há regra cadastrada para a localidade
+Sugiro passar o caso p gestão de prazos"
+16/01/2025 20:58,+55 11 95738-9391:,Mensagem apagada
+16/01/2025 20:58,+55 11 95738-9391:,Obrigado!
+16/01/2025 22:43,+55 11 95738-9391:,"Chamado Regional SP1
+
+Filial: 48
+Tabela: C7
+
+(   ) Gan
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092779
+
+Relato do problema/resumo do que houve: Pedido sumiu do app e não consta no gan 
+Evidencias
+
+Cliente: M469835
+CPF: 672.556.120-91
+Pedido Vtx: 1503851316461-01
+Filial: 48
+SKU:AEMN893BZAPTO 
+Valor R$ 1564,79
+
+Contato: (11) 952392152
+Nome: Renato Oliveira Seles
+Teams: renatooliveiraseles"
+16/01/2025 22:43,+55 11 95738-9391:,@5515981433153 precisamos priorizar cliente em atrito
+16/01/2025 22:44,+55 11 95738-9391:,<Mídia oculta>
+16/01/2025 22:47,+55 15 98143-3153:,<Mídia oculta>
+16/01/2025 22:48,+55 11 95738-9391:,"sim, já foi corrigido"
+16/01/2025 22:48,+55 11 95738-9391:,"mas não emtiu, pode reenviar por favor"
+16/01/2025 22:51,+55 15 98143-3153:,<Mídia oculta>
+16/01/2025 22:52,+55 15 98143-3153:,peço por favor reavaliar o tratamento da inconsistencia
+16/01/2025 22:58,+55 11 95738-9391:,"Ok, obrigado"
+17/01/2025 10:58,+55 11 97598-1053:,"por favor avaliar INC0092806 
+CJ fabrica - estoque não propagou na VTEX, site segue sem ofertar o produto"
+17/01/2025 11:01,+55 19 99100-1661:,"Prezados, bom dia. favor priorizar. Erro ORA GAn no envio do Pre...esse tem ocorrido ultimamente. Caso de abrir um problem? INC0092807"
+17/01/2025 11:01,+55 19 99100-1661:,<Mídia oculta>
+17/01/2025 11:02,+55 19 99100-1661:,ou já sabem da causa ?
+17/01/2025 11:04,+55 11 96795-8984:,"Andre, bom dia
+Vou confirmar este chamado, me parece ser o mesmo cenário de conversão de algum caracter indevido"
+17/01/2025 11:22,+55 11 96795-8984:,"Andre, foi atendido, era justamente este cenário"
+17/01/2025 11:31,+55 19 99100-1661:,"Obrigado, Rafael. 👍🏻"
+17/01/2025 12:07,+55 11 94556-1939:,"Prezados bom dia, algum retorno sobre esse chamado?"
+17/01/2025 12:11,Paulo Ajlune:,@5511945561939 este incidente ainda está em andamento com o time VTEX
+17/01/2025 12:11,Paulo Ajlune:,chamado VTEX #1164906
+17/01/2025 12:11,Paulo Ajlune:,estou pedindo um Status novamente sobre este chamado
+17/01/2025 12:11,Paulo Ajlune:,Chamado INC0092037 sendo tratado pela Tuna #202501170001767
+17/01/2025 12:11,Paulo Ajlune:,Chamado INC0092317 sendo tratado pelo time Quality.
+17/01/2025 12:11,Paulo Ajlune:,Chamado INC0092132 sendo tratado pelo time Quality.
+17/01/2025 12:11,Paulo Ajlune:,Chamado INC0092638 Resolvido
+17/01/2025 12:11,Paulo Ajlune:,Chamado INC0092406 Resolvido
+17/01/2025 12:16,+55 11 97598-1053:,temos um status ? INC0092806
+17/01/2025 12:19,Paulo Ajlune:,Time Quality analisando
+17/01/2025 13:56,+55 11 95738-6619:,<Mídia oculta>
+17/01/2025 14:01,+55 11 96795-8984:,"Paulo, chamado priorizado"
+17/01/2025 14:54,+55 19 99100-1661:,"Prezados, favor priorizar erro ao indicar doca..INC0092599.."
+17/01/2025 14:55,+55 19 99100-1661:,<Mídia oculta>
+17/01/2025 15:02,+55 11 96795-8984:,"Andre, em andamento"
+17/01/2025 15:04,+55 11 96795-8984:,"Andre, reabriram o mesmo chamado de ontem com outro numero de pré, eles precisam abrir um novo chamado, o pré de ontem ja foi atendido ontem mesmo"
+17/01/2025 15:05,+55 19 99100-1661:,"opa, pedindo aqui"
+17/01/2025 15:09,+55 19 99100-1661:,"Rafael, segue novo chamado - INC0092835"
+17/01/2025 15:11,+55 11 96795-8984:,Obrigado
+17/01/2025 15:27,+55 11 96795-8984:,Atendido Andre!
+17/01/2025 15:33,+55 19 99100-1661:,Obrigado !
+17/01/2025 17:14,+55 11 96795-8984:,Foi faturado
+17/01/2025 17:35,+55 11 95738-9391:,"Chamado Regional SP2/SUL
+
+Filial: Palladium 
+Tabela: D2
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092865
+Venda via PIX, no GAN 9 Inconsistências apresenta msg de erro: Nao deve existir '--' sequencial  porem essas -- existem no e-mail do cliente.  
+Contato:41 995171623 
+Nome: Danieli"
+17/01/2025 17:35,+55 11 95738-9391:,@5511967958984 por favor
+17/01/2025 17:37,+55 11 96795-8984:,"Oi Miller, vamos verificar"
+17/01/2025 17:59,+55 11 96795-8984:,"Miller, tem o número do pedido VTEX deste caso?"
+17/01/2025 18:06,+55 11 95738-9391:,vou verificar
+17/01/2025 18:38,+55 11 95738-9391:,"Chamado Regional SP2/SUL
+
+Filial: Palladium 
+Tabela: D2
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092865
+Venda via PIX, no GAN 9 Inconsistências apresenta msg de erro: Nao deve existir '--' sequencial  porem essas -- existem no e-mail do cliente.  
+Contato:41 995171623 
+Nome: Danieli"
+17/01/2025 18:38,+55 11 95738-9391:,Mensagem apagada
+17/01/2025 18:38,+55 11 95738-9391:,Mensagem apagada
+17/01/2025 18:39,+55 11 95738-9391:,Mensagem apagada
+17/01/2025 18:40,+55 11 96795-8984:,"Miller, é o mêsmo caso escalado anteriormente, precisamos do pedido por favor"
+17/01/2025 18:40,+55 11 95738-9391:,"Sim, estou aguardando a confirmação"
+17/01/2025 18:44,+55 11 95738-9391:,<Mídia oculta>
+17/01/2025 18:44,+55 11 95738-9391:,<Mídia oculta>
+17/01/2025 18:46,+55 11 95738-6619:,"Chamado Regional SP2/SUL
+
+Filial: Palladium 
+Tabela: D2
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092865
+Venda via PIX, no GAN 9 Inconsistências apresenta msg de erro: Nao deve existir '--' sequencial  porem essas -- existem no e-mail do cliente.  
+Contato:41 995171623 
+Nome: Danieli"
+17/01/2025 18:46,+55 11 95738-6619:,<Mídia oculta>
+17/01/2025 18:46,+55 11 95738-6619:,<Mídia oculta>
+17/01/2025 18:48,+55 11 96795-8984:,"Aqui tem o pedido, valeu vamos olhar"
+17/01/2025 19:02,+55 11 96795-8984:,Faturado Paulo
+17/01/2025 21:01,+55 11 95738-9391:,"Chamado Regional SP2
+
+Filial: 51
+Tabela: D1
+
+( X) Gan
+(   ) App antigo 
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: inc0092897
+Caixa 37 com pendência para o fechamento 
+Serviço subiu com zz
+
+Cliente: B9357590
+CPF: 014.857.026-74
+Pedido Vtx: 1503071286960-01
+Filial: 51
+SKU: SGQN43Qn90DB
+Valor R$ 6391,96
+
+Contato: 11 965760879
+Nome: Diego Oliveira Alves
+Teams:* DIEGOOA@FASTSHOP"
+17/01/2025 21:02,+55 11 95738-9391:,"Pessoal, favor dar continuidade na analise"
+17/01/2025 21:02,+55 11 95738-9391:,"Nome da loja: Morumbi 
+Filial: 48
+Chamado : INC0092890
+Anomalia:  Produto pago em 12 vezes no cartão, não foi gerado nota e o pedido sumiu do gan e app novo 
+Data: 17/01/2025
+Horário: 18:57
+Telefone para contato : 11961071778"
+17/01/2025 21:40,+55 11 94453-0353:,Já atendido - CPF ou EMAIL divergente na VTEX
+17/01/2025 21:40,+55 11 95738-9391:,Obrigado
+17/01/2025 22:44,+55 11 95738-9391:,"Segue chamado INC0092901
+Nome e n° da loja: Morumbi 
+Área: Adm
+
+(  ) Gan
+(  ) App antigo
+(x) Novo App
+(  ) Infra (internet)
+
+Relato do problema/resumo do que houve: cliente fez o pagamento do pedido no pix, feito pelo app novo, e pedido sumiu no app e no gan, e não NF 
+Valor 5.599,00
+Sku: LGOLED55C4PSAB
+
+ID do cliente: L442882
+CPF: 118.537.138-99
+Pedido Vtx: - não tem 
+Código DV (p/ credito):"
+17/01/2025 22:44,+55 11 95738-9391:,"por favor, dar continuidade"
+18/01/2025 12:23,+55 11 95738-9391:,Boa tarde a todos!
+18/01/2025 12:23,+55 11 95738-9391:,"Segue chamado RITM0077378
+
+Filial: 39
+Tabela: b7
+Kdocliente: M251251
+Valor do serviço: 1.241,47
+Forma de pagamento: 10x credito
+CPF: 032.508.008-99
+SKU: FGQN75QN85DAB
+descrição resumida
+
+Discriminação:
+
+Creditos gerados no Gan, porém aqui na Bahia não conseguimos montar o pedido via Cajamar onde o produto se encontra com 23 unidades, solicitamos lançamento dos creditos no app Vtex"
+18/01/2025 12:24,+55 11 95738-9391:,"Chamado Regional NORDESTE
+
+Filial: 9D
+Tabela: L3
+
+(   ) Gan
+(   ) App antigo 
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: RITM0077407
+
+Relato do problema/resumo do que houve: 
+O cliente AN89208 L M COMERCIO efetuou seu cadastro novo, pelo App Novo porém o próprio sistema alterou seu cadastro imputando o endereço da Loja o que poderá impactar na autorização da NF. 
+Precisamos com urgência do ajuste para o seu endereço correto conforme imputado pelo vendedor e validado no Sintegra e Receita Federal.
+
+CEP: 62.700-000
+BAIRRO: CENTRO
+MUNICÍPIO: CANINDE
+UF:CE
+
+LOGRADOURO: R TABELIAO FACUNDO
+NÚMERO: 406
+
+ENDEREÇO ELETRÔNICO
+ADM_BOTICARIOSOBRAL@HOTMAIL.COM
+TELEFONE
+(85) 3226-6711
+
+
+Cliente: AN89208 L M COMERCIO
+CNPJ: 015.827.712/0001-56
+Ped.VTEX: 1504221324385-01 
+Filial: 9D
+SKU 01: AEMTV63BEAAZLB
+Quantidade 01 produto
+NF R$ 7.699,90 
+
+Contato: (85) 99670-0731
+Nome: Fernando Quintela
+Teams: luizfq"
+18/01/2025 12:24,+55 11 95738-9391:,Por favor verificar
+18/01/2025 12:25,+55 11 96795-8984:,"Miller bom dia,"
+18/01/2025 12:25,+55 11 96795-8984:,"Não entendi este caso, não há gestão de entrega para Bahia vender de cajamar, eles querem migrar o crédito para VTEX?"
+18/01/2025 12:25,+55 11 96795-8984:,"se sim, a loja consegue realizar a liberação pela tela de liberação de crédito"
+18/01/2025 12:26,+55 11 96795-8984:,Este caso pode ser solicitado ao SAC para atualizar o cadastro
+18/01/2025 12:27,+55 11 95738-9391:,Na realidade foi atendido aqui orientaram entrar em contato com o time de Gestão de Prazos ou Logística solicitando a correção.
+18/01/2025 12:27,+55 11 95738-9391:,"Blz, obrigado"
+18/01/2025 12:29,+55 11 96795-8984:,"Miller, só me corrigindo, acredito que a funcionalidade de liberar crédito para uso na VTEX ainda consta bloqueada, fizeram a liberação porém devido a problemas voltaram o bloqueio, então não há como usar na VTEX no momento <Mensagem editada>"
+18/01/2025 12:41,Paulo Ajlune:,Chamado INC0092933 Resolvido
+18/01/2025 12:42,Paulo Ajlune:,Chamado INC0092928 Resolvido

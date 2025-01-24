@@ -1,0 +1,701 @@
+01/12/2024 09:10 - +55 11 90000-0001: Chamado Lojas - SP1
+
+Nome da loja: Eldorado
+Filial: 26
+Chamado: INC0092640
+Anomalia: Erro no Pix
+Data: 01/12/2024
+Horário: 21:19
+Telefone para contato: (11) 3232-2750
+Relato do problema: Pagamento via Pix não consta no sistema
+Cliente: CP2531
+CPF: 123.456.789-01
+Valor: R$ 2.354,90
+
+01/12/2024 09:12 - Paulo Ajlune: Chamado INC0092640 sendo tratado pela VTEX #123456
+01/12/2024 09:20 - Paulo Ajlune: Chamado INC0092640 Resolvido
+02/12/2024 09:25 - +55 11 90000-0002: Chamado Lojas - SP2
+
+Nome da loja: Morumbi
+Filial: 14
+Chamado: INC0092641
+Anomalia: App fechando sozinho
+Data: 02/12/2024
+Horário: 10:30
+Telefone para contato: (11) 3311-1122
+Relato do problema: Cliente relata travamento ao finalizar Pix
+Cliente: CP1592
+CPF: 987.654.321-00
+Valor: R$ 675,00
+
+02/12/2024 09:27 - João Silva: Chamado INC0092641 sendo tratado pela Kobe #2268
+02/12/2024 09:35 - João Silva: Chamado INC0092641 Resolvido
+03/12/2024 09:40 - +55 11 90000-0003: Chamado Lojas - SP3
+
+Nome da loja: Center Norte
+Filial: 09
+Chamado: INC0092642
+Anomalia: Erro ao gerar nota após Pix
+Data: 03/12/2024
+Horário: 14:45
+Telefone para contato: (11) 2922-0011
+Relato do problema: NF não foi emitida, mas Pix consta como pago
+Cliente: CP7182
+CPF: 111.222.333-44
+Valor: R$ 1.299,00
+
+03/12/2024 09:42 - Maria Soares: Chamado INC0092642 sendo tratado pela TEROS #987
+03/12/2024 09:45 - Maria Soares: Chamado INC0092642 Resolvido
+04/12/2024 09:50 - +55 11 90000-0004: Chamado Lojas - SP4
+
+Nome da loja: Pinheiros
+Filial: 12
+Chamado: INC0092643
+Anomalia: Lentidão no sistema
+Data: 04/12/2024
+Horário: 16:45
+Telefone para contato: (11) 3777-2211
+Relato do problema: PDV congelando ao finalizar vendas
+Cliente: CP8841
+CPF: 333.444.555-66
+Valor: R$ 570,00
+
+04/12/2024 09:52 - Thiago Ramos: Chamado INC0092643 sendo tratado pela Tuna #202501170001767
+04/12/2024 10:00 - Thiago Ramos: Chamado INC0092643 Resolvido
+05/12/2024 10:05 - +55 11 90000-0005: Chamado Lojas - SP5
+
+Nome da loja: Ibirapuera
+Filial: 27
+Chamado: INC0092644
+Anomalia: Pedido duplicado
+Data: 05/12/2024
+Horário: 09:10
+Telefone para contato: (11) 3111-8899
+Relato do problema: Pix debitado 2 vezes
+Cliente: CP0077
+CPF: 444.555.666-77
+Valor: R$ 750,00
+
+05/12/2024 10:07 - Fernanda Silva: Chamado INC0092644 sendo tratado pela VTEX #765432
+05/12/2024 10:13 - Fernanda Silva: Chamado INC0092644 Resolvido
+06/12/2024 10:20 - +55 11 90000-0006: Chamado Lojas - SP6
+
+Nome da loja: Augusta
+Filial: 11
+Chamado: INC0092645
+Anomalia: Sistema não atualiza estoque
+Data: 06/12/2024
+Horário: 12:00
+Telefone para contato: (11) 3222-7788
+Relato do problema: Mesmo após Pix, estoque continua reservado
+Cliente: CP3182
+CPF: 123.321.456-78
+Valor: R$ 1.990,00
+
+06/12/2024 10:21 - Roberto Lima: Chamado INC0092645 sendo tratado pela Kobe #2268
+06/12/2024 10:26 - Roberto Lima: Chamado INC0092645 Resolvido
+07/12/2024 10:30 - +55 11 90000-0007: Chamado Lojas - SP7
+
+Nome da loja: Paulista
+Filial: 03
+Chamado: INC0092646
+Anomalia: Falha no login do PDV
+Data: 07/12/2024
+Horário: 19:00
+Telefone para contato: (11) 3000-7000
+Relato do problema: Caixa não autentica após inserir senha
+Cliente: CP0022
+CPF: 123.000.222-99
+Valor: R$ 999,99
+
+07/12/2024 10:31 - Cláudia Mendes: Chamado INC0092646 sendo tratado pela Tuna #202501170001767
+07/12/2024 10:42 - Cláudia Mendes: Chamado INC0092646 Resolvido
+08/12/2024 10:50 - +55 11 90000-0008: Chamado Lojas - SP8
+
+Nome da loja: Vila Olímpia
+Filial: 20
+Chamado: INC0092647
+Anomalia: Ticket não encerra
+Data: 08/12/2024
+Horário: 08:30
+Telefone para contato: (11) 3999-4400
+Relato do problema: Pagamento constou, mas pedido continua “aberto”
+Cliente: CP8080
+CPF: 012.345.678-90
+Valor: R$ 2.330,50
+
+08/12/2024 10:52 - Denise Moura: Chamado INC0092647 sendo tratado pela TEROS #987
+08/12/2024 10:58 - Denise Moura: Chamado INC0092647 Resolvido
+09/12/2024 11:10 - +55 11 90000-0009: Chamado Lojas - SP9
+
+Nome da loja: Tatuapé
+Filial: 17
+Chamado: INC0092648
+Anomalia: Falha ao imprimir NF
+Data: 09/12/2024
+Horário: 15:45
+Telefone para contato: (11) 3500-1234
+Relato do problema: NF some ao clicar em “gerar”
+Cliente: CP0028
+CPF: 000.111.222-33
+Valor: R$ 420,00
+
+09/12/2024 11:12 - Juliana Prado: Chamado INC0092648 sendo tratado pela VTEX #123456
+09/12/2024 11:17 - Juliana Prado: Chamado INC0092648 Resolvido
+10/12/2024 11:25 - +55 11 90000-0010: Chamado Lojas - SP10
+
+Nome da loja: Brooklin
+Filial: 29
+Chamado: INC0092649
+Anomalia: App fecha no meio da venda
+Data: 10/12/2024
+Horário: 09:15
+Telefone para contato: (11) 3566-6677
+Relato do problema: Tela do app fica preta e fecha
+Cliente: CP7766
+CPF: 777.888.999-00
+Valor: R$ 1.230,00
+
+10/12/2024 11:30 - Gabriel Silva: Chamado INC0092649 sendo tratado pela Tuna #202501170001767
+10/12/2024 11:33 - Gabriel Silva: Chamado INC0092649 Resolvido
+11/12/2024 11:40 - +55 11 90000-0011: Chamado Lojas - SP11
+
+Nome da loja: Barra Funda
+Filial: 05
+Chamado: INC0092650
+Anomalia: Pix não gera comprovante
+Data: 11/12/2024
+Horário: 10:10
+Telefone para contato: (11) 3030-1234
+Relato do problema: Cliente não recebeu comprovante
+Cliente: CP5588
+CPF: 258.369.147-00
+Valor: R$ 897,50
+
+11/12/2024 11:42 - Andréa Pires: Chamado INC0092650 sendo tratado pela Kobe #2268
+11/12/2024 11:47 - Andréa Pires: Chamado INC0092650 Resolvido
+12/12/2024 11:50 - +55 11 90000-0012: Chamado Lojas - SP12
+
+Nome da loja: São Caetano
+Filial: 34
+Chamado: INC0092651
+Anomalia: Cancelamento de pedido não funciona
+Data: 12/12/2024
+Horário: 14:20
+Telefone para contato: (11) 4232-5566
+Relato do problema: Cliente desistiu, mas o Pix não foi estornado
+Cliente: CP7771
+CPF: 111.333.555-77
+Valor: R$ 3.100,00
+
+12/12/2024 11:53 - Matheus Delgado: Chamado INC0092651 sendo tratado pela TEROS #4567
+12/12/2024 12:00 - Matheus Delgado: Chamado INC0092651 Resolvido
+13/12/2024 12:05 - +55 11 90000-0013: Chamado Lojas - SP13
+
+Nome da loja: Moema
+Filial: 22
+Chamado: INC0092652
+Anomalia: Reimpressão de NF não disponível
+Data: 13/12/2024
+Horário: 11:00
+Telefone para contato: (11) 3255-0022
+Relato do problema: Perdeu conexão no momento da impressão
+Cliente: CP1010
+CPF: 987.000.111-22
+Valor: R$ 1.110,00
+
+13/12/2024 12:07 - Pedro Morais: Chamado INC0092652 sendo tratado pela VTEX #999999
+13/12/2024 12:10 - Pedro Morais: Chamado INC0092652 Resolvido
+14/12/2024 12:15 - +55 11 90000-0014: Chamado Lojas - SP14
+
+Nome da loja: Liberdade
+Filial: 07
+Chamado: INC0092653
+Anomalia: Falha ao aplicar cupom via Pix
+Data: 14/12/2024
+Horário: 13:05
+Telefone para contato: (11) 3112-2020
+Relato do problema: Cupom não é reconhecido
+Cliente: CP8282
+CPF: 100.200.300-40
+Valor: R$ 840,00
+
+14/12/2024 12:18 - Isabela Cunha: Chamado INC0092653 sendo tratado pela Tuna #202501170001767
+14/12/2024 12:22 - Isabela Cunha: Chamado INC0092653 Resolvido
+15/12/2024 12:30 - +55 11 90000-0015: Chamado Lojas - SP15
+
+Nome da loja: Santana
+Filial: 19
+Chamado: INC0092654
+Anomalia: Cadastro de cliente não atualiza
+Data: 15/12/2024
+Horário: 15:10
+Telefone para contato: (11) 2999-8877
+Relato do problema: Não consegue vincular CPF no Pix
+Cliente: CP1111
+CPF: 321.654.987-00
+Valor: R$ 2.770,00
+
+15/12/2024 12:32 - Carlos Teixeira: Chamado INC0092654 sendo tratado pela Kobe #2268
+15/12/2024 12:38 - Carlos Teixeira: Chamado INC0092654 Resolvido
+16/12/2024 12:45 - +55 11 90000-0016: Chamado Lojas - SP16
+
+Nome da loja: Guarulhos
+Filial: 31
+Chamado: INC0092655
+Anomalia: Integração com sistema externo falhou
+Data: 16/12/2024
+Horário: 10:50
+Telefone para contato: (11) 2400-1010
+Relato do problema: Pix não sincroniza com ERP
+Cliente: CP9090
+CPF: 999.888.777-66
+Valor: R$ 1.500,50
+
+16/12/2024 12:47 - Renata Souza: Chamado INC0092655 sendo tratado pela VTEX #888888
+16/12/2024 12:50 - Renata Souza: Chamado INC0092655 Resolvido
+17/12/2024 13:00 - +55 11 90000-0017: Chamado Lojas - SP17
+
+Nome da loja: Aricanduva
+Filial: 16
+Chamado: INC0092656
+Anomalia: Falha ao carregar produtos
+Data: 17/12/2024
+Horário: 09:00
+Telefone para contato: (11) 3555-1122
+Relato do problema: Lista de SKUs fica em branco
+Cliente: CP1155
+CPF: 123.789.456-10
+Valor: R$ 300,00
+
+17/12/2024 13:02 - Patrícia Almeida: Chamado INC0092656 sendo tratado pela TEROS #987
+17/12/2024 13:07 - Patrícia Almeida: Chamado INC0092656 Resolvido
+18/12/2024 13:15 - +55 11 90000-0018: Chamado Lojas - SP18
+
+Nome da loja: Vila Mariana
+Filial: 13
+Chamado: INC0092657
+Anomalia: Pedido aparece com valor diferente no Pix
+Data: 18/12/2024
+Horário: 11:10
+Telefone para contato: (11) 3390-2200
+Relato do problema: O valor total está incorreto na tela de pagamento
+Cliente: CP6677
+CPF: 445.556.667-88
+Valor: R$ 1.888,80
+
+18/12/2024 13:17 - Luiz Fernando: Chamado INC0092657 sendo tratado pela Tuna #202501170001767
+18/12/2024 13:20 - Luiz Fernando: Chamado INC0092657 Resolvido
+19/12/2024 13:30 - +55 11 90000-0019: Chamado Lojas - SP19
+
+Nome da loja: Anália Franco
+Filial: 24
+Chamado: INC0092658
+Anomalia: Pix não finaliza a compra
+Data: 19/12/2024
+Horário: 14:00
+Telefone para contato: (11) 3444-2200
+Relato do problema: Mensagem de erro “Processamento falhou”
+Cliente: CP9092
+CPF: 456.123.789-55
+Valor: R$ 320,00
+
+19/12/2024 13:32 - Vanessa Reis: Chamado INC0092658 sendo tratado pela VTEX #123456
+19/12/2024 13:37 - Vanessa Reis: Chamado INC0092658 Resolvido
+20/12/2024 13:45 - +55 11 90000-0020: Chamado Lojas - SP20
+
+Nome da loja: Interlagos
+Filial: 25
+Chamado: INC0092659
+Anomalia: Falha ao exportar relatório
+Data: 20/12/2024
+Horário: 10:05
+Telefone para contato: (11) 3500-9999
+Relato do problema: Botão “Exportar” não funciona
+Cliente: CP1277
+CPF: 876.543.210-01
+Valor: R$ 150,00
+
+20/12/2024 13:47 - Gustavo Nunes: Chamado INC0092659 sendo tratado pela Tuna #202501170001767
+20/12/2024 13:55 - Gustavo Nunes: Chamado INC0092659 Resolvido
+21/12/2024 14:00 - +55 11 90000-0101: Chamado Regional SP1
+
+Filial: 48
+Tabela: C7
+(   ) Gan
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092700
+Relato do problema/resumo: Pedido sumiu do app e não consta no Gan
+Cliente: M469835
+CPF: 672.556.120-91
+Pedido Vtx: 1503851316461-01
+SKU: AEMN893BZAPTO
+Valor: R$ 1.564,79
+Contato: (11) 95239-2152
+Nome: Renato Oliveira
+
+21/12/2024 14:05 - Paulo Ajlune: Chamado INC0092700 sendo tratado pela VTEX #123456
+21/12/2024 14:10 - Paulo Ajlune: Chamado INC0092700 Resolvido
+22/12/2024 14:15 - +55 11 90000-0102: Chamado Regional SP2
+
+Filial: 75
+Tabela: F6
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092701
+Relato do problema: Pagamento via Pix, porém pedido não consta em nenhum sistema
+CPF: 247.013.298-35
+Valor: R$ 5.936,26
+Contato: (19) 99893-4640
+Nome: Liliane
+
+22/12/2024 14:17 - Paulo Ajlune: Chamado INC0092701 sendo tratado pela Tuna #202501170001767
+22/12/2024 14:22 - Paulo Ajlune: Chamado INC0092701 Resolvido
+23/12/2024 14:25 - +55 11 90000-0103: Chamado Regional SP3
+
+Filial: 33
+Tabela: I3
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092738
+Relato do problema/resumo: Erro ao tentar gerar Pix
+Cliente: Rafael Domingos B Mota
+CPF: 312.443.168-57
+Pedido Vtx: 914323
+SKU: 4000024187
+Valor: R$ 4.248,30
+Contato: (15) 99732-2206
+Nome: Tatiane
+
+23/12/2024 14:27 - Joana Pereira: Chamado INC0092738 sendo tratado pela Kobe #2268
+23/12/2024 14:30 - Joana Pereira: Chamado INC0092738 Resolvido
+24/12/2024 14:35 - +55 11 90000-0104: Chamado Regional SP4
+
+Filial: 23
+Tabela: A3
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092739
+Relato do problema: Caixa com pendência, NF não pode ser relançada
+Caixa: 19
+Cliente: AN81892
+NF: 174264-U1
+Valor: R$ 2.603,46
+Contato: (21) 99876-5432
+Nome: Regina Lopes
+
+24/12/2024 14:37 - Regina Lopes: Chamado INC0092739 sendo tratado pela TEROS #987
+24/12/2024 14:42 - Regina Lopes: Chamado INC0092739 Resolvido
+25/12/2024 14:50 - +55 11 90000-0105: Chamado Regional SP5
+
+Filial: 08
+Tabela: C3
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092740
+Relato do problema/resumo: Lentidão na emissão de pedidos
+Cliente: Vera Lúcia Martins
+CPF: 313.009.455-20
+Valor: R$ 750,00
+Contato: (31) 99876-1234
+Nome: Henrique
+
+25/12/2024 14:52 - Henrique: Chamado INC0092740 sendo tratado pela VTEX #121212
+25/12/2024 14:57 - Henrique: Chamado INC0092740 Resolvido
+26/12/2024 15:00 - +55 11 90000-0106: Chamado Regional SP6
+
+Filial: 18
+Tabela: H4
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092741
+Relato do problema/resumo: Erro intermitente ao aplicar desconto Pix
+Cliente: Julio César R. Vale
+CPF: 471.223.891-02
+Valor: R$ 1.589,90
+Contato: (41) 99000-4455
+Nome: Simone
+
+26/12/2024 15:03 - Simone: Chamado INC0092741 sendo tratado pela Tuna #202501170001767
+26/12/2024 15:06 - Simone: Chamado INC0092741 Resolvido
+27/12/2024 15:10 - +55 11 90000-0107: Chamado Regional SP7
+
+Filial: 04
+Tabela: Z1
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092742
+Relato do problema: Falha de rede entre filiais
+CPF: 333.222.111-09
+Valor: R$ 0,00
+Contato: (11) 99123-4455
+Nome: Jorge Matos
+
+27/12/2024 15:12 - Jorge Matos: Chamado INC0092742 sendo tratado pela Kobe #2268
+27/12/2024 15:16 - Jorge Matos: Chamado INC0092742 Resolvido
+28/12/2024 15:20 - +55 11 90000-0108: Chamado Regional SP8
+
+Filial: 60
+Tabela: D5
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092743
+Relato do problema/resumo: Pedido fica em status “processando” infinito
+Cliente: Maria P. da Silva
+CPF: 123.444.777-55
+Valor: R$ 4.500,00
+Contato: (12) 97777-8899
+Nome: Maria Sueli
+
+28/12/2024 15:22 - Maria Sueli: Chamado INC0092743 sendo tratado pela TEROS #987
+28/12/2024 15:25 - Maria Sueli: Chamado INC0092743 Resolvido
+29/12/2024 15:30 - +55 11 90000-0109: Chamado Regional SP9
+
+Filial: 15
+Tabela: B4
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092744
+Relato do problema: Conexão perdida ao autorizar pagamento
+Cliente: Guilherme R. Tavares
+CPF: 321.654.987-11
+Valor: R$ 2.200,00
+Contato: (19) 98877-5566
+Nome: Guilherme
+
+29/12/2024 15:32 - Guilherme: Chamado INC0092744 sendo tratado pela VTEX #123456
+29/12/2024 15:37 - Guilherme: Chamado INC0092744 Resolvido
+30/12/2024 15:40 - +55 11 90000-0110: Chamado Regional SP10
+
+Filial: 06
+Tabela: A1
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092745
+Relato do problema: Falha de autenticação no servidor regional
+CPF: 456.987.123-55
+Valor: R$ 0,00
+Contato: (11) 91234-5566
+Nome: Ricardo Gomes
+
+30/12/2024 15:42 - Ricardo Gomes: Chamado INC0092745 sendo tratado pela Tuna #202501170001767
+30/12/2024 15:47 - Ricardo Gomes: Chamado INC0092745 Resolvido
+31/12/2024 15:50 - +55 11 90000-0111: Chamado Regional SP11
+
+Filial: 77
+Tabela: E9
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092746
+Relato do problema: Pagamento consta, mas pedido não migrou para o ERP
+Cliente: Fábio Alexandre
+CPF: 741.852.963-02
+Valor: R$ 834,00
+Contato: (18) 99771-5566
+Nome: Fábio
+
+31/12/2024 15:52 - Fábio: Chamado INC0092746 sendo tratado pela Kobe #2268
+31/12/2024 15:55 - Fábio: Chamado INC0092746 Resolvido
+01/12/2024 16:00 - +55 11 90000-0112: Chamado Regional SP12
+
+Filial: 19
+Tabela: B1
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092747
+Relato do problema: Vários erros ao imprimir DANFE
+Cliente: Soraia Lima
+CPF: 333.222.111-00
+Valor: R$ 1.999,90
+Contato: (21) 99088-7744
+Nome: Soraia
+
+01/12/2024 16:02 - Soraia: Chamado INC0092747 sendo tratado pela TEROS #987
+01/12/2024 16:07 - Soraia: Chamado INC0092747 Resolvido
+02/12/2024 16:10 - +55 11 90000-0113: Chamado Regional SP13
+
+Filial: 10
+Tabela: M2
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092748
+Relato do problema: Valor final difere entre Gan e App
+Cliente: Bruno Santos
+CPF: 258.147.369-00
+Valor: R$ 3.450,00
+Contato: (11) 99999-0000
+Nome: Bruno
+
+02/12/2024 16:15 - Bruno: Chamado INC0092748 sendo tratado pelo time Quality.
+02/12/2024 16:17 - Bruno: Chamado INC0092748 Resolvido
+03/12/2024 16:20 - +55 11 90000-0114: Chamado Regional SP14
+
+Filial: 44
+Tabela: T5
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092749
+Relato do problema: Perda de conexão com gateway de pagamento
+Cliente: Wesley Moura
+CPF: 654.321.789-10
+Valor: R$ 2.100,00
+Contato: (11) 99876-2234
+Nome: Wesley
+
+03/12/2024 16:25 - Wesley: Chamado INC0092749 sendo tratado pelo time Quality.
+03/12/2024 16:27 - Wesley: Chamado INC0092749 Resolvido
+04/12/2024 16:30 - +55 11 90000-0115: Chamado Regional SP15
+
+Filial: 50
+Tabela: G1
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092750
+Relato do problema: Falha ao atualizar status de pagamento
+Cliente: Felipe Horácio
+CPF: 987.123.654-01
+Valor: R$ 980,00
+Contato: (13) 99988-7766
+Nome: Felipe
+
+04/12/2024 16:35 - Felipe: Chamado INC0092750 sendo tratado pelo time Quality.
+04/12/2024 16:37 - Felipe: Chamado INC0092750 Resolvido
+05/12/2024 16:40 - +55 11 90000-0116: Chamado Regional SP16
+
+Filial: 02
+Tabela: J6
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092751
+Relato do problema: Não gera link de pagamento Pix
+Cliente: Gustavo Felipe
+CPF: 222.111.000-33
+Valor: R$ 450,00
+Contato: (31) 98888-9999
+Nome: Gustavo
+
+05/12/2024 16:42 - Gustavo: Chamado INC0092751 sendo tratado pela Kobe #2268
+05/12/2024 16:47 - Gustavo: Chamado INC0092751 Resolvido
+06/12/2024 16:50 - +55 11 90000-0117: Chamado Regional SP17
+
+Filial: 40
+Tabela: H8
+(   ) Gan
+(X) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092752
+Relato do problema: Sistema externo não confirma pagamento
+Cliente: Adriana Lemos
+CPF: 111.444.777-99
+Valor: R$ 3.670,99
+Contato: (27) 99765-4433
+Nome: Adriana
+
+06/12/2024 16:52 - Adriana: Chamado INC0092752 sendo tratado pela VTEX #333999
+06/12/2024 16:57 - Adriana: Chamado INC0092752 Resolvido
+07/12/2024 17:00 - +55 11 90000-0118: Chamado Regional SP18
+
+Filial: 66
+Tabela: L4
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092753
+Relato do problema: Pedido não atualiza status de entrega
+Cliente: Roberto Farias
+CPF: 456.123.000-98
+Valor: R$ 2.999,99
+Contato: (14) 99234-8877
+Nome: Roberto
+
+07/12/2024 17:02 - Roberto: Chamado INC0092753 sendo tratado pela Tuna #202501170001767
+07/12/2024 17:07 - Roberto: Chamado INC0092753 Resolvido
+08/12/2024 17:10 - +55 11 90000-0119: Chamado Regional SP19
+
+Filial: 26
+Tabela: Q9
+(X) Gan
+(   ) App antigo
+(   ) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092754
+Relato do problema: Pedido apareceu duplicado no Gan
+Cliente: Renato Barsotti
+CPF: 789.789.789-79
+Valor: R$ 4.659,00
+Contato: (17) 98882-5566
+Nome: Renato
+
+08/12/2024 17:12 - Renato: Chamado INC0092754 sendo tratado pela TEROS #987
+08/12/2024 17:17 - Renato: Chamado INC0092754 Resolvido
+09/12/2024 17:20 - +55 11 90000-0120: Chamado Regional SP20
+
+Filial: 99
+Tabela: X1
+(   ) Gan
+(   ) App antigo
+(X) Novo App
+(   ) Infra (internet)
+
+Chamado: INC0092755
+Relato do problema: Falha de comunicação com impressora fiscal
+Cliente: Tânia Gomes
+CPF: 159.357.456-01
+Valor: R$ 540,00
+Contato: (11) 97777-5555
+Nome: Tânia
+
+09/12/2024 17:22 - Tânia: Chamado INC0092755 sendo tratado pela Kobe #2268
+09/12/2024 17:28 - Tânia: Chamado INC0092755 Resolvido
