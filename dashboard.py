@@ -301,6 +301,24 @@ fig_chamados_mes.update_layout(
 # Dashboard layout atualizado
 app.layout = html.Div(className="dashboard-container", children=[
     html.Div(className="watermark"),
+    # Adicionando a mensagem de atualização no canto superior esquerdo com ajustes
+    html.Div(
+        children="Na Versão 1.0 este Dashboard é atualizado às: 12:00 hrs e às 22:00 hrs",
+        style={
+            "position": "absolute",
+            "top": "5px",  # Move mais para cima
+            "left": "15px",
+            "color": "white",
+            "fontSize": "14px",  # Fonte menor para melhor ajuste
+            "fontWeight": "bold",
+            "zIndex": "10",
+            "backgroundColor": "rgba(0, 0, 0, 0.7)",
+            "padding": "8px",
+            "borderRadius": "5px",
+            "boxShadow": "0px 0px 10px rgba(0,0,0,0.5)"
+        }
+    )
+    ,
     html.Div(className="animate__animated animate__fadeIn p-4", children=[
         html.Div([
             html.I(className="fas fa-chart-line mr-2 text-primary", style={"fontSize": "2rem"}),
