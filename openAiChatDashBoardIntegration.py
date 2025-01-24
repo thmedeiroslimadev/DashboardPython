@@ -2,6 +2,7 @@ import os
 import openai
 import pandas as pd
 
+
 def analisar_chamados(csv_file_path):
     try:
         # Carregar dados do CSV
@@ -12,7 +13,8 @@ def analisar_chamados(csv_file_path):
         openai.api_key = os.getenv('OPENAI_API_KEY')
 
         if not openai.api_key:
-            raise ValueError("A chave da API da OpenAI não está definida. Defina a variável de ambiente OPENAI_API_KEY.")
+            raise ValueError(
+                "A chave da API da OpenAI não está definida. Defina a variável de ambiente OPENAI_API_KEY.")
 
         # Definir prompt
         system_prompt = "Você é um assistente útil que responde sempre em português."

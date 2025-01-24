@@ -3,6 +3,7 @@ import os
 import re
 import csv
 
+
 def remove_whatsapp_formatting(message):
     # Remove WhatsApp-specific formatting like *bold*, _italic_, etc.
     message = re.sub(r'\*{1,2}([^*]+)\*{1,2}', r'\1', message)
@@ -11,6 +12,7 @@ def remove_whatsapp_formatting(message):
     message = re.sub(r'\`{1,3}([^`]+)\`{1,3}', r'\1', message)
     message = message.replace('**', '')
     return message
+
 
 def extract_all_messages(zip_path, output_csv, responses_csv):
     extract_dir = "extracted_files"
@@ -75,7 +77,8 @@ def extract_all_messages(zip_path, output_csv, responses_csv):
                     if tipo_resposta:
                         responses.append({
                             "Data e Hora": match.group("DataHora").strip(),
-                            "Remetente": match.group("Remetente").strip() if match.group("Remetente") else "Desconhecido",
+                            "Remetente": match.group("Remetente").strip() if match.group(
+                                "Remetente") else "Desconhecido",
                             "Mensagem": cleaned_message,
                             "Chamado": chamado,
                             "Tipo de Resposta": tipo_resposta
@@ -104,7 +107,8 @@ def extract_all_messages(zip_path, output_csv, responses_csv):
     # Save responses to a separate CSV file
     try:
         with open(responses_csv, 'w', newline='', encoding='utf-8') as csv_file:
-            writer = csv.DictWriter(csv_file, fieldnames=["Data e Hora", "Remetente", "Mensagem", "Chamado", "Tipo de Resposta"])
+            writer = csv.DictWriter(csv_file,
+                                    fieldnames=["Data e Hora", "Remetente", "Mensagem", "Chamado", "Tipo de Resposta"])
             writer.writeheader()
             for response in responses:
                 writer.writerow(response)
@@ -132,6 +136,7 @@ def extract_all_messages(zip_path, output_csv, responses_csv):
         print(f"Temporary files cleaned up from {extract_dir}")
     except Exception as e:
         print(f"Failed to clean up extracted files: {e}")
+
 
 if __name__ == "__main__":
     zip_file = "Conversa do WhatsApp com TI escalada.zip"

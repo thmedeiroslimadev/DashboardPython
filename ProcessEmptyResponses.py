@@ -3,6 +3,7 @@ import os
 import re
 import csv
 
+
 def remove_whatsapp_formatting(message):
     """Remove formatting such as bold, italic, and strikethrough from WhatsApp messages."""
     message = re.sub(r'\*{1,2}([^*]+)\*{1,2}', r'\1', message)
@@ -11,6 +12,7 @@ def remove_whatsapp_formatting(message):
     message = re.sub(r'\`{1,3}([^`]+)\`{1,3}', r'\1', message)
     message = message.replace('**', '')
     return message
+
 
 def extract_unanswered_calls(zip_path, unanswered_csv):
     """Extract chamados without a response and save to CSV."""
@@ -78,6 +80,7 @@ def extract_unanswered_calls(zip_path, unanswered_csv):
             os.remove(os.path.join(root, file))
         os.rmdir(root)
     print(f"Temporary files cleaned up from {extract_dir}")
+
 
 if __name__ == "__main__":
     zip_file = "Conversa do WhatsApp com TI escalada.zip"
