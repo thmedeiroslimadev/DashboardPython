@@ -1,286 +1,4 @@
 Data e Hora,Remetente,Tipo de Chamado,Região,Filial,Tabela,Relato do Problema,Cliente,CPF,Pedido Vtx,NF,Contato,Nome da Loja,Chamado,Anomalia,Telefone
-01/12/2024 09:10,+55 11 90000-0001:,Chamado Lojas,,26,,,,123,,,,Eldorado,INC0092640,"Erro no Pix
-Data: 01/12/2024
-Horário: 21:19
-Telefone para contato: (11) 3232-2750
-Relato do problema: Pagamento via Pix não consta no sistema
-Cliente: CP2531
-CPF: 123.456.789-01
-Valor: R$ 2.354,90",(11) 3232-2750
-02/12/2024 09:25,+55 11 90000-0002:,Chamado Lojas,,14,,,,987,,,,Morumbi,INC0092641,"App fechando sozinho
-Data: 02/12/2024
-Horário: 10:30
-Telefone para contato: (11) 3311-1122
-Relato do problema: Cliente relata travamento ao finalizar Pix
-Cliente: CP1592
-CPF: 987.654.321-00
-Valor: R$ 675,00",(11) 3311-1122
-03/12/2024 09:40,+55 11 90000-0003:,Chamado Lojas,,09,,,,111,,,,Center Norte,INC0092642,"Erro ao gerar nota após Pix
-Data: 03/12/2024
-Horário: 14:45
-Telefone para contato: (11) 2922-0011
-Relato do problema: NF não foi emitida, mas Pix consta como pago
-Cliente: CP7182
-CPF: 111.222.333-44
-Valor: R$ 1.299,00",(11) 2922-0011
-04/12/2024 09:50,+55 11 90000-0004:,Chamado Lojas,,12,,,,333,,,,Pinheiros,INC0092643,"Lentidão no sistema
-Data: 04/12/2024
-Horário: 16:45
-Telefone para contato: (11) 3777-2211
-Relato do problema: PDV congelando ao finalizar vendas
-Cliente: CP8841
-CPF: 333.444.555-66
-Valor: R$ 570,00",(11) 3777-2211
-05/12/2024 10:05,+55 11 90000-0005:,Chamado Lojas,,27,,,,444,,,,Ibirapuera,INC0092644,"Pedido duplicado
-Data: 05/12/2024
-Horário: 09:10
-Telefone para contato: (11) 3111-8899
-Relato do problema: Pix debitado 2 vezes
-Cliente: CP0077
-CPF: 444.555.666-77
-Valor: R$ 750,00",(11) 3111-8899
-06/12/2024 10:20,+55 11 90000-0006:,Chamado Lojas,,11,,,,123,,,,Augusta,INC0092645,"Sistema não atualiza estoque
-Data: 06/12/2024
-Horário: 12:00
-Telefone para contato: (11) 3222-7788
-Relato do problema: Mesmo após Pix, estoque continua reservado
-Cliente: CP3182
-CPF: 123.321.456-78
-Valor: R$ 1.990,00",(11) 3222-7788
-07/12/2024 10:30,+55 11 90000-0007:,Chamado Lojas,,03,,,,123,,,,Paulista,INC0092646,"Falha no login do PDV
-Data: 07/12/2024
-Horário: 19:00
-Telefone para contato: (11) 3000-7000
-Relato do problema: Caixa não autentica após inserir senha
-Cliente: CP0022
-CPF: 123.000.222-99
-Valor: R$ 999,99",(11) 3000-7000
-08/12/2024 10:50,+55 11 90000-0008:,Chamado Lojas,,20,,,,012,,,,Vila Olímpia,INC0092647,"Ticket não encerra
-Data: 08/12/2024
-Horário: 08:30
-Telefone para contato: (11) 3999-4400
-Relato do problema: Pagamento constou, mas pedido continua “aberto”
-Cliente: CP8080
-CPF: 012.345.678-90
-Valor: R$ 2.330,50",(11) 3999-4400
-09/12/2024 11:10,+55 11 90000-0009:,Chamado Lojas,,17,,,,000,,,,Tatuapé,INC0092648,"Falha ao imprimir NF
-Data: 09/12/2024
-Horário: 15:45
-Telefone para contato: (11) 3500-1234
-Relato do problema: NF some ao clicar em “gerar”
-Cliente: CP0028
-CPF: 000.111.222-33
-Valor: R$ 420,00",(11) 3500-1234
-10/12/2024 11:25,+55 11 90000-0010:,Chamado Lojas,,29,,,,777,,,,Brooklin,INC0092649,"App fecha no meio da venda
-Data: 10/12/2024
-Horário: 09:15
-Telefone para contato: (11) 3566-6677
-Relato do problema: Tela do app fica preta e fecha
-Cliente: CP7766
-CPF: 777.888.999-00
-Valor: R$ 1.230,00",(11) 3566-6677
-11/12/2024 11:40,+55 11 90000-0011:,Chamado Lojas,,05,,,,258,,,,Barra Funda,INC0092650,"Pix não gera comprovante
-Data: 11/12/2024
-Horário: 10:10
-Telefone para contato: (11) 3030-1234
-Relato do problema: Cliente não recebeu comprovante
-Cliente: CP5588
-CPF: 258.369.147-00
-Valor: R$ 897,50",(11) 3030-1234
-12/12/2024 11:50,+55 11 90000-0012:,Chamado Lojas,,34,,,,111,,,,São Caetano,INC0092651,"Cancelamento de pedido não funciona
-Data: 12/12/2024
-Horário: 14:20
-Telefone para contato: (11) 4232-5566
-Relato do problema: Cliente desistiu, mas o Pix não foi estornado
-Cliente: CP7771
-CPF: 111.333.555-77
-Valor: R$ 3.100,00",(11) 4232-5566
-13/12/2024 12:05,+55 11 90000-0013:,Chamado Lojas,,22,,,,987,,,,Moema,INC0092652,"Reimpressão de NF não disponível
-Data: 13/12/2024
-Horário: 11:00
-Telefone para contato: (11) 3255-0022
-Relato do problema: Perdeu conexão no momento da impressão
-Cliente: CP1010
-CPF: 987.000.111-22
-Valor: R$ 1.110,00",(11) 3255-0022
-14/12/2024 12:15,+55 11 90000-0014:,Chamado Lojas,,07,,,,100,,,,Liberdade,INC0092653,"Falha ao aplicar cupom via Pix
-Data: 14/12/2024
-Horário: 13:05
-Telefone para contato: (11) 3112-2020
-Relato do problema: Cupom não é reconhecido
-Cliente: CP8282
-CPF: 100.200.300-40
-Valor: R$ 840,00",(11) 3112-2020
-15/12/2024 12:30,+55 11 90000-0015:,Chamado Lojas,,19,,,,321,,,,Santana,INC0092654,"Cadastro de cliente não atualiza
-Data: 15/12/2024
-Horário: 15:10
-Telefone para contato: (11) 2999-8877
-Relato do problema: Não consegue vincular CPF no Pix
-Cliente: CP1111
-CPF: 321.654.987-00
-Valor: R$ 2.770,00",(11) 2999-8877
-16/12/2024 12:45,+55 11 90000-0016:,Chamado Lojas,,31,,,,999,,,,Guarulhos,INC0092655,"Integração com sistema externo falhou
-Data: 16/12/2024
-Horário: 10:50
-Telefone para contato: (11) 2400-1010
-Relato do problema: Pix não sincroniza com ERP
-Cliente: CP9090
-CPF: 999.888.777-66
-Valor: R$ 1.500,50",(11) 2400-1010
-17/12/2024 13:00,+55 11 90000-0017:,Chamado Lojas,,16,,,,123,,,,Aricanduva,INC0092656,"Falha ao carregar produtos
-Data: 17/12/2024
-Horário: 09:00
-Telefone para contato: (11) 3555-1122
-Relato do problema: Lista de SKUs fica em branco
-Cliente: CP1155
-CPF: 123.789.456-10
-Valor: R$ 300,00",(11) 3555-1122
-18/12/2024 13:15,+55 11 90000-0018:,Chamado Lojas,,13,,,,445,,,,Vila Mariana,INC0092657,"Pedido aparece com valor diferente no Pix
-Data: 18/12/2024
-Horário: 11:10
-Telefone para contato: (11) 3390-2200
-Relato do problema: O valor total está incorreto na tela de pagamento
-Cliente: CP6677
-CPF: 445.556.667-88
-Valor: R$ 1.888,80",(11) 3390-2200
-19/12/2024 13:30,+55 11 90000-0019:,Chamado Lojas,,24,,,,456,,,,Anália Franco,INC0092658,"Pix não finaliza a compra
-Data: 19/12/2024
-Horário: 14:00
-Telefone para contato: (11) 3444-2200
-Relato do problema: Mensagem de erro “Processamento falhou”
-Cliente: CP9092
-CPF: 456.123.789-55
-Valor: R$ 320,00",(11) 3444-2200
-20/12/2024 13:45,+55 11 90000-0020:,Chamado Lojas,,25,,,,876,,,,Interlagos,INC0092659,"Falha ao exportar relatório
-Data: 20/12/2024
-Horário: 10:05
-Telefone para contato: (11) 3500-9999
-Relato do problema: Botão “Exportar” não funciona
-Cliente: CP1277
-CPF: 876.543.210-01
-Valor: R$ 150,00",(11) 3500-9999
-21/12/2024 14:00,+55 11 90000-0101:,Chamado Regional,SP1,48,C7,"Pedido sumiu do app e não consta no Gan
-Cliente: M469835
-CPF: 672.556.120-91
-Pedido Vtx: 1503851316461-01
-SKU: AEMN893BZAPTO
-Valor: R$ 1.564,79
-Contato: (11) 95239-2152
-Nome: Renato Oliveira",M469835,672,1503851316461-01,,(11) 95239-2152,,INC0092700,,
-22/12/2024 14:15,+55 11 90000-0102:,Chamado Regional,SP2,75,F6,"Pagamento via Pix, porém pedido não consta em nenhum sistema
-CPF: 247.013.298-35
-Valor: R$ 5.936,26
-Contato: (19) 99893-4640
-Nome: Liliane",,247,,,(19) 99893-4640,,INC0092701,,
-23/12/2024 14:25,+55 11 90000-0103:,Chamado Regional,SP3,33,I3,"Erro ao tentar gerar Pix
-Cliente: Rafael Domingos B Mota
-CPF: 312.443.168-57
-Pedido Vtx: 914323
-SKU: 4000024187
-Valor: R$ 4.248,30
-Contato: (15) 99732-2206
-Nome: Tatiane",Rafael,312,914323,,(15) 99732-2206,,INC0092738,,
-24/12/2024 14:35,+55 11 90000-0104:,Chamado Regional,SP4,23,A3,"Caixa com pendência, NF não pode ser relançada
-Caixa: 19
-Cliente: AN81892
-NF: 174264-U1
-Valor: R$ 2.603,46
-Contato: (21) 99876-5432
-Nome: Regina Lopes",AN81892,,,174264-U1,(21) 99876-5432,,INC0092739,,
-25/12/2024 14:50,+55 11 90000-0105:,Chamado Regional,SP5,08,C3,"Lentidão na emissão de pedidos
-Cliente: Vera Lúcia Martins
-CPF: 313.009.455-20
-Valor: R$ 750,00
-Contato: (31) 99876-1234
-Nome: Henrique",Vera,313,,,(31) 99876-1234,,INC0092740,,
-26/12/2024 15:00,+55 11 90000-0106:,Chamado Regional,SP6,18,H4,"Erro intermitente ao aplicar desconto Pix
-Cliente: Julio César R. Vale
-CPF: 471.223.891-02
-Valor: R$ 1.589,90
-Contato: (41) 99000-4455
-Nome: Simone",Julio,471,,,(41) 99000-4455,,INC0092741,,
-27/12/2024 15:10,+55 11 90000-0107:,Chamado Regional,SP7,04,Z1,"Falha de rede entre filiais
-CPF: 333.222.111-09
-Valor: R$ 0,00
-Contato: (11) 99123-4455
-Nome: Jorge Matos",,333,,,(11) 99123-4455,,INC0092742,,
-28/12/2024 15:20,+55 11 90000-0108:,Chamado Regional,SP8,60,D5,"Pedido fica em status “processando” infinito
-Cliente: Maria P. da Silva
-CPF: 123.444.777-55
-Valor: R$ 4.500,00
-Contato: (12) 97777-8899
-Nome: Maria Sueli",Maria,123,,,(12) 97777-8899,,INC0092743,,
-29/12/2024 15:30,+55 11 90000-0109:,Chamado Regional,SP9,15,B4,"Conexão perdida ao autorizar pagamento
-Cliente: Guilherme R. Tavares
-CPF: 321.654.987-11
-Valor: R$ 2.200,00
-Contato: (19) 98877-5566
-Nome: Guilherme",Guilherme,321,,,(19) 98877-5566,,INC0092744,,
-30/12/2024 15:40,+55 11 90000-0110:,Chamado Regional,SP10,06,A1,"Falha de autenticação no servidor regional
-CPF: 456.987.123-55
-Valor: R$ 0,00
-Contato: (11) 91234-5566
-Nome: Ricardo Gomes",,456,,,(11) 91234-5566,,INC0092745,,
-31/12/2024 15:50,+55 11 90000-0111:,Chamado Regional,SP11,77,E9,"Pagamento consta, mas pedido não migrou para o ERP
-Cliente: Fábio Alexandre
-CPF: 741.852.963-02
-Valor: R$ 834,00
-Contato: (18) 99771-5566
-Nome: Fábio",Fábio,741,,,(18) 99771-5566,,INC0092746,,
-01/12/2024 16:00,+55 11 90000-0112:,Chamado Regional,SP12,19,B1,"Vários erros ao imprimir DANFE
-Cliente: Soraia Lima
-CPF: 333.222.111-00
-Valor: R$ 1.999,90
-Contato: (21) 99088-7744
-Nome: Soraia",Soraia,333,,,(21) 99088-7744,,INC0092747,,
-02/12/2024 16:10,+55 11 90000-0113:,Chamado Regional,SP13,10,M2,"Valor final difere entre Gan e App
-Cliente: Bruno Santos
-CPF: 258.147.369-00
-Valor: R$ 3.450,00
-Contato: (11) 99999-0000
-Nome: Bruno",Bruno,258,,,(11) 99999-0000,,INC0092748,,
-03/12/2024 16:20,+55 11 90000-0114:,Chamado Regional,SP14,44,T5,"Perda de conexão com gateway de pagamento
-Cliente: Wesley Moura
-CPF: 654.321.789-10
-Valor: R$ 2.100,00
-Contato: (11) 99876-2234
-Nome: Wesley",Wesley,654,,,(11) 99876-2234,,INC0092749,,
-04/12/2024 16:30,+55 11 90000-0115:,Chamado Regional,SP15,50,G1,"Falha ao atualizar status de pagamento
-Cliente: Felipe Horácio
-CPF: 987.123.654-01
-Valor: R$ 980,00
-Contato: (13) 99988-7766
-Nome: Felipe",Felipe,987,,,(13) 99988-7766,,INC0092750,,
-05/12/2024 16:40,+55 11 90000-0116:,Chamado Regional,SP16,02,J6,"Não gera link de pagamento Pix
-Cliente: Gustavo Felipe
-CPF: 222.111.000-33
-Valor: R$ 450,00
-Contato: (31) 98888-9999
-Nome: Gustavo",Gustavo,222,,,(31) 98888-9999,,INC0092751,,
-06/12/2024 16:50,+55 11 90000-0117:,Chamado Regional,SP17,40,H8,"Sistema externo não confirma pagamento
-Cliente: Adriana Lemos
-CPF: 111.444.777-99
-Valor: R$ 3.670,99
-Contato: (27) 99765-4433
-Nome: Adriana",Adriana,111,,,(27) 99765-4433,,INC0092752,,
-07/12/2024 17:00,+55 11 90000-0118:,Chamado Regional,SP18,66,L4,"Pedido não atualiza status de entrega
-Cliente: Roberto Farias
-CPF: 456.123.000-98
-Valor: R$ 2.999,99
-Contato: (14) 99234-8877
-Nome: Roberto",Roberto,456,,,(14) 99234-8877,,INC0092753,,
-08/12/2024 17:10,+55 11 90000-0119:,Chamado Regional,SP19,26,Q9,"Pedido apareceu duplicado no Gan
-Cliente: Renato Barsotti
-CPF: 789.789.789-79
-Valor: R$ 4.659,00
-Contato: (17) 98882-5566
-Nome: Renato",Renato,789,,,(17) 98882-5566,,INC0092754,,
-09/12/2024 17:20,+55 11 90000-0120:,Chamado Regional,SP20,99,X1,"Falha de comunicação com impressora fiscal
-Cliente: Tânia Gomes
-CPF: 159.357.456-01
-Valor: R$ 540,00
-Contato: (11) 97777-5555
-Nome: Tânia",Tânia,159,,,(11) 97777-5555,,INC0092755,,
 07/01/2025 18:51,+55 11 95738-9391:,Chamado Lojas,,46,,,,057,,,,Paulista II,INC0091717,"Cliente fez o pagamento do PRIME mas não consta no app novo e nem no gan.
 CPF: 057.647.877-69
 Data: 07/01/25
@@ -615,6 +333,20 @@ Data: 13/01/25
 Contato: 21 98901-4541
 Fabio Ribeiro
 Teams: fabiosr@fastshop.com.br",,183,,48886,21 98901-4541,,INC0092636,,
+16/01/2025 11:41,+55 11 95738-6619:,Chamado Lojas,,26,,,,,,,,Eldorado,INC0092640,"erro no Pix. 
+Data: 15/01/24
+Horário: 21:19
+Telefone para contato:* 3232-2750",* 3232-2750
+16/01/2025 11:58,+55 11 95738-9391:,Chamado Regional,RJ/ES,23,A3,"Caixa com pendência, “loja tentou relançar NF como solicitado pelo TI, ao tirar nao conseguimos lançar novamente 
+
+Caixa:19
+Filial: 23 
+Tab: A3
+Cliente: AN81892
+NF: 174264-U1
+Valor: R$2603,46
+
+@5511944530353 chamado voltou, pode dar uma olhada por favor",AN81892,,,174264-U1,,,INC00092407,,
 16/01/2025 12:48,+55 11 95738-9391:,Chamado Lojas,,46,,,,,,,,Paulista II,INC0092705,"serviço agendado, mas não deixa passar no caixa
 Data: 16/01/25
 Horário: 12:21
@@ -659,6 +391,16 @@ CEP:
 R$: 459,00
 
 Contato: (21) 990395251 Lucas",L549818,08019977716,NF:,Filial:,(21) 990395251 Lucas,,RITM0076951,,
+16/01/2025 17:05,+55 11 95738-9391:,Chamado Regional,SP3,33,I3,"Erro ao tentar gerar o Pix 
+
+Cliente: Rafael Domingos B Mota 
+CPF: 31244316857
+Pedido Vtx: 
+Filial: 33
+SKU: 4000024187Valor R$ 4248,30
+
+Contato: 15-997322206 
+Nome:* Tatiane",Rafael,31244316857,Filial:,,15-997322206,,INC0092738,,
 16/01/2025 17:12,+55 11 95738-9391:,Chamado Regional,SP3,75,F6,"Chamado: INC0092240
 Data:10/01/25
 
@@ -728,35 +470,3 @@ Valor R$ 1564,79
 Contato: (11) 952392152
 Nome: Renato Oliveira Seles
 Teams: renatooliveiraseles",M469835,672,1503851316461-01,,(11) 952392152,,INC0092779,,
-17/01/2025 17:35,+55 11 95738-9391:,Chamado Regional,SP2/SUL,Palladium,D2,,,,,,41 995171623,,INC0092865,,
-17/01/2025 18:38,+55 11 95738-9391:,Chamado Regional,SP2/SUL,Palladium,D2,,,,,,41 995171623,,INC0092865,,
-17/01/2025 18:46,+55 11 95738-6619:,Chamado Regional,SP2/SUL,Palladium,D2,,,,,,41 995171623,,INC0092865,,
-17/01/2025 21:01,+55 11 95738-9391:,Chamado Regional,SP2,51,D1,,B9357590,014,1503071286960-01,,11 965760879,,inc0092897,,
-18/01/2025 12:24,+55 11 95738-9391:,Chamado Regional,NORDESTE,9D,L3,"O cliente AN89208 L M COMERCIO efetuou seu cadastro novo, pelo App Novo porém o próprio sistema alterou seu cadastro imputando o endereço da Loja o que poderá impactar na autorização da NF. 
-Precisamos com urgência do ajuste para o seu endereço correto conforme imputado pelo vendedor e validado no Sintegra e Receita Federal.
-
-CEP: 62.700-000
-BAIRRO: CENTRO
-MUNICÍPIO: CANINDE
-UF:CE
-
-LOGRADOURO: R TABELIAO FACUNDO
-NÚMERO: 406
-
-ENDEREÇO ELETRÔNICO
-ADM_BOTICARIOSOBRAL@HOTMAIL.COM
-TELEFONE
-(85) 3226-6711
-
-
-Cliente: AN89208 L M COMERCIO
-CNPJ: 015.827.712/0001-56
-Ped.VTEX: 1504221324385-01 
-Filial: 9D
-SKU 01: AEMTV63BEAAZLB
-Quantidade 01 produto
-NF R$ 7.699,90 
-
-Contato: (85) 99670-0731
-Nome: Fernando Quintela
-Teams: luizfq",AN89208,,,,(85) 99670-0731,,RITM0077407,,
