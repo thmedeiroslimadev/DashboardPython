@@ -5,7 +5,7 @@ dash-html-components
 dash-table
 flask
 flask-caching
-openai
+openai==0.28.0
 pandas
 plotly
 requests
