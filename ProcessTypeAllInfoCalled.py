@@ -3,6 +3,7 @@ import os
 import re
 import csv
 
+
 def remove_whatsapp_formatting(message):
     # Remove WhatsApp-specific formatting like *bold*, _italic_, etc.
     message = re.sub(r'\*{1,2}([^*]+)\*{1,2}', r'\1', message)
@@ -11,6 +12,7 @@ def remove_whatsapp_formatting(message):
     message = re.sub(r'\`{1,3}([^`]+)\`{1,3}', r'\1', message)
     message = message.replace('**', '')
     return message
+
 
 def extract_all_messages(zip_path, output_csv):
     extract_dir = "extracted_files"
@@ -80,7 +82,8 @@ def extract_all_messages(zip_path, output_csv):
 
                         messages.append({
                             "Data e Hora": match.group("DataHora").strip(),
-                            "Remetente": match.group("Remetente").strip() if match.group("Remetente") else "Desconhecido",
+                            "Remetente": match.group("Remetente").strip() if match.group(
+                                "Remetente") else "Desconhecido",
                             "Tipo de Chamado": tipo_chamado,
                             "Região": region,
                             "Filial": filial,
@@ -114,7 +117,8 @@ def extract_all_messages(zip_path, output_csv):
 
                         messages.append({
                             "Data e Hora": match.group("DataHora").strip(),
-                            "Remetente": match.group("Remetente").strip() if match.group("Remetente") else "Desconhecido",
+                            "Remetente": match.group("Remetente").strip() if match.group(
+                                "Remetente") else "Desconhecido",
                             "Tipo de Chamado": tipo_chamado,
                             "Nome da Loja": nome_loja,
                             "Filial": filial,
@@ -153,6 +157,7 @@ def extract_all_messages(zip_path, output_csv):
         print(f"Temporary files cleaned up from {extract_dir}")
     except Exception as e:
         print(f"Failed to clean up extracted files: {e}")
+
 
 if __name__ == "__main__":
     zip_file = "Conversa do WhatsApp com TI escalada.zip"
