@@ -1,0 +1,16 @@
+# /etc/systemd/system/dashboard-monitor.service
+[Unit]
+Description=Dashboard Directory Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=quality
+Group=quality
+WorkingDirectory=/home/quality/DashboardPython
+Environment=PYTHONPATH=/home/quality/DashboardPython
+ExecStart=/usr/bin/python3 /home/quality/DashboardPython/monitor.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
