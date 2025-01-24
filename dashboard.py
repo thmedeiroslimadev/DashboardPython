@@ -1,10 +1,12 @@
 import dash
-from dash import dcc, html, Input, Output
+from dash import dcc, html, Input, Output, State, ctx
 import plotly.express as px
 import dash_bootstrap_components as dbc
 import json
 import pandas as pd
 from datetime import datetime
+from openAiChatDashBoardIntegration import analisar_chamados
+
 
 # Load data
 with open("metricas.json", "r") as f:
@@ -24,7 +26,8 @@ app = dash.Dash(
         dbc.themes.SLATE,
         "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css",
         "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    ]
+    ],
+    suppress_callback_exceptions=True  # Suprime erros de componentes não encontrados
 )
 
 # Custom styles
@@ -295,6 +298,7 @@ fig_chamados_mes.update_layout(
 )
 
 # Dashboard layout
+# Dashboard layout atualizado
 app.layout = html.Div(className="dashboard-container", children=[
     html.Div(className="watermark"),
     html.Div(className="animate__animated animate__fadeIn p-4", children=[
@@ -351,14 +355,41 @@ app.layout = html.Div(className="dashboard-container", children=[
                             id='grafico-chamados-semana',
                             config={'displayModeBar': True, 'responsive': True}
                         ),
-                        className="graph-container animate__animated animate__fadeInUp"
+                        className="graph-container"
                     )
-                ]),
-                width=12
+                ]), width=12
             ),
-        ])
+        ]),
+
+# Modify the layout's IA analysis section to be positioned below the graph
+    dbc.Row([
+        dbc.Col([
+            html.Div([
+                html.H4("Análise de Chamados com IA", className="text-white mb-3"),
+                html.Button('Analisar Chamados', id='btn-analisar', n_clicks=0, className="btn btn-primary mb-3"),
+                html.Div(id='resultado-analise', className="mt-3")
+            ], className="graph-container")
+        ], width=12)
+    ], className="mt-4")
+,
     ])
 ])
+
+
+@app.callback(
+    Output('resultado-analise', 'children'),
+    [Input('btn-analisar', 'n_clicks')],
+    prevent_initial_call=True
+)
+def handle_analise(n_clicks):
+    if n_clicks > 0:
+        try:
+            resultado = analisar_chamados('whatsapp_chamados_detailed.csv')
+            return html.Pre(resultado)
+        except Exception as e:
+            return html.Div(f"Erro na análise: {str(e)}", className="text-danger")
+    return dash.no_update
+
 
 # Formatação das datas
 def format_week_label(semana):
