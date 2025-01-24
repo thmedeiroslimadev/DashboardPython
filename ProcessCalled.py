@@ -3,6 +3,7 @@ import os
 import re
 import csv
 
+
 def remove_whatsapp_formatting(message):
     # Remove WhatsApp-specific formatting like *bold*, _italic_, ~strikethrough~, and others
     message = re.sub(r'\*{1,2}([^*]+)\*{1,2}', r'\1', message)  # Remove *bold* or **bold**
@@ -14,6 +15,7 @@ def remove_whatsapp_formatting(message):
     message = message.replace('**', '')  # Remove leftover **
 
     return message
+
 
 def extract_all_messages(zip_path, output_csv):
     # Directory to extract the files
@@ -106,6 +108,7 @@ def extract_all_messages(zip_path, output_csv):
         print(f"Temporary files cleaned up from {extract_dir}")
     except Exception as e:
         print(f"Failed to clean up extracted files: {e}")
+
 
 # Main execution
 if __name__ == "__main__":
