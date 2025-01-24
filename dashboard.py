@@ -481,4 +481,5 @@ def update_all_graphs(mes_selecionado):
     return fig_semana, fig_dia, fig_mes
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(debug=True,
+    host='0.0.0.0')
