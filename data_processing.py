@@ -2,9 +2,9 @@ import pandas as pd
 import json
 
 # Carregar os arquivos CSV
-whatsapp_chamados = pd.read_csv("whatsapp_chamados_detailed.csv", delimiter=",", encoding="utf-8")
-first_responses = pd.read_csv("first_responses.csv", delimiter=",", encoding="utf-8")
-latest_responses = pd.read_csv("latest_responses.csv", delimiter=",", encoding="utf-8")
+whatsapp_chamados = pd.read_csv("uploads/whatsapp_chamados_detailed.csv", delimiter=",", encoding="utf-8")
+first_responses = pd.read_csv("uploads/first_responses.csv", delimiter=",", encoding="utf-8")
+latest_responses = pd.read_csv("uploads/latest_responses.csv", delimiter=",", encoding="utf-8")
 
 # Convertendo colunas de data para datetime com tratamento de erro
 whatsapp_chamados['Data e Hora'] = pd.to_datetime(whatsapp_chamados['Data e Hora'], format='%d/%m/%Y %H:%M', errors='coerce')
