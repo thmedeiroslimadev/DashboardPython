@@ -6,7 +6,8 @@ scripts = [
     "ProcessResponse.py",
     "ProcessFirstResponses.py",
     "ProcessLastResponse.py",
-    "ProcessEmptyResponses.py"
+    "ProcessEmptyResponses.py",
+    "data_processing.py"
 ]
 
 for script in scripts:
