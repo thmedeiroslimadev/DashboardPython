@@ -1,0 +1,16 @@
+dash
+dash-bootstrap-components
+dash-core-components
+dash-html-components
+dash-table
+flask
+flask-caching
+openai
+pandas
+plotly
+requests
+numpy
+python-dateutil
+urllib3
+werkzeug
+retrying
