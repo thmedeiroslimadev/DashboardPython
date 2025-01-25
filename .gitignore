@@ -93,3 +93,5 @@ fabric.properties
 
 
 /uploads
+
+*.log
