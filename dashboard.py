@@ -133,6 +133,8 @@ app.index_string = '''
                 background: var(--bg-dark);
                 border: 1px solid rgba(255, 255, 255, 0.1);
                 box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+                position: relative;
+                z-index: 1;
             }
             
             .graph-container:hover {
@@ -304,95 +306,54 @@ app.layout = html.Div(className="dashboard-container", children=[
     html.Div(className="animate__animated animate__fadeIn p-4", children=[
         html.Div([
             html.I(className="fas fa-chart-line mr-2 text-primary", style={"fontSize": "2rem"}),
-            html.H1("Dashboard de Atendimento", 
-                className="title animate__animated animate__fadeInDown text-center mb-4 d-inline-block ml-2")
+            html.H1("Dashboard de Atendimento", className="title animate__animated animate__fadeInDown text-center mb-4 d-inline-block ml-2")
         ], className="d-flex justify-content-center align-items-center"),
-        # Aqui vem a mensagem sobre a versão/horários de atualização
         html.Div([
-            html.P(
-                "Na Versão 1.0 este Dashboard é atualizado às: 12:00 hrs e às 22:00 hrs",
+            html.P("Na Versão 1.0 este Dashboard é atualizado às: 12:00 hrs e às 22:00 hrs",
                 className="text-center mb-4",
-                style={"color": "orange"}
-            )
+                style={"color": "orange"})
         ]),
         metricas_cards,
         dbc.Row([
-            dbc.Col(
-                html.Div(
-                    dcc.Graph(
-                        id='grafico-chamados-dia',
-                        figure=fig_chamados_dia,
-                        config={'displayModeBar': True, 'responsive': True}
-                    ),
-                    className="graph-container animate__animated animate__fadeInLeft"
-                ),
-                width=6
-            ),
-            dbc.Col(
-                html.Div(
-                    dcc.Graph(
-                        id='grafico-chamados-mes',
-                        figure=fig_chamados_mes,
-                        config={'displayModeBar': True, 'responsive': True}
-                    ),
-                    className="graph-container animate__animated animate__fadeInRight"
-                ),
-                width=6
-            ),
+            dbc.Col(html.Div(dcc.Graph(id='grafico-chamados-dia', figure=fig_chamados_dia),
+                className="graph-container animate__animated animate__fadeInLeft"), width=6),
+            dbc.Col(html.Div(dcc.Graph(id='grafico-chamados-mes', figure=fig_chamados_mes),
+                className="graph-container animate__animated animate__fadeInRight"), width=6),
         ], className="mb-4"),
         dbc.Row([
-            dbc.Col(
-                html.Div([
-                    html.Label([
-                        html.I(className="fas fa-filter text-primary"),
-                        html.Span("Filtrar por Mês", className="ml-2")
-                    ], className="filter-label mb-2"),
-                    html.Div(
-                        dcc.Dropdown(
-                            id='dropdown-mes',
-                            options=[{"label": format_month_label(mes), "value": mes}
-                                    for mes in meses_disponiveis],
-                            value=mes_inicial,
-                            clearable=False,
-                            className="mb-4"
-                        ),
-                        className="dropdown-container"
-                    ),
-                    html.Div(
-                        dcc.Graph(
-                            id='grafico-chamados-semana',
-                            config={'displayModeBar': True, 'responsive': True}
-                        ),
-                        className="graph-container"
-                    )
-                ]), width=12
-            ),
+            dbc.Col([
+                html.Label([
+                    html.I(className="fas fa-filter text-primary"),
+                    html.Span("Filtrar por Mês", className="ml-2")
+                ], className="filter-label mb-2"),
+                dcc.Dropdown(
+                    id='dropdown-mes',
+                    options=[{"label": format_month_label(mes), "value": mes} for mes in meses_disponiveis],
+                    value=mes_inicial,
+                    clearable=False,
+                    className="mb-4"
+                ),
+                dcc.Graph(id='grafico-chamados-semana'),
+            ], width=12)
         ]),
-
-# Modify the layout's IA analysis section to be positioned below the graph
-    dbc.Row([
-        dbc.Col([
-            html.Div([
-                html.H4("Análise de Chamados com IA", className="text-white mb-3"),
-                html.Button('Analisar Chamados', id='btn-analisar', n_clicks=0, className="btn btn-primary mb-3"),
-                html.Div(id='resultado-analise', className="mt-3")
-            ], className="graph-container")
-        ], width=12)
-    ], className="mt-4")
-,
+        html.Div([
+            html.H4("Análise de Chamados com IA", className="text-white mb-3"),
+            html.Button('Analisar Chamados', id='btn-analisar', n_clicks=0, className="btn btn-primary mb-3"),
+            html.Div(id='resultado-analise', className="mt-3")
+        ], className="mt-4"),
     ])
 ])
-
-
 @app.callback(
     Output('resultado-analise', 'children'),
     [Input('btn-analisar', 'n_clicks')],
     prevent_initial_call=True
 )
 def handle_analise(n_clicks):
+    if not n_clicks:
+        return html.Div()
     if n_clicks > 0:
         try:
-            resultado = analisar_chamados('whatsapp_chamados_detailed.csv')
+            resultado = analisar_chamados('uploads/whatsapp_chamados_detailed.csv')
             return html.Pre(resultado)
         except Exception as e:
             return html.Div(f"Erro na análise: {str(e)}", className="text-danger")
