@@ -11,4 +11,4 @@ scripts = [
 ]
 
 for script in scripts:
-    subprocess.run(["python", script])
+    subprocess.run(["python3", script])
