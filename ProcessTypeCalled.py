@@ -2,6 +2,8 @@ import zipfile
 import os
 import re
 import csv
+import logging
+from datetime import datetime
 
 
 def remove_whatsapp_formatting(message):
@@ -25,9 +27,9 @@ def extract_all_messages(zip_path, output_csv):
     try:
         with zipfile.ZipFile(zip_path, 'r') as zip_ref:
             zip_ref.extractall(extract_dir)
-        print(f"ZIP content extracted to {extract_dir}")
+        logging.info(f"ZIP content extracted to {extract_dir}")
     except Exception as e:
-        print(f"Failed to extract ZIP file: {e}")
+        logging.info(f"Failed to extract ZIP file: {e}")
         return
 
     messages = []
@@ -42,7 +44,7 @@ def extract_all_messages(zip_path, output_csv):
         for file in files:
             file_path = os.path.join(root, file)
             if file.endswith('.txt'):
-                print(f"Processing file: {file}")
+                logging.info(f"Processing file: {file}")
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
 
@@ -101,20 +103,20 @@ def extract_all_messages(zip_path, output_csv):
             writer.writeheader()
             for message in messages:
                 writer.writerow(message)
-        print(f"Messages saved to: {output_csv}")
+        logging.info(f"Messages saved to: {output_csv}")
     except Exception as e:
-        print(f"Failed to save CSV file: {e}")
+        logging.info(f"Failed to save CSV file: {e}")
 
     # Save unmatched content to a log file for debugging
-    unmatched_log = "unmatched_lines.log"
+    unmatched_log = "logs/unmatched_lines.log"
     try:
         with open(unmatched_log, 'w', encoding='utf-8') as log_file:
             log_file.write("Unmatched Lines:\n")
             for line in unmatched_lines:
                 log_file.write(line + "\n")
-        print(f"Unmatched lines saved to: {unmatched_log}")
+        logging.info(f"Unmatched lines saved to: {unmatched_log}")
     except Exception as e:
-        print(f"Failed to save log file: {e}")
+        logging.info(f"Failed to save log file: {e}")
 
     # Clean up extracted files
     try:
@@ -122,9 +124,9 @@ def extract_all_messages(zip_path, output_csv):
             for file in files:
                 os.remove(os.path.join(root, file))
             os.rmdir(root)
-        print(f"Temporary files cleaned up from {extract_dir}")
+        logging.info(f"Temporary files cleaned up from {extract_dir}")
     except Exception as e:
-        print(f"Failed to clean up extracted files: {e}")
+        logging.info(f"Failed to clean up extracted files: {e}")
 
 
 if __name__ == "__main__":
