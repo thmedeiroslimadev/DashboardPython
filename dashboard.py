@@ -307,6 +307,14 @@ app.layout = html.Div(className="dashboard-container", children=[
             html.H1("Dashboard de Atendimento", 
                 className="title animate__animated animate__fadeInDown text-center mb-4 d-inline-block ml-2")
         ], className="d-flex justify-content-center align-items-center"),
+        # Aqui vem a mensagem sobre a versão/horários de atualização
+        html.Div([
+            html.P(
+                "Na Versão 1.0 este Dashboard é atualizado às: 12:00 hrs e às 22:00 hrs",
+                className="text-center text-white mb-4",
+                style={"color": "orange"}
+            )
+        ]),
         metricas_cards,
         dbc.Row([
             dbc.Col(
