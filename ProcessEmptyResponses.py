@@ -83,6 +83,6 @@ def extract_unanswered_calls(zip_path, unanswered_csv):
 
 
 if __name__ == "__main__":
-    zip_file = "Conversa do WhatsApp com TI escalada.zip"
-    unanswered_file = "unanswered_chamados.csv"
+    zip_file = "uploads/Conversa do WhatsApp com TI escalada.zip"
+    unanswered_file = "uploads/unanswered_chamados.csv"
     extract_unanswered_calls(zip_file, unanswered_file)

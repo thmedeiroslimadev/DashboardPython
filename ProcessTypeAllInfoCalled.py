@@ -160,6 +160,6 @@ def extract_all_messages(zip_path, output_csv):
 
 
 if __name__ == "__main__":
-    zip_file = "Conversa do WhatsApp com TI escalada.zip"
-    output_file = "whatsapp_chamados_detailed.csv"
+    zip_file = "uploads/Conversa do WhatsApp com TI escalada.zip"
+    output_file = "uploads/whatsapp_chamados_detailed.csv"
     extract_all_messages(zip_file, output_file)

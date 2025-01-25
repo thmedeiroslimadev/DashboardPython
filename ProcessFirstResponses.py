@@ -87,6 +87,6 @@ def extract_first_responses(zip_path, first_responses_csv):
 
 
 if __name__ == "__main__":
-    zip_file = "Conversa do WhatsApp com TI escalada.zip"
-    first_responses_file = "first_responses.csv"
+    zip_file = "uploads/Conversa do WhatsApp com TI escalada.zip"
+    first_responses_file = "uploads/first_responses.csv"
     extract_first_responses(zip_file, first_responses_file)
