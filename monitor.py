@@ -5,14 +5,14 @@ import subprocess
 import time
 import os
 from datetime import datetime
+import signal
 
-# Setup logging
-log_dir = os.path.join(os.path.dirname(__file__), 'logs')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+log_dir = os.path.join(BASE_DIR, 'logs')
 os.makedirs(log_dir, exist_ok=True)
-log_file = os.path.join(log_dir, f'monitor_{datetime.now().strftime("%Y%m%d")}.log')
 
 logging.basicConfig(
-    filename=log_file,
+    filename=os.path.join(log_dir, f'monitor_{datetime.now().strftime("%Y%m%d")}.log'),
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
@@ -21,8 +21,29 @@ logging.basicConfig(
 class ChangeHandler(FileSystemEventHandler):
     def __init__(self):
         self.last_processed = {}
+        self.processing_lock = False
+        self.process = None
+
+    def run_processing(self):
+        try:
+            env = os.environ.copy()
+            env['PYTHONPATH'] = BASE_DIR
+            self.process = subprocess.Popen(
+                ["python3", os.path.join(BASE_DIR, "run_all.py")],
+                env=env,
+                cwd=BASE_DIR
+            )
+            self.process.wait()
+        except Exception as e:
+            logging.error(f"Error in processing: {e}")
+            return False
+        return True
 
     def on_modified(self, event):
+        if self.processing_lock:
+            logging.info("Skipping due to lock")
+            return
+
         if not isinstance(event, FileModifiedEvent) or event.is_directory:
             return
 
@@ -30,17 +51,33 @@ class ChangeHandler(FileSystemEventHandler):
         current_time = time.time()
 
         if filepath in self.last_processed:
-            # Ignore if less than 5 seconds since last process
-            if current_time - self.last_processed[filepath] < 5:
+            if current_time - self.last_processed[filepath] < 10:
                 return
 
-        self.last_processed[filepath] = current_time
-        logging.info(f"Processing modified file: {filepath}")
-        subprocess.run(["python3", "/home/quality/DashboardPython/run_all.py"])
+        try:
+            self.processing_lock = True
+            self.last_processed[filepath] = current_time
+            logging.info(f"Processing modified file: {filepath}")
+
+            if not self.run_processing():
+                logging.error("Processing failed")
+
+        except Exception as e:
+            logging.error(f"Error handling file modification: {e}")
+        finally:
+            self.processing_lock = False
+            if self.process:
+                self.process = None
+
+
+def signal_handler(signum, frame):
+    logging.info("Received shutdown signal")
+    raise KeyboardInterrupt
 
 
 def main():
-    path = "/home/quality/DashboardPython/uploads"
+    signal.signal(signal.SIGTERM, signal_handler)
+    path = os.path.join(BASE_DIR, "uploads")
     logging.info(f"Starting monitor for directory: {path}")
 
     handler = ChangeHandler()
@@ -53,7 +90,7 @@ def main():
             time.sleep(1)
     except KeyboardInterrupt:
         observer.stop()
-        logging.info("Monitor stopped by user")
+        logging.info("Monitor stopped")
     observer.join()
 
 
