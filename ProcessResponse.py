@@ -71,7 +71,7 @@ def extract_all_messages(zip_path, output_csv, responses_csv):
                         tipo_resposta = "Resolvido"
                         chamado_match = re.search(r"Chamado\s+(INC\d+)\s+Resolvido", cleaned_message)
                         chamado = chamado_match.group(1) if chamado_match else chamado
-                    elif "sendo tratado pelo time Quality." in cleaned_message:
+                    elif "sendo tratado pelo time Quality" in cleaned_message:
                         tipo_resposta = "Andamento"
                         chamado_match = re.search(r"Chamado\s+(INC\d+)", cleaned_message)
                         chamado = chamado_match.group(1) if chamado_match else chamado

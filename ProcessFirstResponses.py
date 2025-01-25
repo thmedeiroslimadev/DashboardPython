@@ -57,7 +57,7 @@ def extract_first_responses(zip_path, first_responses_csv):
                         tipo_resposta = "Pendente"
                     elif "Resolvido" in cleaned_message:
                         tipo_resposta = "Resolvido"
-                    elif "sendo tratado pelo time Quality." in cleaned_message:
+                    elif "sendo tratado pelo time Quality" in cleaned_message:
                         tipo_resposta = "Andamento"
 
                     if chamado and tipo_resposta and chamado not in responses:
