@@ -311,7 +311,7 @@ app.layout = html.Div(className="dashboard-container", children=[
         html.Div([
             html.P(
                 "Na Versão 1.0 este Dashboard é atualizado às: 12:00 hrs e às 22:00 hrs",
-                className="text-center text-white mb-4",
+                className="text-center mb-4",
                 style={"color": "orange"}
             )
         ]),
