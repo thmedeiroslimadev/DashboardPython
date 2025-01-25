@@ -23,7 +23,7 @@ source "$VENV_DIR/bin/activate" || {
 # Check for background parameter
 if [[ "$1" == "--background" ]]; then
     echo "Starting the dashboard in background..."
-    nohup python3 dashboard.py > dashboard.log 2>&1 &
+    nohup python3 dashboard.py > ../logs/dashboard.log 2>&1 &
     echo "Dashboard running in background. Logs: dashboard.log"
 else
     echo "Starting the dashboard in the terminal..."
