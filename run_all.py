@@ -1,4 +1,8 @@
 import subprocess
+import sys
+
+# Determina se deve usar 'python' ou 'python3'
+python_cmd = "python3" if sys.platform.startswith("linux") else "python"
 
 scripts = [
     "ProcessTypeCalled.py",
@@ -11,4 +15,4 @@ scripts = [
 ]
 
 for script in scripts:
-    subprocess.run(["python", script])
+    subprocess.run([python_cmd, script])
