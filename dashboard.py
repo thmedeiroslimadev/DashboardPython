@@ -1,3 +1,4 @@
+import io
 import dash
 from dash import dcc, html, Input, Output, State, ctx
 import plotly.express as px
@@ -345,6 +346,10 @@ app.layout = html.Div(className="dashboard-container", children=[
         # Tabela de chamados
         html.Div([
             html.H4("Lista de Chamados", className="text-white mb-3"),
+            html.Button('Exportar para CSV', id='btn-exportar-csv', className="btn btn-success mb-3"),
+            html.Button('Exportar para Excel', id='btn-exportar-excel', className="btn btn-primary mb-3 ml-2"),
+            dcc.Download(id="download-dataframe-csv"),
+            dcc.Download(id="download-dataframe-excel"),
             dcc.Loading(
                 id="loading-table",
                 type="default",
@@ -396,6 +401,38 @@ def atualizar_tabela(n_clicks):
         class_name="table-dark"
     )
 
+# Callback para exportar CSV
+@app.callback(
+    Output("download-dataframe-csv", "data"),
+    [Input("btn-exportar-csv", "n_clicks")],
+    prevent_initial_call=True
+)
+def exportar_para_csv(n_clicks):
+    df_chamados = carregar_chamados()
+    
+    # Salvar o dataframe como CSV para download
+    return dcc.send_data_frame(df_chamados.to_csv, "chamados_exportados.csv", index=False)
+
+# Callback para exportar Excel
+@app.callback(
+    Output("download-dataframe-excel", "data"),
+    [Input("btn-exportar-excel", "n_clicks")],
+    prevent_initial_call=True
+)
+def exportar_para_excel(n_clicks):
+    df_chamados = carregar_chamados()
+
+    # Criando um buffer de memória para armazenar o arquivo Excel
+    output = io.BytesIO()
+
+    # Escrever os dados no buffer usando ExcelWriter
+    with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+        df_chamados.to_excel(writer, index=False, sheet_name='Chamados')
+        writer.close()  # Fechar corretamente para garantir a gravação
+
+    output.seek(0)  # Retornar ao início do buffer para leitura
+
+    return dcc.send_bytes(output.getvalue(), "chamados_exportados.xlsx")
 
 # Formatação das datas
 def format_week_label(semana):
@@ -410,10 +447,24 @@ def format_week_label(semana):
 # Função para carregar os chamados do CSV
 def carregar_chamados():
     try:
+        # Carregar o CSV
         df_chamados = pd.read_csv('uploads/whatsapp_chamados_detailed.csv')
+
+        # Suponha que as colunas sejam 'problema_tipo1' e 'problema_tipo2'
+        if 'Relato do Problema' in df_chamados.columns and 'Anomalia' in df_chamados.columns:
+            df_chamados['Problema'] = df_chamados['Relato do Problema'].fillna('') + ' ' + df_chamados['Anomalia'].fillna('')
+            
+            # Remove as colunas originais, se desejar
+            df_chamados.drop(columns=['Relato do Problema', 'Anomalia'], inplace=True)
+                
+            # Selecionar apenas as colunas desejadas para exibição
+            colunas_exibir = ['Data e Hora', 'Tipo de Chamado', 'Chamado', 'Problema']
+            df_chamados = df_chamados[colunas_exibir]
+
         return df_chamados
     except Exception as e:
-        return pd.DataFrame(columns=["Erro"], data=[[str(e)]])    
+        return pd.DataFrame(columns=["Erro"], data=[[str(e)]])
+
     
 
 
