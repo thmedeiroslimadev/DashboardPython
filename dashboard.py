@@ -341,8 +341,23 @@ app.layout = html.Div(className="dashboard-container", children=[
             html.Button('Analisar Chamados', id='btn-analisar', n_clicks=0, className="btn btn-primary mb-3"),
             html.Div(id='resultado-analise', className="mt-3")
         ], className="mt-4"),
+
+        # Tabela de chamados
+        html.Div([
+            html.H4("Lista de Chamados", className="text-white mb-3"),
+            dcc.Loading(
+                id="loading-table",
+                type="default",
+                children=[
+                    html.Div(id="tabela-chamados-container")
+                ]
+            )
+        ], className="mt-4"),
+
     ])
 ])
+
+
 @app.callback(
     Output('resultado-analise', 'children'),
     [Input('btn-analisar', 'n_clicks')],
@@ -360,6 +375,28 @@ def handle_analise(n_clicks):
     return dash.no_update
 
 
+# Callback para carregar a tabela de chamados
+@app.callback(
+    Output('tabela-chamados-container', 'children'),
+    [Input('btn-analisar', 'n_clicks')]
+)
+def atualizar_tabela(n_clicks):
+    df_chamados = carregar_chamados()
+
+    if df_chamados.empty:
+        return html.Div("Nenhum chamado encontrado.", className="text-white")
+
+    # Criando tabela Dash
+    return dbc.Table.from_dataframe(
+        df_chamados,
+        striped=True,
+        bordered=True,
+        hover=True,
+        responsive=True,
+        class_name="table-dark"
+    )
+
+
 # Formatação das datas
 def format_week_label(semana):
     try:
@@ -369,6 +406,16 @@ def format_week_label(semana):
         return f"{data_inicio.strftime('%d/%m')} - {data_fim.strftime('%d/%m')}"
     except:
         return semana
+    
+# Função para carregar os chamados do CSV
+def carregar_chamados():
+    try:
+        df_chamados = pd.read_csv('uploads/whatsapp_chamados_detailed.csv')
+        return df_chamados
+    except Exception as e:
+        return pd.DataFrame(columns=["Erro"], data=[[str(e)]])    
+    
+
 
 # Callback para interatividade entre gráficos
 @app.callback(
