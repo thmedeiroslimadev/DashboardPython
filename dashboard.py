@@ -1,6 +1,6 @@
 import io
 import dash
-from dash import dcc, html, Input, Output, State, ctx
+from dash import dash_table, dcc, html, Input, Output, State, ctx
 import plotly.express as px
 import dash_bootstrap_components as dbc
 import json
@@ -307,7 +307,7 @@ app.layout = html.Div(className="dashboard-container", children=[
     html.Div(className="animate__animated animate__fadeIn p-4", children=[
         html.Div([
             html.I(className="fas fa-chart-line mr-2 text-primary", style={"fontSize": "2rem"}),
-            html.H1("Dashboard de Atendimento", className="title animate__animated animate__fadeInDown text-center mb-4 d-inline-block ml-2")
+            html.H1("Dashboard de Atendimento WhatsApp", className="title animate__animated animate__fadeInDown text-center mb-4 d-inline-block ml-2")
         ], className="d-flex justify-content-center align-items-center"),
         html.Div([
             html.P("Na Versão 1.0 este Dashboard é atualizado às: 12:00 hrs e às 22:00 hrs",
@@ -344,20 +344,44 @@ app.layout = html.Div(className="dashboard-container", children=[
         ], className="mt-4"),
 
         # Tabela de chamados
-        html.Div([
-            html.H4("Lista de Chamados", className="text-white mb-3"),
-            html.Button('Exportar para CSV', id='btn-exportar-csv', className="btn btn-success mb-3"),
-            html.Button('Exportar para Excel', id='btn-exportar-excel', className="btn btn-primary mb-3 ml-2"),
-            dcc.Download(id="download-dataframe-csv"),
-            dcc.Download(id="download-dataframe-excel"),
-            dcc.Loading(
-                id="loading-table",
-                type="default",
-                children=[
-                    html.Div(id="tabela-chamados-container")
-                ]
-            )
-        ], className="mt-4"),
+html.Div([
+    html.H4("Lista de Chamados", className="text-white mb-3"),
+    
+    # Botões de exportação estilizados
+    html.Div([
+        html.Button('⬇ Exportar para CSV', id='btn-exportar-csv', className="btn btn-success mr-2"),
+        html.Button('⬇ Exportar para Excel', id='btn-exportar-excel', className="btn btn-primary"),
+    ], className="mb-3 d-flex align-items-center"),
+    
+    dcc.Download(id="download-dataframe-csv"),
+    dcc.Download(id="download-dataframe-excel"),
+
+    # Tabela interativa com paginação, ordenação e pesquisa
+    dash_table.DataTable(
+        id='tabela-chamados',
+        columns=[
+            {"name": "Data e Hora", "id": "Data e Hora"},
+            {"name": "Tipo de Chamado", "id": "Tipo de Chamado"},
+            {"name": "Chamado", "id": "Chamado"},
+            {"name": "Problema", "id": "Problema"}
+        ],
+        style_header={'backgroundColor': 'rgb(30, 30, 30)', 'fontWeight': 'bold', 'color': 'white', 'textAlign': 'center'},
+        style_cell={'textAlign': 'left', 'padding': '10px', 'backgroundColor': '#2d2d2d', 'color': 'white', 'border': '1px solid #444'},
+        style_table={'overflowX': 'auto'},
+        style_data_conditional=[
+            {
+                'if': {'row_index': 'odd'},
+                'backgroundColor': '#1f1f1f',
+            }
+        ],
+        page_size=10,  # Adiciona paginação
+        filter_action="native",  # Adiciona campo de busca
+        sort_action="native",  # Adiciona ordenação
+        export_format="csv",  # Permite exportar direto pela interface
+        export_headers="display",
+        fixed_rows={'headers': True},
+    ),
+], className="mt-4 p-4 bg-dark rounded"),
 
     ])
 ])
@@ -382,24 +406,17 @@ def handle_analise(n_clicks):
 
 # Callback para carregar a tabela de chamados
 @app.callback(
-    Output('tabela-chamados-container', 'children'),
+    Output('tabela-chamados', 'data'),
     [Input('btn-analisar', 'n_clicks')]
 )
 def atualizar_tabela(n_clicks):
     df_chamados = carregar_chamados()
 
     if df_chamados.empty:
-        return html.Div("Nenhum chamado encontrado.", className="text-white")
+        return []
 
-    # Criando tabela Dash
-    return dbc.Table.from_dataframe(
-        df_chamados,
-        striped=True,
-        bordered=True,
-        hover=True,
-        responsive=True,
-        class_name="table-dark"
-    )
+    return df_chamados.to_dict('records')
+
 
 # Callback para exportar CSV
 @app.callback(
@@ -447,23 +464,31 @@ def format_week_label(semana):
 # Função para carregar os chamados do CSV
 def carregar_chamados():
     try:
-        # Carregar o CSV
-        df_chamados = pd.read_csv('uploads/whatsapp_chamados_detailed.csv')
+        # Carregar o CSV com tratamento de caracteres especiais
+        df_chamados = pd.read_csv('uploads/whatsapp_chamados_detailed.csv', encoding='utf-8', dtype=str)
 
-        # Suponha que as colunas sejam 'problema_tipo1' e 'problema_tipo2'
+        # Remover quebras de linha nas colunas de problema
         if 'Relato do Problema' in df_chamados.columns and 'Anomalia' in df_chamados.columns:
+            df_chamados['Relato do Problema'] = df_chamados['Relato do Problema'].str.replace('\n', ' ', regex=True).str.strip()
+            df_chamados['Anomalia'] = df_chamados['Anomalia'].str.replace('\n', ' ', regex=True).str.strip()
+
+            # Unificar as colunas em uma única coluna 'Problema'
             df_chamados['Problema'] = df_chamados['Relato do Problema'].fillna('') + ' ' + df_chamados['Anomalia'].fillna('')
             
-            # Remove as colunas originais, se desejar
+            # Remove as colunas originais
             df_chamados.drop(columns=['Relato do Problema', 'Anomalia'], inplace=True)
-                
-            # Selecionar apenas as colunas desejadas para exibição
-            colunas_exibir = ['Data e Hora', 'Tipo de Chamado', 'Chamado', 'Problema']
-            df_chamados = df_chamados[colunas_exibir]
+
+        # Selecionar apenas as colunas desejadas para exibição
+        colunas_exibir = ['Data e Hora', 'Tipo de Chamado', 'Chamado', 'Problema']
+        df_chamados = df_chamados[colunas_exibir]
+
+        print(df_chamados.head())  # Verificar se os dados foram processados corretamente
 
         return df_chamados
     except Exception as e:
+        print(f"Erro ao carregar chamados: {e}")
         return pd.DataFrame(columns=["Erro"], data=[[str(e)]])
+
 
     
 
