@@ -153,18 +153,43 @@ app.index_string = '''
                 margin-bottom: 2rem;
             }
             
-            .dropdown-container:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            .dash-table-container {
+                position: relative !important;
+                width: 100% !important;
+            }
+
+            .previous-next-container {
+                display: flex !important;
+                justify-content: center !important;  /* Alterado para center */
+                align-items: center !important;
+                padding: 10px !important;
+                background-color: #2d2d2d !important;
+                position: absolute !important;
+                left: 0 !important;  /* Adicionado */
+                right: 0 !important;
+                bottom: -50px !important;
+                width: 100% !important;
+            }
+
+            .previous-next-container button {
+                background-color: #1f77b4 !important;
+                color: white !important;
+                border: none !important;
+                padding: 5px 10px !important;
+                margin: 0 2px !important;
+                border-radius: 4px !important;
+                cursor: pointer !important;
+                min-width: 40px !important;
+            }
+
+            .previous-next-container button:hover {
+                background-color: #2ecc71 !important;
+            }
+
+            .dash-table-container .dash-spreadsheet-container {
+                margin-bottom: 60px !important;
             }
             
-            .filter-label {
-                display: flex;
-                align-items: center;
-                gap: 0.5rem;
-                color: white;
-                font-size: 1.1rem;
-            }
         </style>
     </head>
     <body>
@@ -357,30 +382,43 @@ html.Div([
     dcc.Download(id="download-dataframe-excel"),
 
     # Tabela interativa com paginação, ordenação e pesquisa
-    dash_table.DataTable(
-        id='tabela-chamados',
-        columns=[
-            {"name": "Data e Hora", "id": "Data e Hora"},
-            {"name": "Tipo de Chamado", "id": "Tipo de Chamado"},
-            {"name": "Chamado", "id": "Chamado"},
-            {"name": "Problema", "id": "Problema"}
-        ],
-        style_header={'backgroundColor': 'rgb(30, 30, 30)', 'fontWeight': 'bold', 'color': 'white', 'textAlign': 'center'},
-        style_cell={'textAlign': 'left', 'padding': '10px', 'backgroundColor': '#2d2d2d', 'color': 'white', 'border': '1px solid #444'},
-        style_table={'overflowX': 'auto'},
-        style_data_conditional=[
-            {
-                'if': {'row_index': 'odd'},
-                'backgroundColor': '#1f1f1f',
-            }
-        ],
-        page_size=10,  # Adiciona paginação
-        filter_action="native",  # Adiciona campo de busca
-        sort_action="native",  # Adiciona ordenação
-        export_format="csv",  # Permite exportar direto pela interface
-        export_headers="display",
-        fixed_rows={'headers': True},
-    ),
+dash_table.DataTable(
+    id='tabela-chamados',
+    columns=[
+        {"name": "Data e Hora", "id": "Data e Hora"},
+        {"name": "Tipo de Chamado", "id": "Tipo de Chamado"},
+        {"name": "Chamado", "id": "Chamado"},
+        {"name": "Problema", "id": "Problema"}
+    ],
+    style_header={
+        'backgroundColor': 'rgb(30, 30, 30)',
+        'fontWeight': 'bold',
+        'color': 'white',
+        'textAlign': 'center'
+    },
+    style_cell={
+        'textAlign': 'center',
+        'padding': '10px',
+        'backgroundColor': '#2d2d2d',
+        'color': 'white',
+        'border': '1px solid #444'
+    },
+style_table={
+    'position': 'relative',
+    'width': '100%',
+    'marginBottom': '60px',
+    'overflowX': 'auto'
+},
+    style_data_conditional=[{
+        'if': {'row_index': 'odd'},
+        'backgroundColor': '#1f1f1f'
+    }],
+    page_size=10,
+    page_action='native',
+    filter_action="native",
+    sort_action="native"
+)
+    ,
 ], className="mt-4 p-4 bg-dark rounded"),
 
     ])
