@@ -198,6 +198,16 @@ app.index_string = '''
             .dash-table-container .dash-spreadsheet-container {
                 margin-bottom: 60px !important;
             }
+
+            .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner input[type="text"] {
+                color: white !important;
+                background-color: #374151 !important;
+                border: 1px solid #4B5563 !important;
+            }
+
+            .dash-table-container .dash-spreadsheet-container input::placeholder {
+                color: #9CA3AF !important;
+            }            
             
         </style>
     </head>
@@ -497,6 +507,11 @@ dash_table.DataTable(
         {"name": "Chamado", "id": "Chamado"},
         {"name": "Problema", "id": "Problema"}
     ],
+    style_filter={
+    'backgroundColor': '#2d2d2d',
+    'color': 'white',
+    'fontWeight': 'bold'
+    },
     style_header={
         'backgroundColor': 'rgb(30, 30, 30)',
         'fontWeight': 'bold',
@@ -504,18 +519,37 @@ dash_table.DataTable(
         'textAlign': 'center'
     },
     style_cell={
-        'textAlign': 'center',
-        'padding': '10px',
+            'textAlign': 'center',
+            'padding': '10px',
+            'backgroundColor': '#2d2d2d',
+            'color': 'white',
+            'border': '1px solid #444'
+        },
+    style_cell_conditional=[{
+    'if': {'column_id': 'Problema'},
+    'textAlign': 'left',
+    'minWidth': '300px', 
+    'maxWidth': '500px',
+    'whiteSpace': 'normal',
+    'height': 'auto'
+    }],
+    style_table={
+        'position': 'relative',
+        'width': '100%',
+        'marginBottom': '60px',
+        'overflowX': 'auto'
+    },
+    style_data={
         'backgroundColor': '#2d2d2d',
         'color': 'white',
-        'border': '1px solid #444'
     },
-style_table={
-    'position': 'relative',
-    'width': '100%',
-    'marginBottom': '60px',
-    'overflowX': 'auto'
-},
+    style_filter_conditional=[{
+        'if': {'column_id': column} for column in ['Data e Hora', 'Tipo de Chamado', 'Chamado', 'Problema']
+    }],
+    css=[{
+        'selector': '.dash-table-container input',
+        'rule': 'color: white !important; background-color: #374151 !important;'
+    }],    
     style_data_conditional=[{
         'if': {'row_index': 'odd'},
         'backgroundColor': '#1f1f1f'
