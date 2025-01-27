@@ -335,12 +335,96 @@ fig_chamados_mes.update_layout(
 
 # Layout de login
 login_layout = html.Div([
-    html.H2("Login", className="text-center text-white mb-4"),
-    dbc.Input(id="input-usuario", type="text", placeholder="Usuário", className="mb-3"),
-    dbc.Input(id="input-senha", type="password", placeholder="Senha", className="mb-3"),
-    dbc.Button("Entrar", id="btn-login", n_clicks=0, className="btn btn-primary btn-block"),
-    html.Div(id="login-feedback", className="text-danger mt-3 text-center")
-], className="d-flex flex-column align-items-center justify-content-center vh-100")
+    
+    html.Div([
+        html.Div([
+            html.I(className="fas fa-user-circle", style={
+                "fontSize": "48px",
+                "color": "#3B82F6",
+                "marginBottom": "20px"
+            }),
+            
+            html.H2("Dashboard de Atendimento WhatsApp", 
+                    className="text-center text-white mb-4",
+                    style={"fontSize": "24px", "fontWeight": "bold"}),
+            
+            html.P("Dashboard de Atendimento",
+                   className="text-center mb-4",
+                   style={"color": "#9CA3AF", "fontSize": "14px"}),
+            
+            dbc.Input(
+                id="input-usuario",
+                type="text",
+                placeholder="Usuário",
+                className="mb-3",
+                style={
+                    "backgroundColor": "#374151",
+                    "border": "1px solid #4B5563",
+                    "color": "white",
+                    "padding": "10px 15px",
+                    "borderRadius": "6px",
+                    "width": "100%"
+                }
+            ),
+            
+            dbc.Input(
+                id="input-senha",
+                type="password",
+                placeholder="Senha", 
+                className="mb-4",
+                style={
+                    "backgroundColor": "#374151",
+                    "border": "1px solid #4B5563",
+                    "color": "white",
+                    "padding": "10px 15px",
+                    "borderRadius": "6px",
+                    "width": "100%"
+                }
+            ),
+            
+            dbc.Button(
+                "Entrar",
+                id="btn-login",
+                n_clicks=0,
+                className="w-100",
+                style={
+                    "backgroundColor": "#3B82F6",
+                    "border": "none",
+                    "padding": "10px",
+                    "borderRadius": "6px",
+                    "fontWeight": "bold",
+                    "transition": "all 0.2s ease-in-out"
+                }
+            ),
+            
+            html.Div(
+                id="login-feedback",
+                className="text-danger mt-3 text-center"
+            ),
+            
+            html.P(
+                "© 2025 Sistema de Gestão de Atendimentos WhatsAp d. Todos os direitos reservados.",
+                className="text-center mt-4",
+                style={"color": "#9CA3AF", "fontSize": "12px"}
+            )
+        ], style={
+            "backgroundColor": "#1F2937",
+            "padding": "40px",
+            "borderRadius": "12px",
+            "boxShadow": "0 4px 6px rgba(0, 0, 0, 0.1)",
+            "maxWidth": "400px",
+            "width": "90%",
+            "border": "1px solid #374151"
+        })
+    ], style={
+        "minHeight": "100vh",
+        "display": "flex",
+        "justifyContent": "center",
+        "alignItems": "center",
+        "backgroundColor": "#111827",
+        "background": "linear-gradient(135deg, #111827 0%, #1F2937 100%)"
+    })
+])
 
 
 # Layout do dashboard (após login)
