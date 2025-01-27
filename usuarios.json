@@ -2,11 +2,19 @@
     "usuarios": [
       {
         "usuario": "admin",
-        "senha": "123456"
+        "senha": "Quality20252025"
       },
       {
         "usuario": "user1",
         "senha": "senha123"
+      },
+      {
+        "usuario": "glaucoag@fastshop.com.br",
+        "senha": "Fastshop@102040"
+      },
+      {
+        "usuario": "apinho@fastshop.com.br",
+        "senha": "Fastshop@102040"
       }
     ]
   }
