@@ -1,3 +1,4 @@
+import subprocess
 import io
 import dash
 from dash import dash_table, dcc, html, Input, Output, State, ctx
@@ -429,6 +430,8 @@ login_layout = html.Div([
 # Layout do dashboard (após login)
 dashboard_layout = html.Div(className="dashboard-container", children=[
     html.Div(className="watermark"),
+        html.Div(id="botao-executar-container", className="mt-4"),
+        html.Div(id="script-output", className="mt-3 text-white"),    
     html.Div(className="animate__animated animate__fadeIn p-4", children=[
         html.Div([
             html.I(className="fas fa-chart-line mr-2 text-primary", style={"fontSize": "2rem"}),
@@ -446,6 +449,10 @@ dashboard_layout = html.Div(className="dashboard-container", children=[
             dbc.Col(html.Div(dcc.Graph(id='grafico-chamados-mes', figure=fig_chamados_mes),
                 className="graph-container animate__animated animate__fadeInRight"), width=6),
         ], className="mb-4"),
+
+
+
+
         dbc.Row([
             dbc.Col([
                 html.Label([
@@ -525,12 +532,71 @@ style_table={
 ])
 
 # Dashboard layout
-app.layout = html.Div(id="page-content", children=[login_layout])
+app.layout = html.Div([
+    dcc.Store(id='usuario-logado', storage_type='session'),
+    html.Div(id="page-content", children=[login_layout])
+])
+    
+
+
+@app.callback(
+    Output("script-output", "children"),
+    Input("btn-executar-script", "n_clicks"),
+    prevent_initial_call=True  # Impede que a callback seja chamada ao carregar a página
+)
+def executar_script(n_clicks):
+    if n_clicks is None or n_clicks == 0:
+        raise dash.exceptions.PreventUpdate  # Impede a execução se não houve clique
+
+    try:
+        resultado = subprocess.run(
+            ["python3", "run_all.py"],
+            text=True,
+            capture_output=True
+        )
+
+        if resultado.returncode == 0:
+            mensagem = resultado.stdout.strip().split('\n')
+            return dbc.Alert([
+                html.H5("✅ Script executado com sucesso!", className="text-success mb-3"),
+                html.Ul([html.Li(msg, className="text-light") for msg in mensagem if msg.strip()])
+            ], color="success", className="mt-3 p-3 shadow")
+        else:
+            erro_msg = resultado.stderr.strip().split('\n')
+            return dbc.Alert([
+                html.H5("❌ Erro ao executar o script!", className="text-danger mb-3"),
+                html.Ul([html.Li(msg, className="text-light") for msg in erro_msg if msg.strip()])
+            ], color="danger", className="mt-3 p-3 shadow")
+    except Exception as e:
+        return dbc.Alert([
+            html.H5("⚠️ Erro inesperado!", className="text-warning mb-3"),
+            html.P(f"Detalhes: {str(e)}", className="text-light")
+        ], color="warning", className="mt-3 p-3 shadow")
+
+
+
+
+
+@app.callback(
+    Output("botao-executar-container", "children"),
+    Input("usuario-logado", "data"),  # Verifica usuário armazenado
+    prevent_initial_call=True
+)
+def mostrar_botao_execucao(usuario):
+    usuarios_permitidos = ["admin", "gestor"]  # Lista de usuários autorizados
+
+    if usuario and usuario in usuarios_permitidos:
+        return dbc.Button("Rodar Script", id="btn-executar-script", n_clicks=0, className="btn btn-warning")
+    else:
+        return ""  # Se o usuário não for permitido, não mostra nada
+
+
 
 # Callback de autenticação do login
 @app.callback(
-    Output("page-content", "children"),
-    Output("login-feedback", "children"),
+    [Output("page-content", "children"),
+     Output("login-feedback", "children"),
+     Output("usuario-logado", "data")],  # Armazena usuário logado
     Input("btn-login", "n_clicks"),
     State("input-usuario", "value"),
     State("input-senha", "value")
@@ -539,9 +605,10 @@ def verificar_login(n_clicks, usuario, senha):
     if n_clicks > 0:
         for u in usuarios:
             if u["usuario"] == usuario and u["senha"] == senha:
-                return dashboard_layout, ""
-        return login_layout, "Usuário ou senha incorretos"
-    return dash.no_update, ""
+                return dashboard_layout, "", usuario  # Retorna o dashboard e armazena usuário
+        return login_layout, "Usuário ou senha incorretos", None
+    return dash.no_update, "", dash.no_update
+
 
 # Callback para logout
 @app.callback(
