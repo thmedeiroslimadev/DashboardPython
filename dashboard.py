@@ -9,6 +9,14 @@ from datetime import datetime
 from openAiChatDashBoardIntegration import analisar_chamados
 
 
+# Carregar usuários do arquivo JSON
+def carregar_usuarios():
+    with open('usuarios.json', 'r') as f:
+        return json.load(f)['usuarios']
+
+usuarios = carregar_usuarios() 
+
+
 # Load data
 with open("metricas.json", "r") as f:
     metricas_dashboard = json.load(f)
@@ -325,9 +333,18 @@ fig_chamados_mes.update_layout(
     transition_duration=500
 )
 
-# Dashboard layout
-# Dashboard layout atualizado
-app.layout = html.Div(className="dashboard-container", children=[
+# Layout de login
+login_layout = html.Div([
+    html.H2("Login", className="text-center text-white mb-4"),
+    dbc.Input(id="input-usuario", type="text", placeholder="Usuário", className="mb-3"),
+    dbc.Input(id="input-senha", type="password", placeholder="Senha", className="mb-3"),
+    dbc.Button("Entrar", id="btn-login", n_clicks=0, className="btn btn-primary btn-block"),
+    html.Div(id="login-feedback", className="text-danger mt-3 text-center")
+], className="d-flex flex-column align-items-center justify-content-center vh-100")
+
+
+# Layout do dashboard (após login)
+dashboard_layout = html.Div(className="dashboard-container", children=[
     html.Div(className="watermark"),
     html.Div(className="animate__animated animate__fadeIn p-4", children=[
         html.Div([
@@ -423,6 +440,36 @@ style_table={
 
     ])
 ])
+
+# Dashboard layout
+app.layout = html.Div(id="page-content", children=[login_layout])
+
+# Callback de autenticação do login
+@app.callback(
+    Output("page-content", "children"),
+    Output("login-feedback", "children"),
+    Input("btn-login", "n_clicks"),
+    State("input-usuario", "value"),
+    State("input-senha", "value")
+)
+def verificar_login(n_clicks, usuario, senha):
+    if n_clicks > 0:
+        for u in usuarios:
+            if u["usuario"] == usuario and u["senha"] == senha:
+                return dashboard_layout, ""
+        return login_layout, "Usuário ou senha incorretos"
+    return dash.no_update, ""
+
+# Callback para logout
+@app.callback(
+    Output("page-content", "children", allow_duplicate=True),
+    Input("btn-logout", "n_clicks"),
+    prevent_initial_call=True
+)
+def realizar_logout(n_clicks):
+    if n_clicks > 0:
+        return login_layout
+    return dash.no_update
 
 
 @app.callback(
