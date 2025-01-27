@@ -335,23 +335,22 @@ fig_chamados_mes.update_layout(
 
 # Layout de login
 login_layout = html.Div([
-    
     html.Div([
         html.Div([
-            html.I(className="fas fa-user-circle", style={
-                "fontSize": "48px",
-                "color": "#3B82F6",
-                "marginBottom": "20px"
+            html.Img(src="/assets/fast-logo.png", className="logo-img mb-3", style={
+                "maxWidth": "120px",  # Tamanho máximo da imagem
+                "margin": "0 auto",  # Centraliza horizontalmente
+                "display": "block"   # Garante centralização
             }),
             
             html.H2("Dashboard de Atendimento WhatsApp", 
                     className="text-center text-white mb-4",
                     style={"fontSize": "24px", "fontWeight": "bold"}),
-            
+
             html.P("Dashboard de Atendimento",
                    className="text-center mb-4",
                    style={"color": "#9CA3AF", "fontSize": "14px"}),
-            
+
             dbc.Input(
                 id="input-usuario",
                 type="text",
@@ -366,7 +365,7 @@ login_layout = html.Div([
                     "width": "100%"
                 }
             ),
-            
+
             dbc.Input(
                 id="input-senha",
                 type="password",
@@ -381,7 +380,7 @@ login_layout = html.Div([
                     "width": "100%"
                 }
             ),
-            
+
             dbc.Button(
                 "Entrar",
                 id="btn-login",
@@ -396,14 +395,14 @@ login_layout = html.Div([
                     "transition": "all 0.2s ease-in-out"
                 }
             ),
-            
+
             html.Div(
                 id="login-feedback",
                 className="text-danger mt-3 text-center"
             ),
-            
+
             html.P(
-                "© 2025 Sistema de Gestão de Atendimentos WhatsAp d. Todos os direitos reservados.",
+                "© 2025 Sistema de Gestão de Atendimentos WhatsApp. Todos os direitos reservados.",
                 className="text-center mt-4",
                 style={"color": "#9CA3AF", "fontSize": "12px"}
             )
